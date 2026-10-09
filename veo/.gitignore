@@ -6,3 +6,7 @@ __pycache__/
 # Identifiants OAuth YouTube : jamais versionnes
 client_secret*.json
 .youtube_token.json
+
+# Voix Piper : modele de 60 Mo telecharge, et les wav qu'il produit
+voix/
+dit/

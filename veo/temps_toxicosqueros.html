@@ -1,0 +1,234 @@
+<title>Les temps de Toxicosqueros</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Partition : les vers en colonne, la notation en marge, le débit en réglure. */
+:root {
+  --fond:#f3f1ec; --encre:#17181a; --gris:#6e6a62; --filet:#dcd8d0;
+  --surf:#fbfaf7; --chaud:#a8432a; --note:#f1e7de;
+  --t-tete:"Archivo",system-ui,-apple-system,sans-serif;
+  --t-vers:"Spectral",Georgia,"Times New Roman",serif;
+  --t-chif:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --fond:#141517; --encre:#eae7e1; --gris:#9a958c; --filet:#2c2e32;
+  --surf:#1b1d20; --chaud:#e08a68; --note:#2b2320; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --fond:#141517; --encre:#eae7e1; --gris:#9a958c; --filet:#2c2e32;
+  --surf:#1b1d20; --chaud:#e08a68; --note:#2b2320; color-scheme:dark; }
+
+body{background:var(--fond);color:var(--encre);font-family:var(--t-vers);font-size:16px;line-height:1.5;}
+.w{max-width:74rem;margin:0 auto;padding-inline:20px;padding-block:clamp(2rem,5vw,3.5rem);}
+.oe{font-family:var(--t-tete);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gris);margin:0 0 .7rem;}
+h1{font-family:var(--t-tete);font-size:clamp(1.8rem,5vw,2.6rem);font-weight:700;line-height:1.1;margin:0 0 .9rem;letter-spacing:-.02em;text-wrap:balance;}
+.ch{font-size:1.05rem;max-width:40rem;margin:0 0 2rem;color:var(--gris);}
+.ch b{color:var(--encre);font-weight:600;}
+
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:1px;background:var(--filet);border:1px solid var(--filet);margin:0 0 2.2rem;}
+.kpi>div{background:var(--surf);padding:.95rem 1.1rem;min-width:0;}
+.kpi dt{font-family:var(--t-tete);font-size:.67rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin:0 0 .35rem;}
+.kpi dd{margin:0;font-family:var(--t-chif);font-size:1.45rem;font-weight:600;font-variant-numeric:tabular-nums;}
+.kpi dd small{font-size:.78rem;font-weight:400;color:var(--gris);}
+
+.enc{background:var(--surf);border:1px solid var(--filet);padding:1.2rem 1.3rem;margin:0 0 2.2rem;max-width:44rem;}
+.enc h2{font-family:var(--t-tete);font-size:.95rem;margin:0 0 .55rem;}
+.enc p{margin:0 0 .6rem;font-size:.96rem;}
+.enc p:last-of-type{margin-bottom:0;}
+.cmp{display:flex;gap:1.4rem;align-items:baseline;font-family:var(--t-chif);font-size:.88rem;margin:.9rem 0 0;flex-wrap:wrap;color:var(--gris);}
+.cmp b{font-size:1.25rem;color:var(--chaud);}
+.per{width:auto;min-width:0;margin:.7rem 0;background:none;font-size:.88rem;}
+.per td{padding:.3rem .9rem .3rem 0;border-bottom:1px solid var(--filet);}
+.per td.n{font-family:var(--t-chif);text-align:right;width:auto;padding-right:1.1rem;}
+.per tr.ret td{color:var(--encre);font-weight:600;}
+.per tr.ret td.n{color:var(--chaud);}
+
+.sc{overflow-x:auto;border:1px solid var(--filet);}
+table{border-collapse:collapse;width:100%;min-width:44rem;background:var(--surf);}
+caption{font-family:var(--t-tete);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gris);text-align:left;padding:.65rem .75rem;}
+th,td{text-align:left;vertical-align:baseline;padding:.42rem .75rem;border-bottom:1px solid var(--filet);}
+thead th{font-family:var(--t-tete);font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--gris);font-weight:500;}
+tr.p th{background:var(--fond);padding:.8rem .75rem .72rem;font-family:var(--t-tete);font-weight:500;font-size:.78rem;}
+.pn{font-weight:700;letter-spacing:.01em;}
+.pt,.pv,.ps{color:var(--gris);margin-left:1.1rem;font-family:var(--t-chif);font-size:.76rem;}
+.pd{margin-left:1.1rem;font-family:var(--t-chif);font-size:.76rem;color:var(--chaud);display:inline-flex;align-items:center;gap:.45rem;}
+.pd i{display:inline-block;width:3.4rem;height:.4rem;background:var(--filet);position:relative;}
+.pd i::after{content:"";position:absolute;top:0;bottom:0;left:0;width:var(--h);background:var(--chaud);}
+td.i{font-family:var(--t-chif);font-size:.74rem;color:var(--gris);width:2.8rem;font-variant-numeric:tabular-nums;}
+td.n{font-family:var(--t-chif);font-size:.8rem;text-align:right;width:3.2rem;font-variant-numeric:tabular-nums;color:var(--gris);}
+td.fr{min-width:0;}
+td.en{min-width:0;color:var(--gris);font-style:italic;font-size:.92rem;}
+tr.note td.fr{background:var(--note);}
+.ms{white-space:nowrap;}
+.m{display:inline-block;font-family:var(--t-chif);font-weight:600;font-size:.72rem;color:var(--chaud);border:1px solid var(--chaud);border-radius:2px;padding:0 .24rem;margin-left:.26rem;cursor:help;}
+
+.leg{font-family:var(--t-tete);font-size:.8rem;color:var(--gris);margin:1rem 0 0;display:flex;gap:1.5rem;flex-wrap:wrap;}
+.leg span{display:inline-flex;align-items:center;gap:.45rem;}
+.sw{display:inline-block;width:.9rem;height:.9rem;background:var(--note);border:1px solid var(--filet);}
+footer{margin-top:2.5rem;font-family:var(--t-tete);font-size:.82rem;line-height:1.6;color:var(--gris);max-width:44rem;}
+footer p{margin:0 0 .7rem;}
+:focus-visible{outline:2px solid var(--chaud);outline-offset:2px;}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+
+<div class="w">
+<p class="oe">Toxicosqueros &middot; partition</p>
+<h1>Les temps, vers par vers</h1>
+<p class="ch">Dans le texte original, les graphies et les émojis sont de la notation&nbsp;:
+des notes et des silences. Cette page mesure ce qu&rsquo;ils font. Les vers qui en portent
+une font <b>13.8 syllabes</b> en moyenne, ceux qui n&rsquo;en portent pas <b>8.7</b>.
+La notation tombe là où le vers déborde de son temps.</p>
+
+<dl class="kpi">
+<div><dt>Vers chantés</dt><dd>66</dd></div>
+<div><dt>Syllabes, français</dt><dd>678</dd></div>
+<div><dt>Syllabes, anglais</dt><dd>661 <small>97&nbsp;%</small></dd></div>
+<div><dt>Vers notés</dt><dd>20 <small>30&nbsp;%</small></dd></div>
+<div><dt>Débit moyen</dt><dd>4.71 <small>syl/s</small></dd></div>
+<div><dt>Plans de 8&nbsp;s</dt><dd>18</dd></div>
+</dl>
+
+<div class="enc">
+<h2>Le découpage n&rsquo;avait qu&rsquo;une solution</h2>
+<p>Soixante-six vers chantés, dix-huit plans, trois ou quatre vers par plan&nbsp;:
+l&rsquo;arithmétique ne laisse aucun choix. <strong>Douze plans de quatre vers et six de trois.</strong></p>
+<p>Le découpage ci-dessous est celui qui égalise le mieux le débit d&rsquo;un plan à l&rsquo;autre.
+La crue est concentrée sur la fin.</p>
+<p class="cmp">
+<span>le plus aéré <b>3.62</b> syl/s &middot; plan 4</span>
+<span>le plus dense <b>6.00</b> syl/s &middot; plan 18</span>
+</p>
+</div>
+
+<div class="enc">
+<h2>Ce qui compte comme notation</h2>
+<p>Les graphies étrangères à l&rsquo;orthographe française ordinaire, et les émojis.
+La ponctuation courante en est exclue&nbsp;: elle existe dans n&rsquo;importe quel texte,
+et l&rsquo;inclure diluerait la mesure jusqu&rsquo;à ne plus rien dire. Trois périmètres
+ont été comparés sur ce texte&nbsp;:</p>
+<table class="per"><tbody>
+<tr><td>émojis seuls</td><td class="n">9</td><td class="n">14,9</td><td class="n">9,5</td><td class="n">+56&nbsp;%</td></tr>
+<tr class="ret"><td>émojis + graphies non standard</td><td class="n">20</td><td class="n">13,8</td><td class="n">8,7</td><td class="n">+59&nbsp;%</td></tr>
+<tr><td>le précédent + la ponctuation</td><td class="n">27</td><td class="n">13,0</td><td class="n">8,4</td><td class="n">+54&nbsp;%</td></tr>
+</tbody></table>
+<p>La ligne retenue est la plus large qui reste défendable&nbsp;: chaque marque y est
+un signe écrit exprès, et qu&rsquo;un correcteur effacerait.</p>
+</div>
+
+<div class="enc">
+<h2>Le texte tient dans ses huit secondes</h2>
+<p>Lu par une synthèse vocale française, le texte entier fait <strong>127,8&nbsp;s de
+parole</strong> pour 144&nbsp;s disponibles. Seize secondes de marge, et trois plans
+seulement arrivent au bord&nbsp;: le 13 à l&rsquo;exact, le 18 à 0,3&nbsp;s près,
+le 17 à 0,7.</p>
+<p>La mesure brute donnait un tout autre résultat — quinze plans sur dix-huit en
+débordement. L&rsquo;écart venait des pauses du lecteur, <strong>21&nbsp;% de la
+durée</strong>&nbsp;: une synthèse marque un arrêt à chaque fin de vers, ce qu&rsquo;un
+interprète ne fait pas. Seule la parole a été comptée.</p>
+</div>
+
+<div class="sc"><table>
+<caption>Vers, syllabes et notation &middot; français puis anglais</caption>
+<thead><tr><th>n°</th><th>Français</th><th class="n">syl</th><th>English</th><th class="n">syl</th></tr></thead>
+<tbody>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 1</span><span class="pt">4–12 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:77%"></i>4.62 syl/s</span><span class="ps">37 syllabes</span></th></tr>
+<tr class="note"><td class="i">2</td><td class="fr">SUJET DE LA PRéCIpiTation <span class="ms"><b class="m" title="capitale interne">éC</b></span></td><td class="n">9</td><td class="en">SUBJECT OF THE PRECIPITATION</td><td class="n">9</td></tr>
+<tr><td class="i">3</td><td class="fr">Néo-chamans sans conscience,</td><td class="n">6</td><td class="en">Neo-shamans without conscience,</td><td class="n">7</td></tr>
+<tr><td class="i">4</td><td class="fr">Drogue tes enfants à l&#x27;ayahuasca et à l&#x27;iboga ;</td><td class="n">13</td><td class="en">Drug your children with ayahuasca and iboga;</td><td class="n">12</td></tr>
+<tr><td class="i">5</td><td class="fr">Même combat, Aztèques réincarnés,</td><td class="n">9</td><td class="en">Same war — reincarnated Aztecs,</td><td class="n">8</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 2</span><span class="pt">12–20 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:77%"></i>4.62 syl/s</span><span class="ps">37 syllabes</span></th></tr>
+<tr><td class="i">6</td><td class="fr">Mutile tes adeptes et joue avec leurs vies :</td><td class="n">12</td><td class="en">Maim your followers, play with their lives:</td><td class="n">10</td></tr>
+<tr><td class="i">7</td><td class="fr">amour de l&#x27;argent.</td><td class="n">5</td><td class="en">Love of money.</td><td class="n">4</td></tr>
+<tr><td class="i">8</td><td class="fr">Cache toi derrière tes victimes,</td><td class="n">8</td><td class="en">Hide behind your victims,</td><td class="n">6</td></tr>
+<tr><td class="i">9</td><td class="fr">Ablation du système nerveux périphérique &amp;</td><td class="n">12</td><td class="en">Sever the peripheral nervous system &amp;</td><td class="n">11</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 3</span><span class="pt">20–28 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:75%"></i>4.50 syl/s</span><span class="ps">36 syllabes</span></th></tr>
+<tr><td class="i">10</td><td class="fr">Manipulations mentales.</td><td class="n">8</td><td class="en">Manipulate minds.</td><td class="n">5</td></tr>
+<tr><td class="i">11</td><td class="fr">La science te fait peur.</td><td class="n">5</td><td class="en">You fear science.</td><td class="n">3</td></tr>
+<tr><td class="i">12</td><td class="fr">Ennemis de l&#x27;intelligence &amp; du sens critique.</td><td class="n">12</td><td class="en">Enemies of intelligence &amp; critical thinking.</td><td class="n">13</td></tr>
+<tr><td class="i">13</td><td class="fr">Fixé dans le temps, tes armes sont LA haine &amp;</td><td class="n">11</td><td class="en">Frozen in time, your weapons are hatred &amp;</td><td class="n">10</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 4</span><span class="pt">28–36 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:60%"></i>3.62 syl/s</span><span class="ps">29 syllabes</span></th></tr>
+<tr><td class="i">14</td><td class="fr">La Soumission chimique.</td><td class="n">6</td><td class="en">Chemical submission.</td><td class="n">6</td></tr>
+<tr><td class="i">15</td><td class="fr">Lutte antisystème,</td><td class="n">5</td><td class="en">Anti-system struggle,</td><td class="n">7</td></tr>
+<tr><td class="i">16</td><td class="fr">Remplace la vie par du poison.</td><td class="n">8</td><td class="en">You replace life with poison.</td><td class="n">7</td></tr>
+<tr><td class="i">17</td><td class="fr">Brûle LES Chairs ; assoie ton autorité.</td><td class="n">10</td><td class="en">Burn FLESH to assert your authority.</td><td class="n">10</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 5</span><span class="pt">36–44 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:81%"></i>4.88 syl/s</span><span class="ps">39 syllabes</span></th></tr>
+<tr><td class="i">18</td><td class="fr">Fabrique, importe, distribue le malheur dans nos familles.</td><td class="n">14</td><td class="en">Manufacture, import, and distribute misery in our families.</td><td class="n">18</td></tr>
+<tr class="note"><td class="i">19</td><td class="fr">Âme faite de tissus de mensonges, calomnies, dDôgmes, <span class="ms"><b class="m" title="capitale interne">dD</b></span></td><td class="n">14</td><td class="en">A soul woven from lies, slander, dogmas,</td><td class="n">10</td></tr>
+<tr><td class="i">20</td><td class="fr">Nourrit le rituel du sacrifice humain.</td><td class="n">11</td><td class="en">Feeding the ritual of human sacrifice.</td><td class="n">11</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 6</span><span class="pt">44–52 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:69%"></i>4.12 syl/s</span><span class="ps">33 syllabes</span></th></tr>
+<tr class="note"><td class="i">21</td><td class="fr">Rééduque&quot; drogués, handicapés, homosexuels, prostituées... <span class="ms"><b class="m" title="guillemet orphelin">e&quot;</b></span></td><td class="n">15</td><td class="en">You “re-educate” the drugged, the disabled, homosexuals, sex workers…</td><td class="n">19</td></tr>
+<tr><td class="i">22</td><td class="fr">SOUFFLE aka AMS crew</td><td class="n">5</td><td class="en">SOUFFLE aka AMS crew</td><td class="n">7</td></tr>
+<tr class="note"><td class="i">23</td><td class="fr">Sscrupules, pilles nos forêts +++ rentabilité. <span class="ms"><b class="m" title="insistance">+++</b></span></td><td class="n">13</td><td class="en">No scruples — loot our forests +++ profit.</td><td class="n">9</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 7</span><span class="pt">52–60 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:77%"></i>4.62 syl/s</span><span class="ps">37 syllabes</span></th></tr>
+<tr class="note"><td class="i">24</td><td class="fr">Utilise l&#x27;ingénierie sociale, détourne logique et République 🗼 <span class="ms"><b class="m" title="silence">🗼</b></span></td><td class="n">17</td><td class="en">Use social engineering, twist logic and the Republic 🗼</td><td class="n">15</td></tr>
+<tr><td class="i">25</td><td class="fr">Dissimule les méfaits derrière le voile du mensonge.</td><td class="n">13</td><td class="en">Hide your abuses behind the veil of lies.</td><td class="n">11</td></tr>
+<tr><td class="i">26</td><td class="fr">Invisible aux yeux de tous,</td><td class="n">7</td><td class="en">Invisible to all,</td><td class="n">7</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 8</span><span class="pt">60–68 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:62%"></i>3.75 syl/s</span><span class="ps">30 syllabes</span></th></tr>
+<tr class="note"><td class="i">27</td><td class="fr">Manipule les foules dans l&#x27;ombre de l&#x27;aberration 🕳️ <span class="ms"><b class="m" title="silence">🕳</b></span></td><td class="n">13</td><td class="en">You manipulate the masses in the shadow of absurdity 🕳️</td><td class="n">17</td></tr>
+<tr><td class="i">28</td><td class="fr">Charlatan des possibles,</td><td class="n">7</td><td class="en">Charlatan of possibilities,</td><td class="n">9</td></tr>
+<tr><td class="i">29</td><td class="fr">Finance :</td><td class="n">2</td><td class="en">Financing:</td><td class="n">3</td></tr>
+<tr><td class="i">30</td><td class="fr">Voyages d&#x27;approvisionnement</td><td class="n">8</td><td class="en">Supply trips</td><td class="n">3</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 9</span><span class="pt">68–76 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:73%"></i>4.38 syl/s</span><span class="ps">35 syllabes</span></th></tr>
+<tr class="note"><td class="i">31</td><td class="fr">&amp;spoir de tes victimes. <span class="ms"><b class="m" title="elision ecrite">&amp;s</b></span></td><td class="n">6</td><td class="en">&amp; the hopes of your victims.</td><td class="n">7</td></tr>
+<tr><td class="i">32</td><td class="fr">Vole leurs rêves, détruis leurs sens (critique)</td><td class="n">10</td><td class="en">You steal their dreams, destroy their senses (and sense).</td><td class="n">11</td></tr>
+<tr><td class="i">33</td><td class="fr">Noyaute NOS institutions avec FORCE(s) de conviction,</td><td class="n">14</td><td class="en">Infiltrate OUR institutions with FORCE(s) of conviction,</td><td class="n">15</td></tr>
+<tr><td class="i">34</td><td class="fr">Peur et ignorance.</td><td class="n">5</td><td class="en">Fear and ignorance.</td><td class="n">5</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 10</span><span class="pt">76–84 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:83%"></i>5.00 syl/s</span><span class="ps">40 syllabes</span></th></tr>
+<tr><td class="i">35</td><td class="fr">Ne fais pas de phrases.</td><td class="n">6</td><td class="en">Don’t form sentences.</td><td class="n">5</td></tr>
+<tr><td class="i">36</td><td class="fr">LAISSE des Mots vides de SENS.</td><td class="n">7</td><td class="en">Leave words empty of MEANING.</td><td class="n">7</td></tr>
+<tr class="note"><td class="i">37</td><td class="fr">Enrôle tes adeptes en les plongeant dans l&#x27;endoctrinement de ta SECT \ <span class="ms"><b class="m" title="coupure">\</b></span></td><td class="n">19</td><td class="en">Recruit your followers by plunging them into the indoctrination of your SECT.</td><td class="n">21</td></tr>
+<tr><td class="i">38</td><td class="fr">Prophète de la dévastation,</td><td class="n">8</td><td class="en">Prophet of devastation,</td><td class="n">7</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 11</span><span class="pt">84–92 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:65%"></i>3.88 syl/s</span><span class="ps">31 syllabes</span></th></tr>
+<tr><td class="i">39</td><td class="fr">Symbolise le martyr des innocents.</td><td class="n">10</td><td class="en">Symbol of the martyrdom of the innocent.</td><td class="n">12</td></tr>
+<tr><td class="i">40</td><td class="fr">Fanatique des hallucinogènes, la</td><td class="n">11</td><td class="en">Hallucinogen fanatic —</td><td class="n">8</td></tr>
+<tr><td class="i">41</td><td class="fr">DMT est ton dieu unique.</td><td class="n">6</td><td class="en">DMT is your one true god.</td><td class="n">6</td></tr>
+<tr><td class="i">42</td><td class="fr">RETOUR en France,</td><td class="n">4</td><td class="en">BACK in France,</td><td class="n">3</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 12</span><span class="pt">92–100 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:88%"></i>5.25 syl/s</span><span class="ps">42 syllabes</span></th></tr>
+<tr class="note"><td class="i">43</td><td class="fr">Organise &amp; OSE appeler les &quot;cérémonies&quot;, <span class="ms"><b class="m" title="guillemet orphelin">s&quot;</b></span></td><td class="n">12</td><td class="en">You organize and DARE call them &quot;ceremonies&quot;,</td><td class="n">12</td></tr>
+<tr class="note"><td class="i">44</td><td class="fr">Brise les participants à cette séance d&#x27;empoisonnement : faim, soif, privation de sommeil 🥐 <span class="ms"><b class="m" title="silence">🥐</b></span></td><td class="n">22</td><td class="en">You break the participants of this poisoning session: hunger, thirst, sleep deprivation 🥐</td><td class="n">22</td></tr>
+<tr><td class="i">45</td><td class="fr">Violences psychologiques,</td><td class="n">8</td><td class="en">Psychological violence,</td><td class="n">7</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 13</span><span class="pt">100–108 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:96%"></i>5.75 syl/s</span><span class="ps">46 syllabes</span></th></tr>
+<tr><td class="i">46</td><td class="fr">SOUS Réserve de CONSENTEMENT</td><td class="n">8</td><td class="en">Under the guise of CONSENT.</td><td class="n">7</td></tr>
+<tr><td class="i">47</td><td class="fr">Inflige sciemment des chocs post-traumatiques à tes patients</td><td class="n">15</td><td class="en">You knowingly inflict PTSD on your “patients”</td><td class="n">11</td></tr>
+<tr><td class="i">48</td><td class="fr">(altère le temps) qu&#x27;ils revivent à l&#x27;infini.</td><td class="n">13</td><td class="en">(distort time) so they relive it endlessly.</td><td class="n">11</td></tr>
+<tr><td class="i">49</td><td class="fr">Pousse au suicide les plus récalcitrants,</td><td class="n">10</td><td class="en">You push the most resistant to suicide,</td><td class="n">10</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 14</span><span class="pt">108–116 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:79%"></i>4.75 syl/s</span><span class="ps">38 syllabes</span></th></tr>
+<tr><td class="i">50</td><td class="fr">Euthanasie les malades que tu endoctrines.</td><td class="n">14</td><td class="en">Euthanize the sick you’ve indoctrinated.</td><td class="n">11</td></tr>
+<tr class="note"><td class="i">51</td><td class="fr">SOUS ton EMPRISE ; pas le droit de se soigner 🍷 (S-C-H-Œ-TT-E-L) <span class="ms"><b class="m" title="silence">🍷</b></span></td><td class="n">13</td><td class="en">Under your CONTROL — no right to real care 🍷 (S-C-H-Œ-TT-E-L)</td><td class="n">12</td></tr>
+<tr><td class="i">52</td><td class="fr">Nie l&#x27;individu,</td><td class="n">5</td><td class="en">Deny the individual,</td><td class="n">7</td></tr>
+<tr><td class="i">53</td><td class="fr">Sacrifie tes cobayes.</td><td class="n">6</td><td class="en">Sacrifice your test subjects.</td><td class="n">7</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 15</span><span class="pt">116–124 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:75%"></i>4.50 syl/s</span><span class="ps">36 syllabes</span></th></tr>
+<tr><td class="i">54</td><td class="fr">Calcule la somme de leurs souffrances,</td><td class="n">9</td><td class="en">Calculate the sum of their suffering,</td><td class="n">10</td></tr>
+<tr><td class="i">55</td><td class="fr">Additionne leurs mauvais traitements.</td><td class="n">9</td><td class="en">Add up the mistreatment.</td><td class="n">6</td></tr>
+<tr><td class="i">56</td><td class="fr">Emmure les vivants.</td><td class="n">5</td><td class="en">Wall in the living.</td><td class="n">5</td></tr>
+<tr class="note"><td class="i">57</td><td class="fr">Vitrifie leurs corps à grand renfort d&#x27;itérations 🥃 <span class="ms"><b class="m" title="silence">🥃</b></span></td><td class="n">13</td><td class="en">Vitrify their bodies through repetition 🥃</td><td class="n">11</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 16</span><span class="pt">124–132 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:90%"></i>5.38 syl/s</span><span class="ps">43 syllabes</span></th></tr>
+<tr class="note"><td class="i">58</td><td class="fr">vacinoDrôme : préfère les séquelles neurologiques aux vaccins. <span class="ms"><b class="m" title="capitale interne">oD</b></span></td><td class="n">18</td><td class="en">vaccineDrome: you prefer neurological damage over vaccines.</td><td class="n">19</td></tr>
+<tr class="note"><td class="i">59</td><td class="fr">brille$ociété : risque ta vie et celles des autres. <span class="ms"><b class="m" title="substitution">$</b></span></td><td class="n">13</td><td class="en">shinySociety: risk your life and the lives of others.</td><td class="n">15</td></tr>
+<tr class="note"><td class="i">60</td><td class="fr">Soit sans v€rgogn€ : glorifie ton immunité. <span class="ms"><b class="m" title="substitution">€</b></span></td><td class="n">12</td><td class="en">Be shameless: glorify your immunity.</td><td class="n">12</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 17</span><span class="pt">132–140 s</span><span class="pv">4 vers</span><span class="pd"><i style="--h:85%"></i>5.12 syl/s</span><span class="ps">41 syllabes</span></th></tr>
+<tr class="note"><td class="i">61</td><td class="fr">Méprise la raison, peu importe le nombre de morts 🍄 <span class="ms"><b class="m" title="silence">🍄</b></span></td><td class="n">12</td><td class="en">Despise reason, no matter how many die 🍄</td><td class="n">11</td></tr>
+<tr class="note"><td class="i">62</td><td class="fr">Crois toujours au plus fort 🦄 <span class="ms"><b class="m" title="silence">🦄</b></span></td><td class="n">6</td><td class="en">Always worship the strongest 🦄</td><td class="n">7</td></tr>
+<tr><td class="i">63</td><td class="fr">Sacrifice humain et doctrine qui sent l&#x27;urine,</td><td class="n">12</td><td class="en">Human sacrifice and a doctrine that reeks of piss,</td><td class="n">13</td></tr>
+<tr class="note"><td class="i">64</td><td class="fr">Fais ton genÂrt sur le dos des PAUVRES gens. <span class="ms"><b class="m" title="capitale interne">nÂ</b></span></td><td class="n">11</td><td class="en">Make your “art” off the backs of POOR people.</td><td class="n">11</td></tr>
+<tr class="p"><th colspan="5" scope="rowgroup"><span class="pn">plan 18</span><span class="pt">140–148 s</span><span class="pv">3 vers</span><span class="pd"><i style="--h:100%"></i>6.00 syl/s</span><span class="ps">48 syllabes</span></th></tr>
+<tr class="note"><td class="i">65</td><td class="fr">Go~uu~urou du malheur, prêche le mal et pêche 🐟 ; le Mécréant au détriment des pénitents. <span class="ms"><b class="m" title="allongement">~</b><b class="m" title="silence">🐟</b></span></td><td class="n">23</td><td class="en">Gouuru of misery, preach evil and fish 🐟 the lost at the expense of the repentant.</td><td class="n">22</td></tr>
+<tr class="note"><td class="i">66</td><td class="fr">Messager de l&#x27;apocalypse, je me porte partie civile 🇫🇷 <span class="ms"><b class="m" title="silence">🇫</b><b class="m" title="silence">🇷</b></span></td><td class="n">15</td><td class="en">Messenger of the apocalypse — I’m filing as a civil party 🇫🇷</td><td class="n">18</td></tr>
+<tr><td class="i">67</td><td class="fr">Tu vas devoir répondre de tes crimes.</td><td class="n">10</td><td class="en">You will have to answer for your crimes.</td><td class="n">10</td></tr>
+</tbody></table></div>
+
+<p class="leg">
+<span><i class="sw"></i> vers portant une notation</span>
+<span><b class="m">~</b> survolez une marque pour sa fonction</span>
+</p>
+
+<footer>
+<p>Les syllabes sont comptées par groupes voyelliques, <i>e</i> muet final élidé.
+C&rsquo;est une approximation, et elle compte <i>Go~uu~urou</i> tel qu&rsquo;écrit,
+pas tel qu&rsquo;allongé&nbsp;: la notation échappe par nature au comptage.</p>
+<p>Le découpage en plans est calculé, non relevé sur la bande. Il minimise l&rsquo;écart
+de débit entre les dix-huit fenêtres de huit secondes du montage.</p>
+<p>Texte&nbsp;: Uriel Schœttel - Longuet — SOUFFLE, AMS crew.
+Les paroles ne sont pas couvertes par la licence du dépôt.</p>
+</footer>
+</div>

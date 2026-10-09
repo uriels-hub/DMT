@@ -1,0 +1,151 @@
+<title>Les temps de Toxicosqueros</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Partition : les vers en colonne, la notation en marge, le débit en réglure. */
+:root {
+  --fond:#f3f1ec; --encre:#17181a; --gris:#6e6a62; --filet:#dcd8d0;
+  --surf:#fbfaf7; --chaud:#a8432a; --note:#f1e7de;
+  --t-tete:"Archivo",system-ui,-apple-system,sans-serif;
+  --t-vers:"Spectral",Georgia,"Times New Roman",serif;
+  --t-chif:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --fond:#141517; --encre:#eae7e1; --gris:#9a958c; --filet:#2c2e32;
+  --surf:#1b1d20; --chaud:#e08a68; --note:#2b2320; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --fond:#141517; --encre:#eae7e1; --gris:#9a958c; --filet:#2c2e32;
+  --surf:#1b1d20; --chaud:#e08a68; --note:#2b2320; color-scheme:dark; }
+
+body{background:var(--fond);color:var(--encre);font-family:var(--t-vers);font-size:16px;line-height:1.5;}
+.w{max-width:74rem;margin:0 auto;padding-inline:20px;padding-block:clamp(2rem,5vw,3.5rem);}
+.oe{font-family:var(--t-tete);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gris);margin:0 0 .7rem;}
+h1{font-family:var(--t-tete);font-size:clamp(1.8rem,5vw,2.6rem);font-weight:700;line-height:1.1;margin:0 0 .9rem;letter-spacing:-.02em;text-wrap:balance;}
+.ch{font-size:1.05rem;max-width:40rem;margin:0 0 2rem;color:var(--gris);}
+.ch b{color:var(--encre);font-weight:600;}
+
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:1px;background:var(--filet);border:1px solid var(--filet);margin:0 0 2.2rem;}
+.kpi>div{background:var(--surf);padding:.95rem 1.1rem;min-width:0;}
+.kpi dt{font-family:var(--t-tete);font-size:.67rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin:0 0 .35rem;}
+.kpi dd{margin:0;font-family:var(--t-chif);font-size:1.45rem;font-weight:600;font-variant-numeric:tabular-nums;}
+.kpi dd small{font-size:.78rem;font-weight:400;color:var(--gris);}
+
+.enc{background:var(--surf);border:1px solid var(--filet);padding:1.2rem 1.3rem;margin:0 0 2.2rem;max-width:44rem;}
+.enc h2{font-family:var(--t-tete);font-size:.95rem;margin:0 0 .55rem;}
+.enc p{margin:0 0 .6rem;font-size:.96rem;}
+.enc p:last-of-type{margin-bottom:0;}
+.cmp{display:flex;gap:1.4rem;align-items:baseline;font-family:var(--t-chif);font-size:.88rem;margin:.9rem 0 0;flex-wrap:wrap;color:var(--gris);}
+.cmp b{font-size:1.25rem;color:var(--chaud);}
+.per{width:auto;min-width:0;margin:.7rem 0;background:none;font-size:.88rem;}
+.per td{padding:.3rem .9rem .3rem 0;border-bottom:1px solid var(--filet);}
+.per td.n{font-family:var(--t-chif);text-align:right;width:auto;padding-right:1.1rem;}
+.per tr.ret td{color:var(--encre);font-weight:600;}
+.per tr.ret td.n{color:var(--chaud);}
+
+.sc{overflow-x:auto;border:1px solid var(--filet);}
+table{border-collapse:collapse;width:100%;min-width:44rem;background:var(--surf);}
+caption{font-family:var(--t-tete);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gris);text-align:left;padding:.65rem .75rem;}
+th,td{text-align:left;vertical-align:baseline;padding:.42rem .75rem;border-bottom:1px solid var(--filet);}
+thead th{font-family:var(--t-tete);font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--gris);font-weight:500;}
+tr.p th{background:var(--fond);padding:.8rem .75rem .72rem;font-family:var(--t-tete);font-weight:500;font-size:.78rem;}
+.pn{font-weight:700;letter-spacing:.01em;}
+.pt,.pv,.ps{color:var(--gris);margin-left:1.1rem;font-family:var(--t-chif);font-size:.76rem;}
+.pd{margin-left:1.1rem;font-family:var(--t-chif);font-size:.76rem;color:var(--chaud);display:inline-flex;align-items:center;gap:.45rem;}
+.pd i{display:inline-block;width:3.4rem;height:.4rem;background:var(--filet);position:relative;}
+.pd i::after{content:"";position:absolute;top:0;bottom:0;left:0;width:var(--h);background:var(--chaud);}
+td.i{font-family:var(--t-chif);font-size:.74rem;color:var(--gris);width:2.8rem;font-variant-numeric:tabular-nums;}
+td.n{font-family:var(--t-chif);font-size:.8rem;text-align:right;width:3.2rem;font-variant-numeric:tabular-nums;color:var(--gris);}
+td.fr{min-width:0;}
+td.en{min-width:0;color:var(--gris);font-style:italic;font-size:.92rem;}
+tr.note td.fr{background:var(--note);}
+.ms{white-space:nowrap;}
+.m{display:inline-block;font-family:var(--t-chif);font-weight:600;font-size:.72rem;color:var(--chaud);border:1px solid var(--chaud);border-radius:2px;padding:0 .24rem;margin-left:.26rem;cursor:help;}
+
+.leg{font-family:var(--t-tete);font-size:.8rem;color:var(--gris);margin:1rem 0 0;display:flex;gap:1.5rem;flex-wrap:wrap;}
+.leg span{display:inline-flex;align-items:center;gap:.45rem;}
+.sw{display:inline-block;width:.9rem;height:.9rem;background:var(--note);border:1px solid var(--filet);}
+footer{margin-top:2.5rem;font-family:var(--t-tete);font-size:.82rem;line-height:1.6;color:var(--gris);max-width:44rem;}
+footer p{margin:0 0 .7rem;}
+:focus-visible{outline:2px solid var(--chaud);outline-offset:2px;}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+
+<div class="w">
+<p class="oe">Toxicosqueros &middot; partition</p>
+<h1>Les temps, vers par vers</h1>
+<p class="ch">Dans le texte original, les graphies et les émojis sont de la notation&nbsp;:
+des notes et des silences. Cette page mesure ce qu&rsquo;ils font. Les vers qui en portent
+une font <b>@MN@ syllabes</b> en moyenne, ceux qui n&rsquo;en portent pas <b>@MU@</b>.
+La notation tombe là où le vers déborde de son temps.</p>
+
+<dl class="kpi">
+<div><dt>Vers chantés</dt><dd>@N@</dd></div>
+<div><dt>Syllabes, français</dt><dd>@SFR@</dd></div>
+<div><dt>Syllabes, anglais</dt><dd>@SEN@ <small>@PCT@&nbsp;%</small></dd></div>
+<div><dt>Vers notés</dt><dd>@NOTES@ <small>@PN@&nbsp;%</small></dd></div>
+<div><dt>Débit moyen</dt><dd>@DEB@ <small>syl/s</small></dd></div>
+<div><dt>Plans de 8&nbsp;s</dt><dd>18</dd></div>
+</dl>
+
+<div class="enc">
+<h2>Le découpage n&rsquo;avait qu&rsquo;une solution</h2>
+<p>Soixante-six vers chantés, dix-huit plans, trois ou quatre vers par plan&nbsp;:
+l&rsquo;arithmétique ne laisse aucun choix. <strong>Douze plans de quatre vers et six de trois.</strong></p>
+<p>Le découpage ci-dessous est celui qui égalise le mieux le débit d&rsquo;un plan à l&rsquo;autre.
+La crue est concentrée sur la fin.</p>
+<p class="cmp">
+<span>le plus aéré <b>@DMIN@</b> syl/s &middot; plan @PMIN@</span>
+<span>le plus dense <b>@DMAX@</b> syl/s &middot; plan @PMAX@</span>
+</p>
+</div>
+
+<div class="enc">
+<h2>Ce qui compte comme notation</h2>
+<p>Les graphies étrangères à l&rsquo;orthographe française ordinaire, et les émojis.
+La ponctuation courante en est exclue&nbsp;: elle existe dans n&rsquo;importe quel texte,
+et l&rsquo;inclure diluerait la mesure jusqu&rsquo;à ne plus rien dire. Trois périmètres
+ont été comparés sur ce texte&nbsp;:</p>
+<table class="per"><tbody>
+<tr><td>émojis seuls</td><td class="n">9</td><td class="n">14,9</td><td class="n">9,5</td><td class="n">+56&nbsp;%</td></tr>
+<tr class="ret"><td>émojis + graphies non standard</td><td class="n">20</td><td class="n">13,8</td><td class="n">8,7</td><td class="n">+59&nbsp;%</td></tr>
+<tr><td>le précédent + la ponctuation</td><td class="n">27</td><td class="n">13,0</td><td class="n">8,4</td><td class="n">+54&nbsp;%</td></tr>
+</tbody></table>
+<p>La ligne retenue est la plus large qui reste défendable&nbsp;: chaque marque y est
+un signe écrit exprès, et qu&rsquo;un correcteur effacerait.</p>
+</div>
+
+<div class="enc">
+<h2>Le texte tient dans ses huit secondes</h2>
+<p>Lu par une synthèse vocale française, le texte entier fait <strong>127,8&nbsp;s de
+parole</strong> pour 144&nbsp;s disponibles. Seize secondes de marge, et trois plans
+seulement arrivent au bord&nbsp;: le 13 à l&rsquo;exact, le 18 à 0,3&nbsp;s près,
+le 17 à 0,7.</p>
+<p>La mesure brute donnait un tout autre résultat — quinze plans sur dix-huit en
+débordement. L&rsquo;écart venait des pauses du lecteur, <strong>21&nbsp;% de la
+durée</strong>&nbsp;: une synthèse marque un arrêt à chaque fin de vers, ce qu&rsquo;un
+interprète ne fait pas. Seule la parole a été comptée.</p>
+</div>
+
+<div class="sc"><table>
+<caption>Vers, syllabes et notation &middot; français puis anglais</caption>
+<thead><tr><th>n°</th><th>Français</th><th class="n">syl</th><th>English</th><th class="n">syl</th></tr></thead>
+<tbody>
+@LIGNES@
+</tbody></table></div>
+
+<p class="leg">
+<span><i class="sw"></i> vers portant une notation</span>
+<span><b class="m">~</b> survolez une marque pour sa fonction</span>
+</p>
+
+<footer>
+<p>Les syllabes sont comptées par groupes voyelliques, <i>e</i> muet final élidé.
+C&rsquo;est une approximation, et elle compte <i>Go~uu~urou</i> tel qu&rsquo;écrit,
+pas tel qu&rsquo;allongé&nbsp;: la notation échappe par nature au comptage.</p>
+<p>Le découpage en plans est calculé, non relevé sur la bande. Il minimise l&rsquo;écart
+de débit entre les dix-huit fenêtres de huit secondes du montage.</p>
+<p>Texte&nbsp;: Uriel Schœttel - Longuet — SOUFFLE, AMS crew.
+Les paroles ne sont pas couvertes par la licence du dépôt.</p>
+</footer>
+</div>

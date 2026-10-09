@@ -1,0 +1,42 @@
+{
+ "_note": "Table de conversion du texte note vers une forme prononçable par une synthese vocale. La notation n'est pas lisible par une machine : il faut dire ce que chaque graphie devient. Les entrees marquees \"sur\": false sont mes lectures, pas les tiennes — a corriger.",
+
+ "mots": [
+  {"ecrit": "PRéCIpiTation", "dit": "précipitation", "sur": true,
+   "pourquoi": "capitales internes : accents toniques, sans effet sur les phonemes"},
+  {"ecrit": "dDôgmes", "dit": "dogmes", "sur": true,
+   "pourquoi": "attaque redoublee, le d initial est une amorce"},
+  {"ecrit": "&spoir", "dit": "espoir", "sur": true,
+   "pourquoi": "elision ecrite : le e initial est avale"},
+  {"ecrit": "v€rgogn€", "dit": "vergogne", "sur": true,
+   "pourquoi": "substitution graphique, la prononciation ne change pas"},
+  {"ecrit": "vacinoDrôme", "dit": "vaccinodrome", "sur": true,
+   "pourquoi": "mot-valise, une seule attaque"},
+  {"ecrit": "brille$ociété", "dit": "brille société", "sur": true,
+   "pourquoi": "deux mots soudes par le signe"},
+  {"ecrit": "Go~uu~urou", "dit": "gourou", "sur": true,
+   "pourquoi": "le tilde allonge la voyelle : c'est une duree, pas un phoneme de plus"},
+  {"ecrit": "Rééduque\"", "dit": "rééduque", "sur": true,
+   "pourquoi": "guillemet orphelin : ouvre une citation ironique, ne se dit pas"},
+  {"ecrit": "SECT \\", "dit": "secte", "sur": true,
+   "pourquoi": "la barre coupe le mot avant sa fin, le e final tombe"},
+
+  {"ecrit": "Sscrupules", "dit": "sans scrupules", "sur": false,
+   "pourquoi": "DOUTE : l'attaque doublee peut etre « sans scrupules » elide, ou simplement « scrupules » attaque fort"},
+  {"ecrit": "genÂrt", "dit": "gain art", "sur": false,
+   "pourquoi": "DOUTE : « gain » + « art » ? « genre art » ? Le vers dit « Fais ton genÂrt sur le dos des PAUVRES gens »"}
+ ],
+
+ "emoji": {
+  "_note": "Les emoji sont des silences. Duree en secondes, 0 pour aucun arret.",
+  "🗼": 0.25, "🕳️": 0.35, "🥐": 0.25, "🍷": 0.3, "🥃": 0.3,
+  "🍄": 0.25, "🦄": 0.4, "🐟": 0.2, "🇫🇷": 0.5
+ },
+
+ "signes": {
+  "_note": "Ce que les signes restants deviennent pour la synthese.",
+  "+++": ", ",
+  "&": "et",
+  "\\": ""
+ }
+}
