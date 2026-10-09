@@ -1,0 +1,64 @@
+{
+  "project": "LE SONGE BLEU DE L'HUMBLE ABIME",
+  "_note": "5 plans de 8 s = 40 s, extrait condense de TOXICOSQUEROS, un chanteur par plan. Graphies reprises telles quelles des prises validees a l'oreille : ne pas les « corriger ».",
+  "suffix": "Cinematic, 35mm anamorphic, shallow depth of field, thick atmospheric haze, high contrast, desaturated steel-blue base with toxic green and violet practical lights, fine film grain, handheld with slow drift. No on-screen text, no subtitles, no captions, no watermark.",
+  "personnages": {
+    "P1": "a Black man in his 30s with shoulder-length locs, dark grey hoodie under a black tactical plate carrier, sweat on his face",
+    "P2": "a Black man in his 30s, very short hair, blue-grey hoodie under a black plate carrier",
+    "P3": "an East Asian woman in her 30s, tight cornrow braids, glossy black leather jacket, layered silver chains, sharp winged eyeliner",
+    "P4": "an East Asian man in his 30s, black hoodie, thick silver curb chain, stubble",
+    "P5": "a Black man in his 30s, short twisted locs, wooden bead necklace with a small cross, black tactical vest"
+  },
+  "shots": [
+    {
+      "id": "01",
+      "tc": "0:00",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P1_le_temoin.jpg",
+      "scene": "Medium close-up of a Black man in his 30s with shoulder-length locs, dark grey hoodie under a black tactical plate carrier, standing in thick white smoke lit by a single vertical neon tube. He sings straight to camera. Slow push in.",
+      "dialogue": "Néo-chamans sans conscience, drogue tes enfants à l'ayahuasca et à l'iboga. Même combat, Aztèques réincarnés.",
+      "dialogue_phon": "Néo-shamanes sans conssience, drogue tes enfants à l'ayawaska et à l'iboga. Même combat, Aztèques réincarnés.",
+      "cue": "He raps in French straight to camera"
+    },
+    {
+      "id": "02",
+      "tc": "0:08",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P3_la_voix.jpg",
+      "scene": "Medium shot of an East Asian woman in her 30s with tight cornrow braids, glossy black leather jacket and layered silver chains, in a flooded underground corridor lit by green and violet neon, hanging roots dripping overhead. She sings straight to camera, water rippling at her boots.",
+      "dialogue": "La science te fait peur. Ennemis de l'intelligence et du sens critique. Fixé dans le temps, tes armes sont la haine et la soumission chimique.",
+      "dialogue_phon": "La syanss te fait peur. Ennemis de l'intelligence et du sens critique. Fixé dans le temps, tes armes sont la haine et la soumission shimique.",
+      "cue": "She raps in French straight to camera"
+    },
+    {
+      "id": "03",
+      "tc": "0:16",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P2_le_procureur.jpg",
+      "scene": "A Black man in his 30s with very short hair, blue-grey hoodie under a black plate carrier, sings in a pitch-black space hung with red and white chains, hard red key light from one side, cold blue rim from the other, smoke drifting. He leans slowly into the lens.",
+      "dialogue": "Dissimule les méfaits derrière le voile du mensonge. Invisible aux yeux de tous, manipule les foules dans l'ombre de l'aberration.",
+      "dialogue_phon": "Dissimule les méfè derrière le voile du mensonge. Invisible aux yeux de tous, manipule les foules dans l'ombre de l'aberration.",
+      "cue": "He raps in French straight to camera"
+    },
+    {
+      "id": "04",
+      "tc": "0:24",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P4_le_frere.jpg",
+      "scene": "An East Asian man in his 30s, black hoodie and thick silver curb chain, sings in a derelict daylight factory hall, broken windows, dust hanging in the air. Cold grey daylight, slow handheld drift.",
+      "dialogue": "Organise et ose appeler les cérémonies, brise les participants à cette séance d'empoisonnement. Faim, soif, privation de sommeil.",
+      "dialogue_phon": "Organise et ose appeler les cérémonies, brise les participants à cette séanss d'empoisonnement. Faim, soif, privation de sommeil.",
+      "cue": "He raps in French straight to camera"
+    },
+    {
+      "id": "05",
+      "tc": "0:32",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P5_le_precheur.jpg",
+      "scene": "A Black man in his 30s with short twisted locs, a wooden bead necklace with a small cross and a black tactical vest, sings in a dark hall hung with heavy broken chains, tropical foliage crowding both edges of frame, violet and white smoke rolling past. Slow push in until his face fills the frame.",
+      "dialogue": "Messager de l'apocalypse, je me porte partie civile. Tu vas devoir répondre de tes crimes.",
+      "dialogue_phon": "Messager de l'apocalipse, je me porte partie civile. Tu vas devoir répondre de tes crimes.",
+      "cue": "He raps in French straight to camera"
+    }
+  ]
+}

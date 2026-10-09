@@ -1,0 +1,186 @@
+[
+ {
+  "titre": "Séquelles perceptives persistantes",
+  "intro": "Le HPPD — trouble perceptif persistant après hallucinogènes — et les dysperceptions visuelles apparentées.",
+  "refs": [
+   {
+    "pmid": "42031693",
+    "auteur": "Butler M",
+    "nb": 9,
+    "revue": "Transl Psychiatry",
+    "annee": "2026",
+    "t": "Characterising the clinical associations of hallucinogen persisting perception disorder: a retrospective cohort study"
+   },
+   {
+    "pmid": "41348264",
+    "auteur": "Žuljević MF",
+    "nb": 2,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2026",
+    "t": "Flashbacks, Hallucinogen Persisting Perception Disorder (HPPD), and Reactivations Following the Use of Classic Psychedelics: Classification and Therapeutic Management"
+   },
+   {
+    "pmid": "40938689",
+    "auteur": "Neven A",
+    "nb": 2,
+    "revue": "Harv Rev Psychiatry",
+    "annee": "2025",
+    "t": "Pharmacological Treatment of Hallucinogen Persisting Perception Disorder (HPPD): A Systematic Review"
+   },
+   {
+    "pmid": "39741155",
+    "auteur": "Leistenschneider G",
+    "nb": 4,
+    "revue": "Sci Rep",
+    "annee": "2024",
+    "t": "Neuropsychological profiles of patients suffering from hallucinogen persisting perception disorder (HPPD): A comparative analysis with psychedelic-using and non-using controls"
+   },
+   {
+    "pmid": "40264850",
+    "auteur": "Zhou K",
+    "nb": 4,
+    "revue": "PNAS Nexus",
+    "annee": "2025",
+    "t": "Prediction of hallucinogen persisting perception disorder and thought disturbance symptoms following psychedelic use"
+   },
+   {
+    "pmid": "41824330",
+    "auteur": "Brooks CJ",
+    "nb": 3,
+    "revue": "Annu Rev Vis Sci",
+    "annee": "2026",
+    "t": "Visual Perception in Visual Snow Syndrome"
+   },
+   {
+    "pmid": "41975266",
+    "auteur": "Hsiao FJ",
+    "nb": 9,
+    "revue": "J Headache Pain",
+    "annee": "2026",
+    "t": "Unmasking the noise: aberrant cortical oscillations in visual snow syndrome"
+   }
+  ]
+ },
+ {
+  "titre": "Toxicité, événements indésirables, décès",
+  "intro": "Ce que la littérature toxicologique recense sur l'ayahuasca et la DMT.",
+  "refs": [
+   {
+    "pmid": "38363085",
+    "auteur": "White E",
+    "nb": 5,
+    "revue": "Int J Toxicol",
+    "annee": "2024",
+    "t": "Ayahuasca and Dimethyltryptamine Adverse Events and Toxicity Analysis: A Systematic Thematic Review"
+   },
+   {
+    "pmid": "40632616",
+    "auteur": "Pullen J",
+    "nb": 6,
+    "revue": "J Anal Toxicol",
+    "annee": "2025",
+    "t": "Fatalities following DMT use: two case reports and a review of the literature"
+   },
+   {
+    "pmid": "42713547",
+    "auteur": "Pack S",
+    "nb": 4,
+    "revue": "Cureus",
+    "annee": "2026",
+    "t": "Severe Serotonin Syndrome With Acute Respiratory Failure Following Ayahuasca and Dextromethorphan Use: A Case Report"
+   },
+   {
+    "pmid": "41661937",
+    "auteur": "Andión Ó",
+    "nb": 6,
+    "revue": "PLOS Ment Health",
+    "annee": "2025",
+    "t": "A new insight into ayahuasca's adverse effects: Reanalysis and perspectives on its mediating role in mental health from the Global Ayahuasca Survey (GAS)"
+   },
+   {
+    "pmid": "39230883",
+    "auteur": "Hinkle JT",
+    "nb": 4,
+    "revue": "JAMA Psychiatry",
+    "annee": "2024",
+    "t": "Adverse Events in Studies of Classic Psychedelics: A Systematic Review and Meta-Analysis"
+   },
+   {
+    "pmid": "37296197",
+    "auteur": "Weiss B",
+    "nb": 4,
+    "revue": "Sci Rep",
+    "annee": "2023",
+    "t": "Prevalence and therapeutic impact of adverse life event reexperiencing under ceremonial ayahuasca"
+   }
+  ]
+ },
+ {
+  "titre": "Psychose et suicidalité",
+  "intro": "Deux revues systématiques, dont une qui révise les preuves à la baisse.",
+  "refs": [
+   {
+    "pmid": "39592825",
+    "auteur": "Sabé M",
+    "nb": 18,
+    "revue": "Mol Psychiatry",
+    "annee": "2025",
+    "t": "Reconsidering evidence for psychedelic-induced psychosis: an overview of reviews, a systematic review, and meta-analysis of human studies"
+   },
+   {
+    "pmid": "42509061",
+    "auteur": "Pereira de Oliveira AB",
+    "nb": 2,
+    "revue": "Encephale",
+    "annee": "2026",
+    "t": "Consommation illicite de psychédéliques classiques et suicidalité : une revue systématique de la littérature"
+   }
+  ]
+ },
+ {
+  "titre": "Emprise, abus, consentement",
+  "intro": "Dynamiques de gourou, abus en contexte thérapeutique et question du consentement.",
+  "refs": [
+   {
+    "pmid": "39753997",
+    "auteur": "Evans J",
+    "nb": 2,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2026",
+    "t": "Guruism and Cultic Social Dynamics in Psychedelic Practices and Organisations"
+   },
+   {
+    "pmid": "39804304",
+    "auteur": "Harrison TR",
+    "nb": 5,
+    "revue": "Am J Bioeth",
+    "annee": "2025",
+    "t": "Wolves Among Sheep: Sexual Violations in Psychedelic-Assisted Therapy"
+   },
+   {
+    "pmid": "40342400",
+    "auteur": "Kruger DJ",
+    "nb": 8,
+    "revue": "Psychedelic Med (New Rochelle)",
+    "annee": "2025",
+    "t": "Psychedelic Therapist Sexual Misconduct and Other Adverse Experiences Among a Sample of Naturalistic Psychedelic Users"
+   },
+   {
+    "pmid": "41969859",
+    "auteur": "Tinelli L",
+    "nb": 6,
+    "revue": "Front Psychol",
+    "annee": "2026",
+    "t": "Are psychologists aware of group psychological abuse? A survey on awareness of the phenomenon among Italian psychologists"
+   },
+   {
+    "pmid": "41807063",
+    "auteur": "Caporuscio C",
+    "nb": 1,
+    "revue": "J Med Ethics",
+    "annee": "2026",
+    "t": "Transient or transformative? Psychedelics, agency and informed consent"
+   }
+  ]
+ }
+]

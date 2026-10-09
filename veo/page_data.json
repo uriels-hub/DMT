@@ -1,0 +1,739 @@
+[
+ {
+  "titre": "Séquelles perceptives persistantes",
+  "intro": "Le HPPD — trouble perceptif persistant après hallucinogènes — et les dysperceptions visuelles apparentées.",
+  "refs": [
+   {
+    "pmid": "42031693",
+    "auteur": "Butler M",
+    "nb": 9,
+    "revue": "Transl Psychiatry",
+    "annee": "2026",
+    "t": "Characterising the clinical associations of hallucinogen persisting perception disorder: a retrospective cohort study"
+   },
+   {
+    "pmid": "41348264",
+    "auteur": "Žuljević MF",
+    "nb": 2,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2026",
+    "t": "Flashbacks, Hallucinogen Persisting Perception Disorder (HPPD), and Reactivations Following the Use of Classic Psychedelics: Classification and Therapeutic Management"
+   },
+   {
+    "pmid": "40938689",
+    "auteur": "Neven A",
+    "nb": 2,
+    "revue": "Harv Rev Psychiatry",
+    "annee": "2025",
+    "t": "Pharmacological Treatment of Hallucinogen Persisting Perception Disorder (HPPD): A Systematic Review"
+   },
+   {
+    "pmid": "39741155",
+    "auteur": "Leistenschneider G",
+    "nb": 4,
+    "revue": "Sci Rep",
+    "annee": "2024",
+    "t": "Neuropsychological profiles of patients suffering from hallucinogen persisting perception disorder (HPPD): A comparative analysis with psychedelic-using and non-using controls"
+   },
+   {
+    "pmid": "40264850",
+    "auteur": "Zhou K",
+    "nb": 4,
+    "revue": "PNAS Nexus",
+    "annee": "2025",
+    "t": "Prediction of hallucinogen persisting perception disorder and thought disturbance symptoms following psychedelic use"
+   },
+   {
+    "pmid": "41824330",
+    "auteur": "Brooks CJ",
+    "nb": 3,
+    "revue": "Annu Rev Vis Sci",
+    "annee": "2026",
+    "t": "Visual Perception in Visual Snow Syndrome"
+   },
+   {
+    "pmid": "41975266",
+    "auteur": "Hsiao FJ",
+    "nb": 9,
+    "revue": "J Headache Pain",
+    "annee": "2026",
+    "t": "Unmasking the noise: aberrant cortical oscillations in visual snow syndrome"
+   }
+  ]
+ },
+ {
+  "titre": "Toxicité, événements indésirables, décès",
+  "intro": "Ce que la littérature toxicologique recense sur l'ayahuasca et la DMT.",
+  "refs": [
+   {
+    "pmid": "38363085",
+    "auteur": "White E",
+    "nb": 5,
+    "revue": "Int J Toxicol",
+    "annee": "2024",
+    "t": "Ayahuasca and Dimethyltryptamine Adverse Events and Toxicity Analysis: A Systematic Thematic Review"
+   },
+   {
+    "pmid": "40632616",
+    "auteur": "Pullen J",
+    "nb": 6,
+    "revue": "J Anal Toxicol",
+    "annee": "2025",
+    "t": "Fatalities following DMT use: two case reports and a review of the literature"
+   },
+   {
+    "pmid": "42713547",
+    "auteur": "Pack S",
+    "nb": 4,
+    "revue": "Cureus",
+    "annee": "2026",
+    "t": "Severe Serotonin Syndrome With Acute Respiratory Failure Following Ayahuasca and Dextromethorphan Use: A Case Report"
+   },
+   {
+    "pmid": "41661937",
+    "auteur": "Andión Ó",
+    "nb": 6,
+    "revue": "PLOS Ment Health",
+    "annee": "2025",
+    "t": "A new insight into ayahuasca's adverse effects: Reanalysis and perspectives on its mediating role in mental health from the Global Ayahuasca Survey (GAS)"
+   },
+   {
+    "pmid": "39230883",
+    "auteur": "Hinkle JT",
+    "nb": 4,
+    "revue": "JAMA Psychiatry",
+    "annee": "2024",
+    "t": "Adverse Events in Studies of Classic Psychedelics: A Systematic Review and Meta-Analysis"
+   },
+   {
+    "pmid": "37296197",
+    "auteur": "Weiss B",
+    "nb": 4,
+    "revue": "Sci Rep",
+    "annee": "2023",
+    "t": "Prevalence and therapeutic impact of adverse life event reexperiencing under ceremonial ayahuasca"
+   }
+  ]
+ },
+ {
+  "titre": "Psychose et suicidalité",
+  "intro": "Deux revues systématiques, dont une qui révise les preuves à la baisse.",
+  "refs": [
+   {
+    "pmid": "39592825",
+    "auteur": "Sabé M",
+    "nb": 18,
+    "revue": "Mol Psychiatry",
+    "annee": "2025",
+    "t": "Reconsidering evidence for psychedelic-induced psychosis: an overview of reviews, a systematic review, and meta-analysis of human studies"
+   },
+   {
+    "pmid": "42509061",
+    "auteur": "Pereira de Oliveira AB",
+    "nb": 2,
+    "revue": "Encephale",
+    "annee": "2026",
+    "t": "[Illicit use of classic psychedelics and suicidality: A systematic literature review]",
+    "t_affiche": "Consommation illicite de psychédéliques classiques et suicidalité : une revue systématique de la littérature"
+   }
+  ]
+ },
+ {
+  "titre": "Emprise, abus, consentement",
+  "intro": "Dynamiques de gourou, abus en contexte thérapeutique et question du consentement.",
+  "refs": [
+   {
+    "pmid": "39753997",
+    "auteur": "Evans J",
+    "nb": 2,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2026",
+    "t": "Guruism and Cultic Social Dynamics in Psychedelic Practices and Organisations"
+   },
+   {
+    "pmid": "39804304",
+    "auteur": "Harrison TR",
+    "nb": 5,
+    "revue": "Am J Bioeth",
+    "annee": "2025",
+    "t": "Wolves Among Sheep: Sexual Violations in Psychedelic-Assisted Therapy"
+   },
+   {
+    "pmid": "40342400",
+    "auteur": "Kruger DJ",
+    "nb": 8,
+    "revue": "Psychedelic Med (New Rochelle)",
+    "annee": "2025",
+    "t": "Psychedelic Therapist Sexual Misconduct and Other Adverse Experiences Among a Sample of Naturalistic Psychedelic Users"
+   },
+   {
+    "pmid": "41969859",
+    "auteur": "Tinelli L",
+    "nb": 6,
+    "revue": "Front Psychol",
+    "annee": "2026",
+    "t": "Are psychologists aware of group psychological abuse? A survey on awareness of the phenomenon among Italian psychologists"
+   },
+   {
+    "pmid": "41807063",
+    "auteur": "Caporuscio C",
+    "nb": 1,
+    "revue": "J Med Ethics",
+    "annee": "2026",
+    "t": "Transient or transformative? Psychedelics, agency and informed consent"
+   }
+  ]
+ },
+ {
+  "titre": "Pharmacologie et doses répétées",
+  "intro": "Ce que fait le mélange DMT et inhibiteurs de la MAO-A, et ce que change la répétition des prises.",
+  "refs": [
+   {
+    "pmid": "10404423",
+    "auteur": "Callaway JC",
+    "nb": 9,
+    "revue": "J Ethnopharmacol",
+    "annee": "1999",
+    "t": "Pharmacokinetics of Hoasca alkaloids in healthy humans"
+   },
+   {
+    "pmid": "12660312",
+    "auteur": "Riba J",
+    "nb": 6,
+    "revue": "J Pharmacol Exp Ther",
+    "annee": "2003",
+    "t": "Human pharmacology of ayahuasca: subjective and cardiovascular effects, monoamine metabolite excretion, and pharmacokinetics"
+   },
+   {
+    "pmid": "21842159",
+    "auteur": "Dos Santos RG",
+    "nb": 9,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2012",
+    "t": "Pharmacology of ayahuasca administered in two repeated doses"
+   },
+   {
+    "pmid": "8731519",
+    "auteur": "Strassman RJ",
+    "nb": 3,
+    "revue": "Biol Psychiatry",
+    "annee": "1996",
+    "t": "Differential tolerance to biological and subjective effects of four closely spaced doses of N,N-dimethyltryptamine in humans"
+   },
+   {
+    "pmid": "33114119",
+    "auteur": "Brito-da-Costa AM",
+    "nb": 5,
+    "revue": "Pharmaceuticals (Basel)",
+    "annee": "2020",
+    "t": "Toxicokinetics and Toxicodynamics of Ayahuasca Alkaloids N,N-Dimethyltryptamine (DMT), Harmine, Harmaline and Tetrahydroharmine: Clinical and Forensic Impact"
+   },
+   {
+    "pmid": "39564645",
+    "auteur": "Dos Santos RG",
+    "nb": 2,
+    "revue": "CNS Spectr",
+    "annee": "2024",
+    "t": "Ayahuasca: pharmacology, safety, and therapeutic effects"
+   },
+   {
+    "pmid": "34251464",
+    "auteur": "Malcolm B",
+    "nb": 2,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2022",
+    "t": "Serotonin toxicity of serotonergic psychedelics"
+   },
+   {
+    "pmid": "42212869",
+    "auteur": "Hampsey E",
+    "nb": 8,
+    "revue": "J Psychopharmacol",
+    "annee": "2026",
+    "t": "A systematic review of the pharmacokinetics of classical serotonergic psychedelic compounds in healthy adult subjects"
+   }
+  ]
+ },
+ {
+  "titre": "Ce que les examens cherchent, et ne cherchent pas",
+  "intro": "Fenêtres de détection, panels de routine, et méthodes requises pour identifier ces substances.",
+  "refs": [
+   {
+    "pmid": "30566569",
+    "auteur": "Pope JD",
+    "nb": 4,
+    "revue": "J Anal Toxicol",
+    "annee": "2019",
+    "t": "Harmala Alkaloids Identify Ayahausca Intoxication in a Urine Drug Screen"
+   },
+   {
+    "pmid": "22514127",
+    "auteur": "Riba J",
+    "nb": 5,
+    "revue": "Drug Test Anal",
+    "annee": "2012",
+    "t": "Metabolism and disposition of N,N-dimethyltryptamine and harmala alkaloids after oral administration of ayahuasca"
+   },
+   {
+    "pmid": "25069786",
+    "auteur": "Riba J",
+    "nb": 4,
+    "revue": "Drug Test Anal",
+    "annee": "2015",
+    "t": "Metabolism and urinary disposition of N,N-dimethyltryptamine after oral and smoked administration: a comparative study"
+   },
+   {
+    "pmid": "19631478",
+    "auteur": "Lowe RH",
+    "nb": 6,
+    "revue": "Drug Alcohol Depend",
+    "annee": "2009",
+    "t": "Extended urinary Delta9-tetrahydrocannabinol excretion in chronic cannabis users precludes use as a biomarker of new drug exposure"
+   },
+   {
+    "pmid": "19332394",
+    "auteur": "Björnstad K",
+    "nb": 3,
+    "revue": "J Chromatogr B Analyt Technol Biomed Life Sci",
+    "annee": "2009",
+    "t": "A multi-component LC-MS/MS method for detection of ten plant-derived psychoactive substances in urine"
+   },
+   {
+    "pmid": "26168592",
+    "auteur": "Algren DA",
+    "nb": 2,
+    "revue": "Mo Med",
+    "annee": "2015",
+    "t": "Buyer Beware: Pitfalls in Toxicology Laboratory Testing"
+   },
+   {
+    "pmid": "32843202",
+    "auteur": "Stellpflug SJ",
+    "nb": 3,
+    "revue": "J Emerg Nurs",
+    "annee": "2020",
+    "t": "Urine Drug Screens in the Emergency Department: The Best Test May Be No Test at All"
+   }
+  ]
+ },
+ {
+  "titre": "Déclaration et attribution aux urgences",
+  "intro": "Comment l'exposition est établie à l'admission, et ce que vaut l'auto-déclaration.",
+  "refs": [
+   {
+    "pmid": "16446045",
+    "auteur": "Vitale SG",
+    "nb": 4,
+    "revue": "Addict Behav",
+    "annee": "2006",
+    "t": "Substance use among emergency room patients: Is self-report preferable to biochemical markers?"
+   },
+   {
+    "pmid": "25052325",
+    "auteur": "Monte AA",
+    "nb": 5,
+    "revue": "J Clin Pharmacol",
+    "annee": "2015",
+    "t": "The accuracy of self-reported drug ingestion histories in emergency department patients"
+   },
+   {
+    "pmid": "29384873",
+    "auteur": "Liakoni E",
+    "nb": 10,
+    "revue": "Medicine (Baltimore)",
+    "annee": "2018",
+    "t": "Acute recreational drug toxicity: Comparison of self-reports and results of immunoassay and additional analytical methods in a multicenter European case series"
+   },
+   {
+    "pmid": "25104914",
+    "auteur": "Macdonald S",
+    "nb": 7,
+    "revue": "J Subst Use",
+    "annee": "2014",
+    "t": "Concordance of self-reported drug use and saliva drug tests in a sample of emergency department patients"
+   },
+   {
+    "pmid": "27159345",
+    "auteur": "McDonell MG",
+    "nb": 11,
+    "revue": "J Addict Med",
+    "annee": "2016",
+    "t": "Utility of Point-of-care Urine Drug Tests in the Treatment of Primary Care Patients With Drug Use Disorders"
+   }
+  ]
+ },
+ {
+  "titre": "Le contexte du rituel",
+  "intro": "Jeûne, privation de sommeil et isolement, documentés séparément de toute substance.",
+  "refs": [
+   {
+    "pmid": "30042701",
+    "auteur": "Waters F",
+    "nb": 4,
+    "revue": "Front Psychiatry",
+    "annee": "2018",
+    "t": "Severe Sleep Deprivation Causes Hallucinations and a Gradual Progression Toward Psychosis With Increasing Time Awake"
+   },
+   {
+    "pmid": "41515178",
+    "auteur": "Bonaccorsi V",
+    "nb": 2,
+    "revue": "Nutrients",
+    "annee": "2025",
+    "t": "Psychological and Psychiatric Consequences of Prolonged Fasting: Neurobiological, Clinical, and Therapeutic Perspectives"
+   },
+   {
+    "pmid": "32973582",
+    "auteur": "Luigi M",
+    "nb": 5,
+    "revue": "Front Psychiatry",
+    "annee": "2020",
+    "t": "Shedding Light on \"the Hole\": A Systematic Review and Meta-Analysis on Adverse Psychological Effects and Mortality Following Solitary Confinement in Correctional Settings"
+   }
+  ]
+ },
+ {
+  "titre": "Cas graves rapportés",
+  "intro": "Présentations cliniques publiées après usage d'ayahuasca ou de DMT.",
+  "refs": [
+   {
+    "pmid": "41111708",
+    "auteur": "Kermanshah A",
+    "nb": 5,
+    "revue": "Cureus",
+    "annee": "2025",
+    "t": "Severe Rhabdomyolysis With Stage 3 Acute Kidney Injury After Ayahuasca Use Managed Without Renal Replacement Therapy: A Case Report"
+   },
+   {
+    "pmid": "39142841",
+    "auteur": "Baker MR",
+    "nb": 2,
+    "revue": "BMJ Case Rep",
+    "annee": "2024",
+    "t": "Drug-induced psychosis following use of Ayahuasca: a presentation to forensic psychiatric services"
+   },
+   {
+    "pmid": "29682363",
+    "auteur": "Bilhimer MH",
+    "nb": 6,
+    "revue": "Case Rep Emerg Med",
+    "annee": "2018",
+    "t": "Acute Intoxication following Dimethyltryptamine Ingestion"
+   },
+   {
+    "pmid": "28540034",
+    "auteur": "Dos Santos RG",
+    "nb": 3,
+    "revue": "Ther Adv Psychopharmacol",
+    "annee": "2017",
+    "t": "Ayahuasca, dimethyltryptamine, and psychosis: a systematic review of human studies"
+   }
+  ]
+ },
+ {
+  "titre": "Mineurs, grossesse, adolescence",
+  "intro": "Ce que la littérature a mesuré chez des sujets qui n'avaient pas l'âge de consentir, et ce qu'elle n'a pas mesuré.",
+  "refs": [
+   {
+    "pmid": "16149323",
+    "auteur": "Doering-Silveira E",
+    "nb": 9,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Ayahuasca in adolescence: a neuropsychological assessment"
+   },
+   {
+    "pmid": "16149324",
+    "auteur": "Da Silveira DX",
+    "nb": 7,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Ayahuasca in adolescence: a preliminary psychiatric assessment"
+   },
+   {
+    "pmid": "21615005",
+    "auteur": "Labate BC",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2011",
+    "t": "Consumption of ayahuasca by children and pregnant women: medical controversies and religious perspectives"
+   },
+   {
+    "pmid": "23662333",
+    "auteur": "dos Santos RG",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2013",
+    "t": "Safety and side effects of ayahuasca in humans--an overview focusing on developmental toxicology"
+   },
+   {
+    "pmid": "41808125",
+    "auteur": "Moore CK",
+    "nb": 4,
+    "revue": "Child Adolesc Psychiatry Ment Health",
+    "annee": "2026",
+    "t": "Toward a framework for psychedelic clinical trials in adolescents"
+   },
+   {
+    "pmid": "22268458",
+    "auteur": "Alper KR",
+    "nb": 3,
+    "revue": "J Forensic Sci",
+    "annee": "2012",
+    "t": "Fatalities temporally associated with the ingestion of ibogaine"
+   }
+  ]
+ },
+ {
+  "titre": "Le mot « enthéogène » et l'expérience mystique",
+  "intro": "Le terme a été proposé en 1979 pour remplacer « hallucinogène ». Le débat sur ce que ce vocabulaire fait entrer, et sortir, du champ médical.",
+  "refs": [
+   {
+    "pmid": "522165",
+    "auteur": "Ruck CA",
+    "nb": 5,
+    "revue": "J Psychedelic Drugs",
+    "annee": "1979",
+    "t": "Entheogens"
+   },
+   {
+    "pmid": "26841800",
+    "auteur": "Nichols DE",
+    "nb": 1,
+    "revue": "Pharmacol Rev",
+    "annee": "2016",
+    "t": "Psychedelics"
+   },
+   {
+    "pmid": "34151217",
+    "auteur": "Sanders JW",
+    "nb": 2,
+    "revue": "ACS Pharmacol Transl Sci",
+    "annee": "2021",
+    "t": "Moving Past Mysticism in Psychedelic Science"
+   },
+   {
+    "pmid": "34423279",
+    "auteur": "Breeksema JJ",
+    "nb": 2,
+    "revue": "ACS Pharmacol Transl Sci",
+    "annee": "2021",
+    "t": "Working with Weirdness: A Response to \"Moving Past Mysticism in Psychedelic Science\""
+   },
+   {
+    "pmid": "37181886",
+    "auteur": "Mosurinjohn S",
+    "nb": 3,
+    "revue": "Front Psychiatry",
+    "annee": "2023",
+    "t": "Psychedelic-induced mystical experiences: An interdisciplinary discussion and critique"
+   },
+   {
+    "pmid": "35923458",
+    "auteur": "Ko K",
+    "nb": 4,
+    "revue": "Front Psychiatry",
+    "annee": "2022",
+    "t": "Psychedelics, Mystical Experience, and Therapeutic Efficacy: A Systematic Review"
+   },
+   {
+    "pmid": "26442957",
+    "auteur": "Barrett FS",
+    "nb": 3,
+    "revue": "J Psychopharmacol",
+    "annee": "2015",
+    "t": "Validation of the revised Mystical Experience Questionnaire in experimental sessions with psilocybin"
+   },
+   {
+    "pmid": "27909164",
+    "auteur": "Ross S",
+    "nb": 13,
+    "revue": "J Psychopharmacol",
+    "annee": "2016",
+    "t": "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial"
+   },
+   {
+    "pmid": "39843984",
+    "auteur": "Kiniry MT",
+    "nb": 4,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2026",
+    "t": "Experimental Test of Perceptions of Psychedelics by Therapeutic and Recreational Use"
+   },
+   {
+    "pmid": "33860187",
+    "auteur": "Johnson MW",
+    "nb": 1,
+    "revue": "ACS Pharmacol Transl Sci",
+    "annee": "2021",
+    "t": "Consciousness, Religion, and Gurus: Pitfalls of Psychedelic Medicine"
+   },
+   {
+    "pmid": "26014667",
+    "auteur": "Billieux J",
+    "nb": 5,
+    "revue": "J Behav Addict",
+    "annee": "2015",
+    "t": "Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research"
+   }
+  ]
+ },
+ {
+  "titre": "Dépendance, tolérance, pharmacologie",
+  "intro": "La CIM-11 code une dépendance aux hallucinogènes (6C49.2) et la décrit comme rare, sans syndrome de sevrage. Ce que disent les études de tolérance, d'inhibition de la MAO et de toxicité répétée.",
+  "refs": [
+   {
+    "pmid": "23903334",
+    "auteur": "Hasin DS",
+    "nb": 12,
+    "revue": "Am J Psychiatry",
+    "annee": "2013",
+    "t": "DSM-5 criteria for substance use disorders: recommendations and rationale"
+   },
+   {
+    "pmid": "28750478",
+    "auteur": "McCabe SE",
+    "nb": 4,
+    "revue": "Hum Psychopharmacol",
+    "annee": "2017",
+    "t": "Multiple DSM-5 substance use disorders: A national study of US adults"
+   },
+   {
+    "pmid": "29753748",
+    "auteur": "Johnson MW",
+    "nb": 4,
+    "revue": "Neuropharmacology",
+    "annee": "2018",
+    "t": "The abuse potential of medical psilocybin according to the 8 factors of the Controlled Substances Act"
+   },
+   {
+    "pmid": "41099474",
+    "auteur": "Heal DJ",
+    "nb": 3,
+    "revue": "J Psychopharmacol",
+    "annee": "2026",
+    "t": "Mind the gap! Addressing unresolved aspects of abuse potential evaluation and scheduling of classic and novel psychedelic drugs"
+   },
+   {
+    "pmid": "41749025",
+    "auteur": "Majić T",
+    "nb": 3,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2026",
+    "t": "Classifying Psychedelic-Related Complications"
+   },
+   {
+    "pmid": "35600851",
+    "auteur": "Berlowitz I",
+    "nb": 3,
+    "revue": "Front Pharmacol",
+    "annee": "2022",
+    "t": "Monoamine Oxidase Inhibition by Plant-Derived β-Carbolines; Implications for the Psychopharmacology of Tobacco and Ayahuasca"
+   },
+   {
+    "pmid": "30970283",
+    "auteur": "Wang Y",
+    "nb": 11,
+    "revue": "J Ethnopharmacol",
+    "annee": "2019",
+    "t": "Subchronic toxicity and concomitant toxicokinetics of long-term oral administration of total alkaloid extracts from seeds of Peganum harmala Linn: A 28-day study in rats"
+   },
+   {
+    "pmid": "23440018",
+    "auteur": "Handforth A",
+    "nb": 1,
+    "revue": "Tremor Other Hyperkinet Mov (N Y)",
+    "annee": "2012",
+    "t": "Harmaline tremor: underlying mechanisms in a potential animal model of essential tremor"
+   },
+   {
+    "pmid": "24907588",
+    "auteur": "Arnold MM",
+    "nb": 4,
+    "revue": "Neuropharmacology",
+    "annee": "2014",
+    "t": "Reinforcing and neural activating effects of norharmane, a non-nicotine tobacco constituent, alone and in combination with nicotine"
+   },
+   {
+    "pmid": "32926882",
+    "auteur": "Harris AC",
+    "nb": 3,
+    "revue": "Pharmacol Biochem Behav",
+    "annee": "2020",
+    "t": "β-Carbolines found in cigarette smoke elevate intracranial self-stimulation thresholds in rats"
+   },
+   {
+    "pmid": "1969270",
+    "auteur": "Buckholtz NS",
+    "nb": 4,
+    "revue": "Neuropsychopharmacology",
+    "annee": "1990",
+    "t": "Lysergic acid diethylamide (LSD) administration selectively downregulates serotonin2 receptors in rat brain"
+   },
+   {
+    "pmid": "37897244",
+    "auteur": "Luan LX",
+    "nb": 13,
+    "revue": "J Psychopharmacol",
+    "annee": "2024",
+    "t": "Psychological and physiological effects of extended DMT"
+   },
+   {
+    "pmid": "29366418",
+    "auteur": "Hamill J",
+    "nb": 4,
+    "revue": "Curr Neuropharmacol",
+    "annee": "2019",
+    "t": "Ayahuasca: Psychological and Physiologic Effects, Pharmacology and Potential Uses in Addiction and Mental Illness"
+   },
+   {
+    "pmid": "20554400",
+    "auteur": "Fábregas JM",
+    "nb": 10,
+    "revue": "Drug Alcohol Depend",
+    "annee": "2010",
+    "t": "Assessment of addiction severity among ritual users of ayahuasca"
+   },
+   {
+    "pmid": "29740355",
+    "auteur": "Barbosa PCR",
+    "nb": 8,
+    "revue": "Front Psychiatry",
+    "annee": "2018",
+    "t": "Assessment of Alcohol and Tobacco Use Disorders Among Religious Users of Ayahuasca"
+   },
+   {
+    "pmid": "36962494",
+    "auteur": "Bouso JC",
+    "nb": 8,
+    "revue": "PLOS Glob Public Health",
+    "annee": "2022",
+    "t": "Adverse effects of ayahuasca: Results from the Global Ayahuasca Survey"
+   },
+   {
+    "pmid": "33648696",
+    "auteur": "Palma-Álvarez RF",
+    "nb": 7,
+    "revue": "Rev Colomb Psiquiatr (Engl Ed)",
+    "annee": "2021",
+    "t": "Psychosis induced by abuse of ayahuasca: a case report"
+   },
+   {
+    "pmid": "35107059",
+    "auteur": "Schlag AK",
+    "nb": 5,
+    "revue": "J Psychopharmacol",
+    "annee": "2022",
+    "t": "Adverse effects of psychedelics: From anecdotes and misinformation to systematic science"
+   },
+   {
+    "pmid": "38213013",
+    "auteur": "Garel N",
+    "nb": 4,
+    "revue": "Addiction",
+    "annee": "2024",
+    "t": "Trends in hallucinogen-associated emergency department visits and hospitalizations in California, USA, from 2016 to 2022"
+   }
+  ]
+ }
+]

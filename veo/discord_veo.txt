@@ -1,0 +1,8 @@
+```
+Modèle         720p     1080p    4K       Réf   Ext
+---------------------------------------------------
+veo-3.1        0,40 $   0,40 $   0,60 $   oui   oui
+veo-3.1-fast   0,10 $   0,12 $   0,30 $   oui   oui
+veo-3.1-lite   0,05 $   0,08 $     -      non   non
+```
+-# Prix par seconde générée. Lite : pas de 4K, pas d'images de référence, pas d'extension ; 8 s impose le 1080p.

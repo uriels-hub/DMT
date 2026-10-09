@@ -1,0 +1,21 @@
+# Les fins de ligne sont un choix, pas un effet de bord du systeme.
+# Sans ce fichier, core.autocrlf de Windows reecrit tout en CRLF au checkout
+# et defait la convention etablie.
+
+# Par defaut : LF. Code, donnees, documents.
+* text=auto eol=lf
+
+# SubRip : CRLF, c'est la norme, et les lecteurs les plus stricts n'acceptent
+# que ca. Chaque fichier se termine en outre par une ligne vide.
+*.srt text eol=crlf
+
+# Projets MLT : XML, LF comme le reste.
+*.mlt text eol=lf
+
+# Binaires : git n'y touche pas.
+*.mp4 binary
+*.wav binary
+*.m4a binary
+*.png binary
+*.jpg binary
+*.pdf binary

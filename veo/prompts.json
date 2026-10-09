@@ -1,0 +1,195 @@
+{
+  "project": "TOXICOSQUEROS",
+  "suffix": "Cinematic, 35mm anamorphic, shallow depth of field, thick atmospheric haze, high contrast, desaturated steel-blue base with toxic green and violet practical lights, fine film grain, handheld with slow drift. No on-screen text, no subtitles, no captions, no watermark.",
+  "personnages": {
+    "P1": "a Black man in his 30s with shoulder-length locs, dark grey hoodie under a black tactical plate carrier, sweat on his face",
+    "P2": "a Black man in his 30s, very short hair, blue-grey hoodie under a black plate carrier",
+    "P3": "an East Asian woman in her 30s, tight cornrow braids, glossy black leather jacket, layered silver chains, sharp winged eyeliner",
+    "P4": "an East Asian man in his 30s, black hoodie, thick silver curb chain, stubble",
+    "P5": "a Black man in his 30s, short twisted locs, wooden bead necklace with a small cross, black tactical vest"
+  },
+  "shots": [
+    {
+      "id": "01",
+      "tc": "0:00",
+      "duration": 8,
+      "scene": "Opens on a wide static shot of an empty circle of white plastic chairs in a dark concrete hall, thick white smoke rolling across the floor, one vertical green neon tube flickering. A Black man in his 30s with shoulder-length locs, dark grey hoodie under a black tactical plate carrier, walks into frame from the left, turns to the lens and starts rapping hard, jungle vines creeping in at the edges. Camera pushes in to a medium close-up.",
+      "dialogue": "Néo-chamans sans conscience, drogue tes enfants à l'ayahuasca et à l'iboga ; même combat, Aztèques réincarnés.",
+      "cue": "He raps hard in French straight to camera",
+      "dialogue_phon": "Néo-shamanes sans conssience, drogue tes enfants à l'ayawaska et à l'iboga. Même combat, Aztèques réincarnés."
+    },
+    {
+      "id": "02",
+      "tc": "0:08",
+      "duration": 8,
+      "scene": "Macro: a pale hand in a linen sleeve deals worn banknotes onto a wet stone altar like tarot cards, candle guttering, moths circling. Whip pan to an anatomical nervous-system chart pinned to a damp concrete wall, the fine nerve lines blackening and curling as if burning from within, ash drifting down. Two fast beats, no faces.",
+      "dialogue": "Mutile tes adeptes et joue avec leurs vies : amour de l'argent. Cache-toi derrière tes victimes, ablation du système nerveux périphérique et manipulations mentales.",
+      "dialogue_phon": "Mutile tes adeptes et joue avec leurs vies, amour de l'argent. Cache-toi derrière tes victimes, ablation du système nerveux périphérique et manipulations mentales.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop",
+      "note": "Les deux-points sont vocalises (« vie fait »). Remplaces par une virgule, comme le point-virgule du plan 01."
+    },
+    {
+      "id": "03",
+      "tc": "0:16",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P3_la_voix.jpg",
+      "scene": "Medium shot of an East Asian woman in her 30s with tight cornrow braids, glossy black leather jacket and layered silver chains, in a flooded underground corridor lit by green and violet neon, hanging roots dripping overhead, water rippling at her boots. She snaps her head to camera and raps without blinking. Slow drift to a tighter frame.",
+      "dialogue": "La science te fait peur. Ennemis de l'intelligence et du sens critique. Fixé dans le temps, tes armes sont la haine et la soumission chimique.",
+      "cue": "She raps in French straight to camera",
+      "dialogue_phon": "La syanss te fait peur. Ennemis de l'intelligence et du sens critique. Fixé dans le temps, tes armes sont la haine et la soumission shimique."
+    },
+    {
+      "id": "04",
+      "tc": "0:24",
+      "duration": 8,
+      "scene": "Three fast beats. A hand pours dark liquid from an enamel cup into a potted plant and the leaves curl and blacken in seconds. Hard cut to embers crawling across a hand-painted protest banner until only the frame is left. Hard cut to an overhead lateral dolly along a conveyor belt of identical unlabelled brown glass bottles, hooded workers sealing crates.",
+      "dialogue": "Lutte antisystème, remplace la vie par du poison. Brûle les chairs ; assoie ton autorité. Fabrique, importe, distribue le malheur dans nos familles.",
+      "dialogue_phon": "Lutte antisystème, remplace la vie par du poison. Brûle les chairs, assois ton autorité. Fabrique, importe, distribue le malheur dans nos familles.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "05",
+      "tc": "0:32",
+      "duration": 8,
+      "scene": "Slow dolly down a dormitory of identical iron beds, each with a folded white robe and a numbered tag, nobody in the room. On the end wall a huge hand-painted list of words has been scrubbed out, only the ghost of the letters remains. A single caged bulb swings. Cold light, dust.",
+      "dialogue": "Âme faite de tissus de mensonges, calomnies, dogmes, nourrit le rituel du sacrifice humain. Rééduque drogués, handicapés, homosexuels, prostituées.",
+      "dialogue_phon": "Ame faite de tissus de mensonges, calomnies, dogmes, nourrit le rituel du sacrifice humain. Rééduque drogués, handicapés, homosexuels, prostituées.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "note": "« Âme » avec circonflexe sortait en « rame ». « Ame » sans accent : valide (take3). Ordre des phrases inchange.",
+      "style": "hiphop"
+    },
+    {
+      "id": "06",
+      "tc": "0:40",
+      "duration": 8,
+      "scene": "Low-angle hero shot: three performers shoulder to shoulder in a wall of white smoke, backlit by a hard white beam — a Black man with shoulder-length locs in a black tactical plate carrier, a Black man with very short hair in a blue-grey hoodie, and an East Asian woman with cornrow braids in a glossy leather jacket. The smoke clears behind them to reveal a scar of clear-cut rainforest at dawn, stumps and dragged trunks. Slow push in, anamorphic flare.",
+      "dialogue": "SOUFFLE, AMS crew. Sans scrupules, pille nos forêts, rentabilité. Utilise l'ingénierie sociale, détourne logique et République.",
+      "cue": "They rap in unison in French straight to camera",
+      "dialogue_phon": "Souffle, A M S crew. Sans scrupules, piye nos forè, rentabilité. Utilise l'ingénierie sociale, détourne logique et République."
+    },
+    {
+      "id": "07",
+      "tc": "0:48",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P2_le_procureur.jpg",
+      "scene": "A Black man in his 30s with very short hair, blue-grey hoodie under a black plate carrier, raps in a pitch-black space hung with red and white chains, hard red key light from one side, cold blue rim from the other, smoke drifting. He leans slowly into the lens until his face fills the frame.",
+      "dialogue": "Dissimule les méfaits derrière le voile du mensonge. Invisible aux yeux de tous, manipule les foules dans l'ombre de l'aberration, charlatan des possibles.",
+      "cue": "He raps in French straight to camera",
+      "dialogue_phon": "Dissimule les méfè derrière le voile du mensonge. Invisible aux yeux de tous, manipule les foules dans l'ombre de l'aberration, sharlatan des possibles."
+    },
+    {
+      "id": "08",
+      "tc": "0:56",
+      "duration": 8,
+      "scene": "A cracked mechanical departure board in an empty night airport flips through place names until every row reads blank; a hooded figure wheels a battered crate past in the foreground, face never visible. Cut to a marble government staircase where pale roots force their way up between the steps, cracking the stone as the camera cranes up to empty ceremonial chairs.",
+      "dialogue": "Finance voyages d'approvisionnement et espoir de tes victimes. Vole leurs rêves, détruis leurs sens critique, noyaute nos institutions avec force de conviction.",
+      "dialogue_phon": "Finance voyages d'approvisionnement et espoir de tes victimes. Vole leurs rêves, détruis leurs sens critique, noyaute nos institutions avec force de conviction.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "09",
+      "tc": "1:04",
+      "duration": 8,
+      "scene": "Three hard flash-cuts on black: a printed page dissolving into blank paper; an extreme close-up of a mouth opening with no sound; a crowd of blurred faces nodding in perfect unison. Then a long wide low shot holds: dozens of barefoot figures in identical white robes wade slowly into a black lake at night, backs to camera, each holding a candle.",
+      "dialogue": "Peur et ignorance. Ne fais pas de phrases. Laisse des mots vides de sens. Enrôle tes adeptes en les plongeant dans l'endoctrinement de ta secte.",
+      "dialogue_phon": "Peur et ignorance. Ne fais pas de phrases. Laisse des mots vides de sens. Enrôle tes adeptes en les plongeant dans l'endoctrinement de ta secte.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "10",
+      "tc": "1:12",
+      "duration": 8,
+      "scene": "Macro: a dark brew swirling in a chipped enamel cup, oily iridescent film on the surface; the reflection warps into a fractal geometric mask that stares back out. The camera slowly rotates, then pulls back fast to a cold grey exterior — a shuttered stone farmhouse at the end of a wet French country lane.",
+      "dialogue": "Prophète de la dévastation, symbolise le martyr des innocents. Fanatique des hallucinogènes, la DMT est ton dieu unique. Retour en France.",
+      "dialogue_phon": "Prophète de la dévastation, symbolise le martyr des innocents. Fanatique des allucinogènes, la dé emme té est ton dieu unique. Retour en France.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "11",
+      "tc": "1:20",
+      "duration": 8,
+      "scene": "Handheld push through a damp stone cellar: candles in jars along the walls, a circle of foam mattresses and plastic buckets, a cheap speaker on a stool, an empty water bottle on its side. Cold dawn light through a barred basement window. Nobody in frame.",
+      "dialogue": "Organise et ose appeler les cérémonies, brise les participants à cette séance d'empoisonnement : faim, soif, privation de sommeil, violences psychologiques.",
+      "dialogue_phon": "Organise et ose appeler les cérémonies, brise les participants à cette séanss d'empoisonnement. Faim, soif, privation de sommeil, violences psikologiques.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "12",
+      "tc": "1:28",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P4_le_frere.jpg",
+      "scene": "An East Asian man in his 30s, black hoodie and thick silver curb chain, raps in a derelict daylight factory hall, dust in the air. His movement stutters and repeats like a skipping tape, the same half-second looping three times while he keeps rapping. Slight datamosh texture, cold grey daylight.",
+      "dialogue": "Sous réserve de consentement, inflige sciemment des chocs post-traumatiques à tes patients, altère le temps, qu'ils revivent à l'infini.",
+      "cue": "He raps in French straight to camera",
+      "dialogue_phon": "Sous réserve de consentement, inflige sciamment des shocs post-traumatiques à tes passians. Altère le temps, qu'ils revivent à l'infini."
+    },
+    {
+      "id": "13",
+      "tc": "1:36",
+      "duration": 8,
+      "scene": "A hospital corridor at night, one door ajar; inside, a made bed, a folded white robe and a pair of empty shoes placed neatly side by side, a calendar with every day crossed out. The camera dollies past without entering, then cuts to an extreme close-up of a thick legal dossier under a desk lamp where a gloved hand draws a heavy black redaction bar across a line, slowly, letter by letter.",
+      "dialogue": "Pousse au suicide les plus récalcitrants, euthanasie les malades que tu endoctrines. Sous ton emprise ; pas le droit de se soigner, nie l'individu.",
+      "dialogue_phon": "Pousse au suicide les plus récalcitrants, eutanazie les malades que tu endoctrines. Sous ton emprise, pas le droit de se soigner, nie l'individu.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "14",
+      "tc": "1:44",
+      "duration": 8,
+      "scene": "Overhead on an old ledger under a desk lamp: columns of handwritten names replaced one by one with numbers as a mechanical adding machine spits a long paper tape coiling onto the floor. Cut to a slow lateral track along a corridor of bricked-up doorways, dozens of them identical, the mortar still fresh and wet, each opening sealed flush with the wall. A single work lamp travels with the camera.",
+      "dialogue": "Sacrifie tes cobayes. Calcule la somme de leurs souffrances, additionne leurs mauvais traitements. Emmure les vivants. Vitrifie leurs corps à grand renfort d'itérations.",
+      "dialogue_phon": "Sacrifie tes cobayes. Calcule la somme de leurs souffrances, additionne leurs mauvais traitements. Emmure les vivants. Vitrifie leurs corps à grand renfort d'itérations.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "15",
+      "tc": "1:52",
+      "duration": 8,
+      "first_frame": "../_REF_PERSOS/P5_le_precheur.jpg",
+      "scene": "A Black man in his 30s with short twisted locs, wooden bead necklace with a small cross and a black tactical vest, raps in front of a wall of overlapping torn public-health posters, every printed face scratched out, a green neon cross flickering above him. He rips one poster away on the last word. Smoke, hard side light, slow arc around him.",
+      "dialogue": "Préfère les séquelles neurologiques aux vaccins. Risque ta vie et celles des autres. Sois sans vergogne, glorifie ton immunité.",
+      "cue": "He raps in French straight to camera",
+      "dialogue_phon": "Préfère les séquelles neurologiques aux vaksin. Risque ta vie et celles des autres. Swa sans vergogne, glorifie ton immunité."
+    },
+    {
+      "id": "16",
+      "tc": "2:00",
+      "duration": 8,
+      "scene": "Low-angle on a gilded throne-like chair alone on a makeshift stage in an empty hall, one hard spotlight on it, hundreds of empty folding chairs facing it in the dark. The camera cranes slowly down to a floor covered in trampled flyers. Nobody.",
+      "dialogue": "Méprise la raison, peu importe le nombre de morts. Crois toujours au plus fort, sacrifice humain et doctrine qui sent l'urine.",
+      "dialogue_phon": "Méprise la raison, peu importe le nombre de morts. Crois toujours au plus fort, sacrifice humain et doctrine qui sent l'urine.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "style": "hiphop"
+    },
+    {
+      "id": "17",
+      "tc": "2:08",
+      "duration": 8,
+      "scene": "Wide: a hooded figure in a pale robe stands at the end of a jetty over black water, casting a fishing line into the dark; the line goes taut and drags a crowd of floating candle-lights toward him across the surface. Face never visible. Fog, cold blue, very slow push in.",
+      "dialogue": "Fais ton argent sur le dos des pauvres gens.",
+      "dialogue_phon": "Fais ton argent sur le dos des pauvres gens.",
+      "cue": "A man's voice raps in French off-screen over the shot, no speaker visible, nobody enters frame",
+      "note": "2e phrase (« Gourou du malheur... pénitents ») retirée : audio refusé par le filtre, vocabulaire religieux. Portée par l'image seule.",
+      "style": "hiphop"
+    },
+    {
+      "id": "18",
+      "tc": "2:16",
+      "duration": 8,
+      "trim_to": 5,
+      "scene": "Five performers stand in a line in a wood-panelled courtroom, harsh top light, smoke in the air: a Black man with shoulder-length locs, a Black man with very short hair, an East Asian woman with cornrow braids, an East Asian man with a silver curb chain, and a Black man with short twisted locs and a bead necklace. They hold the stare in total stillness on the last word. Slow push in to a tight group shot.",
+      "dialogue": "Messager de l'apocalypse, je me porte partie civile. Tu vas devoir répondre de tes crimes.",
+      "cue": "They rap in unison in French straight to camera",
+      "dialogue_phon": "Messager de l'apocalipse, je me porte partie civile. Tu vas devoir répondre de tes crimes."
+    }
+  ],
+  "suffix_hiphop": "Cinematic music video, 24mm anamorphic, deep focus, thick atmospheric haze, hard high-contrast lighting, desaturated steel-blue base with toxic green and violet practical lights, heavy film grain, aggressive handheld camera with fast whip pans and sudden push-ins, low angles, punchy rhythmic cutting. No on-screen text, no subtitles, no captions, no watermark."
+}

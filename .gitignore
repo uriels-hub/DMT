@@ -1,0 +1,46 @@
+# Secrets. Jamais, sous aucune condition.
+.env
+.env.*
+client_secret*.json
+.youtube_token.json
+
+# Environnements Python
+.venv/
+veo/.venv/
+veo/Lib/
+veo/Scripts/
+veo/Include/
+veo/pyvenv.cfg
+__pycache__/
+*.pyc
+
+# Documents de travail prives : correspondance, notes nominatives, et tout PDF
+# (AYAHUASCA.pdf est une impression de la session de travail : elle contient
+# l'integralite du dossier). Un depot public n'est pas leur place.
+courriel_*.md
+*.pdf
+veo/refs_pubmed.json
+veo/refs_compact.json
+veo/synthese_pubmed.md
+veo/bloc_refs_pubmed.txt
+veo/refs_pubmed.txt
+veo/grep.exe.stackdump
+
+# Rushes, montages et sons : 2,1 Go. Trois fichiers depassent a eux seuls la
+# limite de 100 Mo par fichier de GitHub. Le film se diffuse sur YouTube,
+# pas dans un depot git.
+*.mp4
+*.wav
+*.m4a
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+out/
+veo/montage/_fade/
+veo/montage/_cri_muet.mp4
+
+# Sorties intermediaires
+*.tmp
+desc_avant.md
