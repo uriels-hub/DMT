@@ -10,3 +10,7 @@ client_secret*.json
 # Voix Piper : modele de 60 Mo telecharge, et les wav qu'il produit
 voix/
 dit/
+
+# Piste de guidage : 31 Mo de wav, regenerable par dire.py --piste
+piste_guide.wav
+piste_guide.m4a

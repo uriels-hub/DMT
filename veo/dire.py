@@ -5,6 +5,7 @@
     .venv/Scripts/python.exe dire.py           # les 18 plans, mesure seule
     .venv/Scripts/python.exe dire.py --wav     # ecrit aussi un wav par plan
     .venv/Scripts/python.exe dire.py --wav 18  # seulement le plan 18
+    .venv/Scripts/python.exe dire.py --piste   # une seule bande calee sur le film
 
 A QUOI CELA SERT, ET A QUOI CELA NE SERT PAS
 
@@ -57,9 +58,55 @@ def prononçable(v, t):
     return re.sub(u"\\s{2,}", u" ", v).strip()
 
 
+FFMPEG = pathlib.Path(r"C:/Program Files/Shotcut/ffmpeg.exe")
+PISTE = ICI / "piste_guide.wav"
+DEBUT = 4.0        # le carton d'avertissement ouvre le film
+DUREE = 163.0      # duree du film de diffusion
+
+
+def piste(plans):
+    """Assemble les 18 wav en une bande calee sur le film.
+
+    Chaque plan est pose au debut de sa fenetre, pas etire pour la remplir :
+    on veut voir ou la parole deborde, pas la faire rentrer de force.
+    """
+    import subprocess
+    manquants = [p["n"] for p in plans if not (SORTIE / ("plan_%02d.wav" % p["n"])).exists()]
+    if manquants:
+        sys.exit("wav manquants : %s — lancer d'abord dire.py --wav"
+                 % ", ".join(str(x) for x in manquants))
+    if not FFMPEG.exists():
+        sys.exit("ffmpeg introuvable : %s" % FFMPEG)
+    cmd, f = [str(FFMPEG), "-v", "error"], []
+    for i, p in enumerate(plans):
+        cmd += ["-i", str(SORTIE / ("plan_%02d.wav" % p["n"]))]
+        ms = int(round((DEBUT + (p["n"] - 1) * FENETRE) * 1000))
+        f.append("[%d]aresample=48000,aformat=channel_layouts=stereo,"
+                 "adelay=%d|%d[a%d]" % (i, ms, ms, i))
+    # apad apres amix : amix s'arrete au dernier son, et -t tronque sans completer.
+    # Sans lui la piste finit a 151 s et ne se cale plus sur le film.
+    cmd += ["-filter_complex",
+            ";".join(f) + ";" + "".join("[a%d]" % i for i in range(len(plans)))
+            + "amix=inputs=%d:normalize=0:dropout_transition=0[m];[m]apad[o]" % len(plans),
+            "-map", "[o]", "-t", "%.3f" % DUREE,
+            "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2", "-y", str(PISTE)]
+    r = subprocess.run(cmd, capture_output=True)
+    if r.returncode:
+        sys.stderr.write(r.stderr.decode("utf-8", "replace")[-1200:])
+        sys.exit("assemblage de la piste echoue")
+    with wave.open(str(PISTE), "rb") as w:
+        d = w.getnframes() / float(w.getframerate())
+    print(u"\n  %s : %.3f s, %d Hz, %d voies"
+          % (PISTE.name, d, 48000, 2))
+    print(u"  les 18 plans sont poses a 4, 12, 20 ... 140 s, non etires.")
+    print(u"  a poser sous %s pour entendre le calage."
+          % "montage/TOXICOSQUEROS_diffusion.mp4")
+
+
 def main():
     args = sys.argv[1:]
-    faire_wav = "--wav" in args
+    faire_piste = "--piste" in args
+    faire_wav = "--wav" in args or faire_piste
     seul = next((int(a) for a in args if a.isdigit()), None)
 
     if not VOIX.exists():
@@ -117,6 +164,8 @@ def main():
         print(u"  aucun plan ne deborde.")
     if faire_wav:
         print(u"\n  wav ecrits dans %s/" % SORTIE.name)
+    if faire_piste:
+        piste(d["plans"])
 
 
 if __name__ == "__main__":
