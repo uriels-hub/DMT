@@ -33,7 +33,9 @@ compte pas dans le poids du dépôt, qui reste à 306 Ko.
 
 | | |
 |---|---|
-| `paroles_TOXICOSQUEROS.txt` | le texte original. Toute autre copie en dérive, jamais l'inverse. |
+| `paroles/TOXICOSQUEROS.original.fr.txt` | **l'original. Fait foi.** |
+| `paroles/TOXICOSQUEROS.original.en.txt` | version anglaise de l'auteur |
+| `paroles_TOXICOSQUEROS.txt` | version de lecture, dérivée de l'original |
 | `youtube_TOXICOSQUEROS.md` | description YouTube, liens vérifiés un par un |
 | `youtube_NOVID.md` | description de SUJET DE LA PRÉCIPITATION, version son |
 | `TOXICOSQUEROS.<langue>.srt` | sous-titres : fr, en, es, pt, de, it, nl, ru, uk |
@@ -58,6 +60,14 @@ Rien n'est écrit à la main dans la bibliographie : les métadonnées des notic
 PubMed viennent de l'API NCBI E-utilities et sont rechargées à chaque exécution
 de `maj.py`, qui signale toute divergence. Une erreur possible est une erreur de
 programme, pas une invention.
+
+## Les paroles ne se corrigent pas
+
+Dans `paroles/`, les graphies et les émojis de l'original sont **de la
+notation** : des notes et des silences, qui altèrent le temps. `Go~uu~urou`,
+`&spoir`, `Sscrupules`, `dDôgmes`, `v€rgogn€`, les émojis en fin de vers :
+rien n'est une faute. Un correcteur orthographique détruirait le texte, une
+relecture bien intentionnée aussi. Détail dans `paroles/README.md`.
 
 ## Deux conventions à ne pas défaire
 
