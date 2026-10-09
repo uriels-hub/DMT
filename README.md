@@ -13,14 +13,20 @@ Film : un carton d'avertissement, 18 plans de 8 s, un carton de refrain,
 un carton de mot d'ordre, un carton de ressources. **163,000 s.**
 Neuf pistes de sous-titres, décalées de 4 s pour le carton de tête.
 
+Le film et les neuf pistes de sous-titres :
+https://github.com/uriels-hub/DMT/releases/tag/v1.0
+
 Les 108 sources sur lesquelles le morceau s'appuie, chacune cliquable :
 https://claude.ai/artifact/WWVKdfGfPUVbCN6Q2Xr6NC
 
 ## Ce que contient ce dépôt
 
-Le code et les textes. **Pas les vidéos** : 2,1 Go de rushes et de montages, dont
-trois fichiers au-delà de la limite de 100 Mo par fichier de GitHub. Le film se
-diffuse sur YouTube, pas dans un dépôt git.
+Le code et les textes. **Pas les médias** : 2,1 Go de rushes et de montages
+restent dehors, dont trois fichiers au-delà de la limite de 100 Mo par fichier
+de GitHub.
+
+Le film fini, lui, est publié en *release* : un asset accepte jusqu'à 2 Go et ne
+compte pas dans le poids du dépôt, qui reste à 306 Ko.
 
 | | |
 |---|---|
