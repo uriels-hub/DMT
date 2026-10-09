@@ -95,6 +95,12 @@ frappe.
 
 ---
 
+**Le clip**
+
+https://youtu.be/AwKytfBl_w8
+
+---
+
 **Sources**
 
 Les 108 sources sur lesquelles s'appuie ce travail, chacune cliquable, avec

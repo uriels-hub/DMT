@@ -13,6 +13,9 @@ Film : un carton d'avertissement, 18 plans de 8 s, un carton de refrain,
 un carton de mot d'ordre, un carton de ressources. **163,000 s.**
 Neuf pistes de sous-titres, décalées de 4 s pour le carton de tête.
 
+La vidéo :
+https://youtu.be/AwKytfBl_w8
+
 Le film et les neuf pistes de sous-titres :
 https://github.com/uriels-hub/DMT/releases/tag/v1.0
 
