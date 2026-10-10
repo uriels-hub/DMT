@@ -1463,5 +1463,123 @@
     "t": "Psilocybin and 2C-B at Encoding Distort Episodic Familiarity"
    }
   ]
+ },
+ {
+  "titre": "Les dissociatifs : kétamine, dextrométhorphane, protoxyde d'azote",
+  "intro": "C'est ici que l'argument « ça ne rend pas dépendant » cesse de tenir. La dépendance à la kétamine est documentée depuis vingt ans, et elle s'accompagne d'une toxicité d'organe que les psychédéliques classiques n'ont pas : l'usage chronique détruit la vessie. Le dextrométhorphane relie ce groupe au reste de la page — c'est lui qui accompagnait l'ayahuasca dans le cas de syndrome sérotoninergique avec défaillance respiratoire cité plus haut. Le protoxyde d'azote, lui, laisse des atteintes médullaires par carence en vitamine B12. Trois produits légaux ou quasi légaux, trois mécanismes de dommage distincts, et un marché thérapeutique en pleine expansion.",
+  "refs": [
+   {
+    "pmid": "12075653",
+    "auteur": "Pal HR",
+    "nb": 4,
+    "revue": "Anaesth Intensive Care",
+    "annee": "2002",
+    "t": "Ketamine dependence"
+   },
+   {
+    "pmid": "37267048",
+    "auteur": "Schep LJ",
+    "nb": 5,
+    "revue": "Clin Toxicol (Phila)",
+    "annee": "2023",
+    "t": "The clinical toxicology of ketamine"
+   },
+   {
+    "pmid": "35416105",
+    "auteur": "Nikayin S",
+    "nb": 4,
+    "revue": "Expert Opin Drug Saf",
+    "annee": "2022",
+    "t": "Long-term safety of ketamine and esketamine in treatment of depression"
+   },
+   {
+    "pmid": "36244360",
+    "auteur": "Smith-Apeldoorn SY",
+    "nb": 5,
+    "revue": "Lancet Psychiatry",
+    "annee": "2022",
+    "t": "Maintenance ketamine treatment for depression: a systematic review of efficacy, safety, and tolerability"
+   },
+   {
+    "pmid": "19659678",
+    "auteur": "Tsai TH",
+    "nb": 10,
+    "revue": "Int J Urol",
+    "annee": "2009",
+    "t": "Ketamine-associated bladder dysfunction"
+   },
+   {
+    "pmid": "22248834",
+    "auteur": "Chen CH",
+    "nb": 4,
+    "revue": "J Formos Med Assoc",
+    "annee": "2011",
+    "t": "Ketamine-snorting associated cystitis"
+   },
+   {
+    "pmid": "31841104",
+    "auteur": "Gastaldon C",
+    "nb": 4,
+    "revue": "Epidemiol Psychiatr Sci",
+    "annee": "2019",
+    "t": "Esketamine for treatment resistant depression: a trick of smoke and mirrors?"
+   },
+   {
+    "pmid": "34396552",
+    "auteur": "Vearrier D",
+    "nb": 2,
+    "revue": "J Clin Pharmacol",
+    "annee": "2021",
+    "t": "Clinical Pharmacology, Toxicity, and Abuse Potential of Opioids"
+   },
+   {
+    "pmid": "25135924",
+    "auteur": "Antoniou T",
+    "nb": 2,
+    "revue": "CMAJ",
+    "annee": "2014",
+    "t": "Dextromethorphan abuse"
+   },
+   {
+    "pmid": "7854515",
+    "auteur": "Bodner RA",
+    "nb": 4,
+    "revue": "Neurology",
+    "annee": "1995",
+    "t": "Serotonin syndrome"
+   },
+   {
+    "pmid": "34427020",
+    "auteur": "Swart G",
+    "nb": 11,
+    "revue": "Eur J Neurol",
+    "annee": "2021",
+    "t": "Nitrous oxide-induced myeloneuropathy"
+   },
+   {
+    "pmid": "38133363",
+    "auteur": "Gernez E",
+    "nb": 6,
+    "revue": "Toxics",
+    "annee": "2023",
+    "t": "Nitrous Oxide Abuse: Clinical Outcomes, Pharmacology, Pharmacokinetics, Toxicity and Impact on Metabolism"
+   },
+   {
+    "pmid": "35699456",
+    "auteur": "Yang J",
+    "nb": 4,
+    "revue": "J Trauma Dissociation",
+    "annee": "2023",
+    "t": "The Prevalence of Depersonalization-Derealization Disorder: A Systematic Review"
+   },
+   {
+    "pmid": "15807226",
+    "auteur": "Khazaal Y",
+    "nb": 3,
+    "revue": "Can J Psychiatry",
+    "annee": "2005",
+    "t": "[Depersonalization--current data]"
+   }
+  ]
  }
 ]
