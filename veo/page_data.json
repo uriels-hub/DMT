@@ -1181,5 +1181,91 @@
     "t": "Analysis of 28 hair samples from users of the hallucinogenic beverage ayahuasca"
    }
   ]
+ },
+ {
+  "titre": "Ce que le corps garde, et pour combien de temps",
+  "intro": "Le sang et l'urine ne retiennent rien : quelques heures, quelques jours. Le cheveu, lui, pousse en gardant la trace, et son analyse segmentaire restitue des mois d'usage — c'est une méthode validée, admise en justice et pratiquée en routine. L'ongle et, après la mort, l'os, la bile et l'humeur vitrée prennent le relais quand le sang manque. Le tartre dentaire, en revanche, n'est pas une matrice toxicologique validée : il retient bien des molécules, son métabolome a été décrit et l'archéologie y lit des régimes alimentaires, mais aucune étude indexée n'en fait un support de recherche de stupéfiants chez un vivant. Les deux dernières notices montrent seulement que ces alcaloïdes traversent les siècles dans un résidu organique.",
+  "refs": [
+   {
+    "pmid": "28969544",
+    "auteur": "Kintz P",
+    "nb": 1,
+    "revue": "Curr Pharm Des",
+    "annee": "2017",
+    "t": "Hair Analysis in Forensic Toxicology: An Updated Review with a Special Focus on Pitfalls"
+   },
+   {
+    "pmid": "21175368",
+    "auteur": "Barroso M",
+    "nb": 5,
+    "revue": "Bioanalysis",
+    "annee": "2011",
+    "t": "Hair: a complementary source of bioanalytical information in forensic toxicology"
+   },
+   {
+    "pmid": "30855673",
+    "auteur": "Busardò FP",
+    "nb": 8,
+    "revue": "J Anal Toxicol",
+    "annee": "2020",
+    "t": "Nails Analysis for Drugs Used in the Context of Chemsex: A Pilot Study"
+   },
+   {
+    "pmid": "31207121",
+    "auteur": "Ketola RA",
+    "nb": 2,
+    "revue": "Drug Test Anal",
+    "annee": "2019",
+    "t": "Drug concentrations in post-mortem specimens"
+   },
+   {
+    "pmid": "24485412",
+    "auteur": "Vardakou I",
+    "nb": 6,
+    "revue": "J Forensic Leg Med",
+    "annee": "2014",
+    "t": "The clavicle bone as an alternative matrix in forensic toxicological analysis"
+   },
+   {
+    "pmid": "26773224",
+    "auteur": "Bévalot F",
+    "nb": 5,
+    "revue": "Forensic Sci Int",
+    "annee": "2016",
+    "t": "State of the art in bile analysis in forensic toxicology"
+   },
+   {
+    "pmid": "29046620",
+    "auteur": "Velsko IM",
+    "nb": 14,
+    "revue": "Metabolomics",
+    "annee": "2017",
+    "t": "The dental calculus metabolome in modern and historic samples"
+   },
+   {
+    "pmid": "36494546",
+    "auteur": "Forshaw R",
+    "nb": 1,
+    "revue": "Br Dent J",
+    "annee": "2022",
+    "t": "Dental calculus - oral health, forensic studies and archaeology: a review"
+   },
+   {
+    "pmid": "33452410",
+    "auteur": "Zimmermann M",
+    "nb": 8,
+    "revue": "Sci Rep",
+    "annee": "2021",
+    "t": "Metabolomics-based analysis of miniature flask contents identifies tobacco mixture use among the ancient Maya"
+   },
+   {
+    "pmid": "33229522",
+    "auteur": "Robinson DW",
+    "nb": 19,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2020",
+    "t": "Datura quids at Pinwheel Cave, California, provide unambiguous confirmation of the ingestion of hallucinogens at a rock art site"
+   }
+  ]
  }
 ]
