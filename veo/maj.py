@@ -28,6 +28,7 @@ Sorties :
 import io
 import json
 import pathlib
+import re
 import subprocess
 import sys
 import urllib.request
@@ -163,6 +164,37 @@ def notices():
             ref.update(neuf)
 
     ecrire("page_data.json", groupes)
+
+    # Deux defauts qui se reintroduisent a chaque ajout, et qui ne se voient
+    # qu'a la lecture de la page : un jeton de formatage reste dans un libelle,
+    # et une meme etude inscrite deux fois, une fois par son PMID et une fois
+    # par son DOI. Le second est arrive deux fois.
+    import difflib
+    def _n(x):
+        return re.sub(u"[^a-z0-9]", u"", (x or u"").lower())[:70]
+    sales = [(gr["titre"][:34], c) for gr in groupes for c in ("titre", "intro")
+             if "%%" in gr.get(c, "") or re.search(r"@[A-Z]{2,8}@", gr.get(c, ""))]
+    if sales:
+        print("  JETONS DE FORMATAGE restes dans un libelle :")
+        for t, c in sales:
+            print("    [%s] %s" % (t, c))
+    autres = lire("page_autres.json")
+    pm = [(r["pmid"], r.get("t", ""), gr["titre"]) for gr in groupes for r in gr["refs"]]
+    doubles = []
+    for x in autres:
+        nx = _n(x.get("t"))
+        if len(nx) < 25:
+            continue
+        for pmid, t, grp in pm:
+            if difflib.SequenceMatcher(None, nx, _n(t)).ratio() > 0.88:
+                doubles.append((x["id"], pmid, grp))
+    if doubles:
+        print("  MEME ETUDE DEUX FOIS, en hors PubMed et en notice PubMed :")
+        for ident, pmid, grp in doubles:
+            print("    %-34s = PMID %s  [%s]" % (ident[:34], pmid, grp[:30]))
+    if not sales and not doubles:
+        print("  aucun jeton reste, aucune etude en double.")
+
 
     # Un erratum n'est pas une source. PubMed les indexe comme des notices a part
     # entiere, sans auteur, et ils passent inapercus : « Correction to: ... » au
