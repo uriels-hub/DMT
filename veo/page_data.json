@@ -845,5 +845,115 @@
     "t": "Practitioner perspectives on extended difficulties and optimal support strategies following psychedelic experiences: a qualitative analysis"
    }
   ]
+ },
+ {
+  "titre": "Le groupe comme censeur",
+  "intro": "Ce que le collectif fait à celui qui parle. Le retournement de l'accusation sur la victime, la trahison de l'institution censée protéger, et le silence que la simple appartenance suffit à produire.",
+  "refs": [
+   {
+    "pmid": "10660830",
+    "auteur": "Aronoff J",
+    "nb": 3,
+    "revue": "Clin Psychol Rev",
+    "annee": "2000",
+    "t": "Are cultic environments psychologically harmful?"
+   },
+   {
+    "pmid": "28711763",
+    "auteur": "Rousselet M",
+    "nb": 4,
+    "revue": "Psychiatry Res",
+    "annee": "2017",
+    "t": "Cult membership: What factors contribute to joining or leaving?"
+   },
+   {
+    "pmid": "37779627",
+    "auteur": "Hadding C",
+    "nb": 6,
+    "revue": "Front Psychiatry",
+    "annee": "2023",
+    "t": "Being in-between; exploring former cult members' experiences of an acculturation process using the cultural formulation interview (DSM-5)"
+   },
+   {
+    "pmid": "35982616",
+    "auteur": "Harsey SJ",
+    "nb": 2,
+    "revue": "J Trauma Dissociation",
+    "annee": "2022",
+    "t": "Defamation and DARVO"
+   },
+   {
+    "pmid": "37154429",
+    "auteur": "Harsey SJ",
+    "nb": 2,
+    "revue": "J Interpers Violence",
+    "annee": "2023",
+    "t": "The Influence of Deny, Attack, Reverse Victim and Offender and Insincere Apologies on Perceptions of Sexual Assault"
+   },
+   {
+    "pmid": "39630632",
+    "auteur": "Harsey SJ",
+    "nb": 3,
+    "revue": "PLoS One",
+    "annee": "2024",
+    "t": "Associations between defensive victim-blaming responses (DARVO), rape myth acceptance, and sexual harassment"
+   },
+   {
+    "pmid": "25197837",
+    "auteur": "Smith CP",
+    "nb": 2,
+    "revue": "Am Psychol",
+    "annee": "2014",
+    "t": "Institutional betrayal"
+   },
+   {
+    "pmid": "23417879",
+    "auteur": "Smith CP",
+    "nb": 2,
+    "revue": "J Trauma Stress",
+    "annee": "2013",
+    "t": "Dangerous safe havens: institutional betrayal exacerbates sexual trauma"
+   },
+   {
+    "pmid": "38258307",
+    "auteur": "Christl ME",
+    "nb": 4,
+    "revue": "Trauma Violence Abuse",
+    "annee": "2024",
+    "t": "When Institutions Harm Those Who Depend on Them: A Scoping Review of Institutional Betrayal"
+   },
+   {
+    "pmid": "29373419",
+    "auteur": "Ahern K",
+    "nb": 1,
+    "revue": "J Perinat Neonatal Nurs",
+    "annee": "2018",
+    "t": "Institutional Betrayal and Gaslighting: Why Whistle-Blowers Are So Traumatized"
+   },
+   {
+    "pmid": "19389133",
+    "auteur": "Packer DJ",
+    "nb": 1,
+    "revue": "Psychol Sci",
+    "annee": "2009",
+    "t": "Avoiding groupthink: whereas weakly identified members remain silent, strongly identified members dissent about collective problems"
+   },
+   {
+    "pmid": "26340388",
+    "auteur": "Mannion R",
+    "nb": 2,
+    "revue": "Int J Health Policy Manag",
+    "annee": "2015",
+    "t": "Cultures of Silence and Cultures of Voice: The Role of Whistleblowing in Healthcare Organisations"
+   },
+   {
+    "pmid": "34887799",
+    "auteur": "Dupuis D",
+    "nb": 1,
+    "revue": "Front Psychol",
+    "annee": "2021",
+    "t": "Psychedelics as Tools for Belief Transmission. Set, Setting, Suggestibility, and Persuasion in the Ritual Use of Hallucinogens"
+   }
+  ]
  }
 ]
