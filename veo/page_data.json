@@ -1675,5 +1675,225 @@
     "t": "Serotonin syndrome-A focused review"
    }
   ]
+ },
+ {
+  "titre": "La DMT est-elle un dissociatif ?",
+  "intro": "Non, et la nuance vaut d’être posée, parce qu’elle se retourne dans les deux sens.\n\nUn dissociatif se définit par son récepteur : il bloque le NMDA. C’est vrai de la kétamine, de la phencyclidine, du dextrométhorphane, du protoxyde d’azote. La DMT n’y touche pas. Elle agit en agoniste du récepteur 5-HT2A, et la preuve est expérimentale : bloquer ce seul récepteur par la kétansérine supprime l’effet psychédélique chez l’homme. Mieux, sur le test de discrimination animale, les hallucinogènes ne se contentent pas de différer de la phencyclidine, ils antagonisent sa discrimination. La CIM-11 tire la même ligne, en séparant le 6C49 des hallucinogènes du 6C4D des dissociatifs.\n\nEt pourtant trois choses tiennent dans l’autre sens. La DMT se lie au récepteur sigma-1 : c’est publié dans Science en 2009, et le sigma-1 est aussi une cible du dextrométhorphane et de la phencyclidine. C’est un chevauchement moléculaire réel, pas une image. Ensuite, les deux classes convergent en aval sur le même désordre, l’excès de glutamate cortical, par deux portes opposées : l’antagoniste NMDA désinhibe les interneurones, l’agoniste 5-HT2A excite directement les cellules pyramidales. Enfin la phénoménologie se recouvre massivement : la DMT est le meilleur modèle pharmacologique connu de l’expérience de mort imminente, et la dépersonnalisation figure parmi ses effets documentés.\n\nCe qu’il faut en retenir pour une discussion contradictoire. L’argument « ce n’est pas un dissociatif, donc pas de dépersonnalisation » est faux : la dépersonnalisation ne demande pas le NMDA. Mais l’affirmation inverse, « la DMT est un dissociatif », se fait démonter en deux lignes par un pharmacologue, et fait perdre le reste. La formulation qui tient est la troisième : la DMT produit des effets dissociatifs sans être un dissociatif.",
+  "refs": [
+   {
+    "pmid": "9875725",
+    "auteur": "Vollenweider FX",
+    "nb": 5,
+    "revue": "Neuroreport",
+    "annee": "1998",
+    "t": "Psilocybin induces schizophrenia-like psychosis in humans via a serotonin-2 agonist action"
+   },
+   {
+    "pmid": "29555857",
+    "auteur": "Preller KH",
+    "nb": 6,
+    "revue": "J Neurosci",
+    "annee": "2018",
+    "t": "Role of the 5-HT(2A) Receptor in Self- and Other-Initiated Social Interaction in Lysergic Acid Diethylamide-Induced States: A Pharmacological fMRI Study"
+   },
+   {
+    "pmid": "38720072",
+    "auteur": "Warren AL",
+    "nb": 13,
+    "revue": "Nature",
+    "annee": "2024",
+    "t": "Structural pharmacology and therapeutic potential of 5-methoxytryptamines"
+   },
+   {
+    "pmid": "10788761",
+    "auteur": "West WB",
+    "nb": 5,
+    "revue": "Neuropsychopharmacology",
+    "annee": "2000",
+    "t": "Antagonism of a PCP drug discrimination by hallucinogens and related drugs"
+   },
+   {
+    "pmid": "29945898",
+    "auteur": "Zanos P",
+    "nb": 11,
+    "revue": "Pharmacol Rev",
+    "annee": "2018",
+    "t": "Ketamine and Ketamine Metabolite Pharmacology: Insights into Therapeutic Mechanisms"
+   },
+   {
+    "pmid": "30105474",
+    "auteur": "Wallach J",
+    "nb": 2,
+    "revue": "Handb Exp Pharmacol",
+    "annee": "2018",
+    "t": "Phencyclidine-Based New Psychoactive Substances"
+   },
+   {
+    "pmid": "19213917",
+    "auteur": "Fontanilla D",
+    "nb": 6,
+    "revue": "Science",
+    "annee": "2009",
+    "t": "The hallucinogen N,N-dimethyltryptamine (DMT) is an endogenous sigma-1 receptor regulator"
+   },
+   {
+    "pmid": "23619992",
+    "auteur": "Frecska E",
+    "nb": 5,
+    "revue": "J Neural Transm (Vienna)",
+    "annee": "2013",
+    "t": "A possibly sigma-1 receptor mediated role of dimethyltryptamine in tissue protection, regeneration, and immunity"
+   },
+   {
+    "pmid": "29095071",
+    "auteur": "Nichols DE",
+    "nb": 1,
+    "revue": "J Psychopharmacol",
+    "annee": "2018",
+    "t": "N,N-dimethyltryptamine and the pineal gland: Separating fact from myth"
+   },
+   {
+    "pmid": "28238186",
+    "auteur": "Lladó-Pelfort L",
+    "nb": 6,
+    "revue": "Curr Top Behav Neurosci",
+    "annee": "2018",
+    "t": "Effects of Hallucinogens on Neuronal Activity"
+   },
+   {
+    "pmid": "34565579",
+    "auteur": "Aleksandrova LR",
+    "nb": 2,
+    "revue": "Trends Pharmacol Sci",
+    "annee": "2021",
+    "t": "Neuroplasticity as a convergent mechanism of ketamine and classical psychedelics"
+   },
+   {
+    "pmid": "36630309",
+    "auteur": "Davoudian PA",
+    "nb": 3,
+    "revue": "ACS Chem Neurosci",
+    "annee": "2023",
+    "t": "Shared and Distinct Brain Regions Targeted for Immediate Early Gene Expression by Ketamine and Psilocybin"
+   },
+   {
+    "pmid": "30174629",
+    "auteur": "Timmermann C",
+    "nb": 9,
+    "revue": "Front Psychol",
+    "annee": "2018",
+    "t": "DMT Models the Near-Death Experience"
+   },
+   {
+    "pmid": "39220326",
+    "auteur": "Martial C",
+    "nb": 3,
+    "revue": "Neurosci Conscious",
+    "annee": "2024",
+    "t": "Within-subject comparison of near-death and psychedelic experiences: acute and enduring effects"
+   },
+   {
+    "pmid": "36786290",
+    "auteur": "Stoliker D",
+    "nb": 4,
+    "revue": "Pharmacol Rev",
+    "annee": "2022",
+    "t": "Neural Mechanisms and Psychology of Psychedelic Ego Dissolution"
+   },
+   {
+    "pmid": "33009457",
+    "auteur": "Doss MK",
+    "nb": 8,
+    "revue": "Sci Rep",
+    "annee": "2020",
+    "t": "The Acute Effects of the Atypical Dissociative Hallucinogen Salvinorin A on Functional Connectivity in the Human Brain"
+   }
+  ]
+ },
+ {
+  "titre": "Takiwasi : ce qu’écrit la MIVILUDES, et d’où vient l’argent",
+  "intro": "Ce groupe sort de la pharmacologie pour une raison simple : le centre Takiwasi, à Tarapoto au Pérou, est nommé dans un rapport officiel français, et il recrute en France.\n\nLe rapport de la MIVILUDES au Premier ministre pour 2005 lui consacre un développement. Il le décrit comme un « centre de traitement des toxicomanies à base de méthodes chamaniques créé en 1992 au Pérou par un médecin français, le Docteur Jacques Mabit ». Il note que son fondateur n’a jamais été condamné, et que cela « ne met pas fin à de sérieuses inquiétudes ». Il écrit que « la violence des méthodes utilisées pour le sevrage des toxicomanes interroge » par les risques courus par des patients très vulnérables, qu’aucune statistique fiable n’existe sur le taux de réussite, et que le problème principal est la dérive du sevrage vers une « médecine de l’âme » ouverte à d’autres publics, dont des malades du cancer déclarés incurables. Il identifie enfin le relais promotionnel français de l’époque, une association lyonnaise.\n\nSur l’argent public français, voici l’état exact de ce qui est vérifiable. Dans sa propre réponse à la thèse de David Dupuis, publiée sur son site, Takiwasi écrit que la Délégation générale à la lutte contre les drogues, « dépendance du Ministère des Affaires Étrangères du gouvernement français », a « financé en partie pendant 5 ans les travaux de recherche » de Jacques Mabit préalables à la création du centre. C’est le centre lui-même qui l’écrit, et il le présente comme une caution. Cela établit un financement public français de la recherche qui a précédé le centre, soit autour de 1987-1992 si l’on compte cinq ans avant sa création. Cela n’établit ni un financement du centre lui-même, que Takiwasi conteste, ni aucun montant : aucune source publique accessible ne chiffre cette aide. Le même document nie une contribution des Nations unies et affirme que le terrain fut acquis sur fonds propres.\n\nReste un point qui relève du groupe sur les études menées par des adeptes : plusieurs des publications indexées qui évaluent favorablement ce centre sont signées par des auteurs qui y sont affiliés.",
+  "refs": [
+   {
+    "pmid": "31043116",
+    "auteur": "Berlowitz I",
+    "nb": 5,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2019",
+    "t": "Short-Term Treatment Effects of a Substance Use Disorder Therapy Involving Traditional Amazonian Medicine"
+   },
+   {
+    "pmid": "32800077",
+    "auteur": "Berlowitz I",
+    "nb": 7,
+    "revue": "J Stud Alcohol Drugs",
+    "annee": "2020",
+    "t": "Who Turns to Amazonian Medicine for Treatment of Substance Use Disorder? Patient Characteristics at the Takiwasi Addiction Treatment Center"
+   },
+   {
+    "pmid": "37948338",
+    "auteur": "Mendive F",
+    "nb": 3,
+    "revue": "Am J Drug Alcohol Abuse",
+    "annee": "2023",
+    "t": "Ancient medicine for a modern disease: traditional Amazonian medicine to treat substance use disorders"
+   },
+   {
+    "pmid": "34093190",
+    "auteur": "Rush B",
+    "nb": 7,
+    "revue": "Front Pharmacol",
+    "annee": "2021",
+    "t": "Protocol for Outcome Evaluation of Ayahuasca-Assisted Addiction Treatment: The Case of Takiwasi Center"
+   },
+   {
+    "pmid": "37615330",
+    "auteur": "Rush B",
+    "nb": 6,
+    "revue": "J Stud Alcohol Drugs",
+    "annee": "2024",
+    "t": "Ayahuasca Treatment Outcome Project (ATOP): One-Year Results from Takiwasi Center and Implications for Psychedelic Science"
+   },
+   {
+    "pmid": "33717431",
+    "auteur": "O'Shaughnessy DM",
+    "nb": 5,
+    "revue": "Ther Adv Psychopharmacol",
+    "annee": "2021",
+    "t": "Within-treatment changes in a novel addiction treatment program using traditional Amazonian medicine"
+   },
+   {
+    "pmid": "30281759",
+    "auteur": "Dupuis D",
+    "nb": 1,
+    "revue": "Salud Colect",
+    "annee": "2018",
+    "t": "[Practices in search of legitimacy: the contemporary use of ayahuasca, between religious and therapeutic vindications]"
+   },
+   {
+    "pmid": "36263513",
+    "auteur": "Dupuis D",
+    "nb": 2,
+    "revue": "Transcult Psychiatry",
+    "annee": "2022",
+    "t": "Culture, context, and ethics in the therapeutic use of hallucinogens: Psychedelics as active super-placebos?"
+   },
+   {
+    "pmid": "36367797",
+    "auteur": "Dupuis D",
+    "nb": 1,
+    "revue": "Transcult Psychiatry",
+    "annee": "2022",
+    "t": "The socialization of hallucinations: Cultural priors, social interactions, and contextual factors in the use of psychedelics"
+   },
+   {
+    "pmid": "16149335",
+    "auteur": "Winkelman M",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Drug tourism or spiritual healing? Ayahuasca seekers in Amazonia"
+   }
+  ]
  }
 ]
