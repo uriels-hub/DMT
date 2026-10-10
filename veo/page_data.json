@@ -1581,5 +1581,99 @@
     "t": "[Depersonalization--current data]"
    }
   ]
+ },
+ {
+  "titre": "L'axe dopaminergique des bêta-carbolines",
+  "intro": "Les alcaloïdes de la liane n'agissent pas que sur la sérotonine. L'harmine, sous le nom de banistérine, a été essayée contre la maladie de Parkinson dès les années 1920, et la piste a été rouverte en 2016. Elles jouent dans les deux sens : en inhibant la monoamine oxydase elles élèvent la dopamine, mais leurs dérivés N-méthylés et les cations pyridinium apparentés sont étudiés comme neurotoxines candidates, par analogie avec le MPTP. La même famille chimique figure parmi les explications proposées au risque parkinsonien. CE QUI N'EST PAS ÉTABLI : aucun travail indexé ne relie l'ayahuasca ni les bêta-carbolines à un syndrome du plancher pelvien. Le lien dopamine-vessie existe, mais il est décrit dans la maladie de Parkinson constituée, pas après une exposition. Le syndrome sérotoninergique, lui, comporte bien des signes autonomiques — aigus, non chroniques.",
+  "refs": [
+   {
+    "pmid": "30713897",
+    "auteur": "Djamshidian A",
+    "nb": 4,
+    "revue": "Mov Disord Clin Pract",
+    "annee": "2016",
+    "t": "Banisteriopsis caapi, a Forgotten Potential Therapy for Parkinson's Disease?"
+   },
+   {
+    "pmid": "1742748",
+    "auteur": "Sanchez-Ramos JR",
+    "nb": 1,
+    "revue": "Clin Neuropharmacol",
+    "annee": "1991",
+    "t": "Banisterine and Parkinson's disease"
+   },
+   {
+    "pmid": "32285253",
+    "auteur": "Keller S",
+    "nb": 6,
+    "revue": "J Neural Transm (Vienna)",
+    "annee": "2020",
+    "t": "9-Methyl-β-carboline inhibits monoamine oxidase activity and stimulates the expression of neurotrophic factors by astrocytes"
+   },
+   {
+    "pmid": "36561338",
+    "auteur": "Buda O",
+    "nb": 4,
+    "revue": "Front Pharmacol",
+    "annee": "2022",
+    "t": "Altered states, alkaloids, and catatonia: Monoaminoxidase inhibitors and their role in the history of psychopharmacology"
+   },
+   {
+    "pmid": "12200190",
+    "auteur": "Matsubara K",
+    "nb": 4,
+    "revue": "Neurotoxicol Teratol",
+    "annee": "2002",
+    "t": "N-methylation underlying Parkinson's disease"
+   },
+   {
+    "pmid": "27523294",
+    "auteur": "Herraiz T",
+    "nb": 1,
+    "revue": "Food Chem Toxicol",
+    "annee": "2016",
+    "t": "N-methyltetrahydropyridines and pyridinium cations as toxins and comparison with naturally-occurring alkaloids"
+   },
+   {
+    "pmid": "12440154",
+    "auteur": "Kotake Y",
+    "nb": 1,
+    "revue": "Yakugaku Zasshi",
+    "annee": "2002",
+    "t": "[Tetrahydroisoquinoline derivatives as possible Parkinson's disease-inducing substances]"
+   },
+   {
+    "pmid": "30978920",
+    "auteur": "Piechowska P",
+    "nb": 3,
+    "revue": "Nutrients",
+    "annee": "2019",
+    "t": "Bioactive β-Carbolines in Food: A Review"
+   },
+   {
+    "pmid": "25808895",
+    "auteur": "Sari Y",
+    "nb": 2,
+    "revue": "CNS Neurol Disord Drug Targets",
+    "annee": "2015",
+    "t": "Monoamine Oxidase Inhibitors Extracted from Tobacco Smoke as Neuroprotective Factors for Potential Treatment of Parkinson's Disease"
+   },
+   {
+    "pmid": "31523132",
+    "auteur": "Scotton WJ",
+    "nb": 4,
+    "revue": "Int J Tryptophan Res",
+    "annee": "2019",
+    "t": "Serotonin Syndrome: Pathophysiology, Clinical Features, Management, and Potential Future Directions"
+   },
+   {
+    "pmid": "37309284",
+    "auteur": "Mikkelsen N",
+    "nb": 3,
+    "revue": "Basic Clin Pharmacol Toxicol",
+    "annee": "2023",
+    "t": "Serotonin syndrome-A focused review"
+   }
+  ]
  }
 ]
