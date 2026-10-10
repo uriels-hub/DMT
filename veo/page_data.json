@@ -1267,5 +1267,99 @@
     "t": "Datura quids at Pinwheel Cave, California, provide unambiguous confirmation of the ingestion of hallucinogens at a rock art site"
    }
   ]
+ },
+ {
+  "titre": "L'iboga, et pourquoi l'autopsie ne trouve rien",
+  "intro": "L'iboga est nommé dès le premier vers du morceau et cette page n'en portait qu'une seule source. Son mécanisme létal est pourtant le mieux établi de tout ce dossier : l'ibogaïne bloque le canal potassique hERG, ce qui allonge le QT, ouvre sur des torsades de pointes et peut conduire à l'arrêt cardiaque. La chaîne est décrite du canal ionique jusqu'au cas clinique. Et c'est précisément pour cela qu'une autopsie peut ne rien montrer : un trouble du rythme ne laisse aucune lésion. Le cœur paraît normal. La cause est électrique, elle meurt avec le patient — et la littérature parle donc de décès « temporellement associés », faute de pouvoir écrire autre chose.",
+  "refs": [
+   {
+    "pmid": "26807959",
+    "auteur": "Litjens RP",
+    "nb": 2,
+    "revue": "Clin Toxicol (Phila)",
+    "annee": "2016",
+    "t": "How toxic is ibogaine?"
+   },
+   {
+    "pmid": "34406452",
+    "auteur": "Ona G",
+    "nb": 7,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2022",
+    "t": "The adverse events of ibogaine in humans: an updated systematic review of the literature (2015-2020)"
+   },
+   {
+    "pmid": "25636206",
+    "auteur": "Alper K",
+    "nb": 7,
+    "revue": "Cardiovasc Toxicol",
+    "annee": "2016",
+    "t": "hERG Blockade by Iboga Alkaloids"
+   },
+   {
+    "pmid": "22458604",
+    "auteur": "Koenig X",
+    "nb": 5,
+    "revue": "Addict Biol",
+    "annee": "2014",
+    "t": "Anti-addiction drug ibogaine inhibits hERG channels: a cardiac arrhythmia risk"
+   },
+   {
+    "pmid": "27020671",
+    "auteur": "Rubi L",
+    "nb": 5,
+    "revue": "Cardiovasc Toxicol",
+    "annee": "2017",
+    "t": "Anti-addiction Drug Ibogaine Prolongs the Action Potential in Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes"
+   },
+   {
+    "pmid": "25642835",
+    "auteur": "Koenig X",
+    "nb": 2,
+    "revue": "Molecules",
+    "annee": "2015",
+    "t": "The anti-addiction drug ibogaine and the heart: a delicate relation"
+   },
+   {
+    "pmid": "30167018",
+    "auteur": "Steinberg C",
+    "nb": 2,
+    "revue": "J Arrhythm",
+    "annee": "2018",
+    "t": "Cardiac arrest after ibogaine intoxication"
+   },
+   {
+    "pmid": "31630892",
+    "auteur": "Grogan J",
+    "nb": 4,
+    "revue": "J Emerg Med",
+    "annee": "2019",
+    "t": "Ibogaine Consumption With Seizure-Like Episodes, QTc-Prolongation, and Captured Cardiac Dysrhythmias"
+   },
+   {
+    "pmid": "27426011",
+    "auteur": "Schep LJ",
+    "nb": 4,
+    "revue": "Drug Alcohol Depend",
+    "annee": "2016",
+    "t": "Ibogaine for treating drug dependence. What is a safe dose?"
+   },
+   {
+    "pmid": "30471681",
+    "auteur": "Corkery JM",
+    "nb": 1,
+    "revue": "Prog Brain Res",
+    "annee": "2018",
+    "t": "Ibogaine as a treatment for substance misuse: Potential benefits and practical dangers"
+   },
+   {
+    "pmid": "34139922",
+    "auteur": "Luz M",
+    "nb": 2,
+    "revue": "Expert Opin Drug Metab Toxicol",
+    "annee": "2021",
+    "t": "Evaluating the toxicity and therapeutic potential of ibogaine in the treatment of chronic opioid abuse"
+   }
+  ]
  }
 ]
