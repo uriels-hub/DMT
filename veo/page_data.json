@@ -955,5 +955,43 @@
     "t": "Psychedelics as Tools for Belief Transmission. Set, Setting, Suggestibility, and Persuasion in the Ritual Use of Hallucinogens"
    }
   ]
+ },
+ {
+  "titre": "La cohorte de l'Ontario",
+  "intro": "Quatre études sur la même population : tous les Ontariens, neuf à onze millions de personnes, suivis de 2008 à 2023 par chaînage des données de santé. Elles portent sur ceux qui ont eu besoin de soins d'urgence après un hallucinogène — pas sur les usagers en général, et 42 %% des passages impliquaient une autre substance.",
+  "refs": [
+   {
+    "pmid": "39535804",
+    "auteur": "Myran DT",
+    "nb": 12,
+    "revue": "JAMA Psychiatry",
+    "annee": "2025",
+    "t": "Emergency Department Visits Involving Hallucinogen Use and Risk of Schizophrenia Spectrum Disorder"
+   },
+   {
+    "pmid": "40032291",
+    "auteur": "Myran DT",
+    "nb": 11,
+    "revue": "CMAJ",
+    "annee": "2025",
+    "t": "Mortality risk among people receiving acute hospital care for hallucinogen use compared with the general population"
+   },
+   {
+    "pmid": "41329646",
+    "auteur": "Myran DT",
+    "nb": 7,
+    "revue": "PLoS Med",
+    "annee": "2025",
+    "t": "Hospital-based care for hallucinogens and risk of mania and bipolar disorder: A population-based cohort study"
+   },
+   {
+    "pmid": "41821125",
+    "auteur": "Myran DT",
+    "nb": 10,
+    "revue": "Addiction",
+    "annee": "2026",
+    "t": "Changes over time in hallucinogen-related emergency department visits in Ontario, Canada"
+   }
+  ]
  }
 ]
