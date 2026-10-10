@@ -1095,5 +1095,91 @@
     "t": "Shared functional connectome fingerprints following ritualistic ayahuasca intake"
    }
   ]
+ },
+ {
+  "titre": "Accoutumance : le corps s'habitue, pas l'expérience",
+  "intro": "Deux essais en double aveugle, par deux voies différentes, trouvent la même asymétrie. Quatre doses de DMT intraveineuse à trente minutes d'intervalle : les réponses hormonales et cardiaques s'émoussent, l'effet subjectif non. Deux doses d'ayahuasca orale à quatre heures : même absence de tolérance psychique, tolérance mesurée sur la seule hormone de croissance. Chez la plupart des psychédéliques, la tolérance rapide à l'effet subjectif impose une pause entre deux prises. Ici ce frein n'existe pas. Les β-carbolines, elles, sont des inhibiteurs réversibles de la MAO-A : pour cette classe, un traitement prolongé ne montre ni perte ni accumulation d'activité.",
+  "refs": [
+   {
+    "pmid": "8313402",
+    "auteur": "Haefely W",
+    "nb": 10,
+    "revue": "Clin Neuropharmacol",
+    "annee": "1993",
+    "t": "Pharmacology of moclobemide"
+   },
+   {
+    "pmid": "15279566",
+    "auteur": "Riederer P",
+    "nb": 3,
+    "revue": "Curr Med Chem",
+    "annee": "2004",
+    "t": "Clinical applications of MAO-inhibitors"
+   },
+   {
+    "pmid": "39659159",
+    "auteur": "Brand M",
+    "nb": 12,
+    "revue": "Am J Psychiatry",
+    "annee": "2025",
+    "t": "Current Advances in Behavioral Addictions: From Fundamental Research to Clinical Practice"
+   },
+   {
+    "pmid": "22641961",
+    "auteur": "Karim R",
+    "nb": 2,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2012",
+    "t": "Behavioral addictions: an overview"
+   },
+   {
+    "pmid": "24769172",
+    "auteur": "Müller CP",
+    "nb": 2,
+    "revue": "Behav Brain Res",
+    "annee": "2015",
+    "t": "The role of serotonin in drug use and addiction"
+   },
+   {
+    "pmid": "22761152",
+    "auteur": "Barbosa PC",
+    "nb": 4,
+    "revue": "Drug Test Anal",
+    "annee": "2012",
+    "t": "Health status of ayahuasca users"
+   },
+   {
+    "pmid": "27653781",
+    "auteur": "Barbosa PC",
+    "nb": 8,
+    "revue": "Compr Psychiatry",
+    "annee": "2016",
+    "t": "Psychological and neuropsychological assessment of regular hoasca users"
+   },
+   {
+    "pmid": "34025402",
+    "auteur": "Gonzalez D",
+    "nb": 9,
+    "revue": "Front Pharmacol",
+    "annee": "2021",
+    "t": "The Shipibo Ceremonial Use of Ayahuasca to Promote Well-Being: An Observational Study"
+   },
+   {
+    "pmid": "29452127",
+    "auteur": "Bouso JC",
+    "nb": 4,
+    "revue": "Neurosci Biobehav Rev",
+    "annee": "2018",
+    "t": "Serotonergic psychedelics and personality: A systematic review of contemporary research"
+   },
+   {
+    "pmid": "33894686",
+    "auteur": "Liu M",
+    "nb": 9,
+    "revue": "Forensic Sci Int",
+    "annee": "2021",
+    "t": "Analysis of 28 hair samples from users of the hallucinogenic beverage ayahuasca"
+   }
+  ]
  }
 ]
