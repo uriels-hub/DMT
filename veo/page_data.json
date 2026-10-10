@@ -993,5 +993,107 @@
     "t": "Changes over time in hallucinogen-related emergency department visits in Ontario, Canada"
    }
   ]
+ },
+ {
+  "titre": "Qui mène les études, et ce que l'insu ne couvre pas",
+  "intro": "Deux limites qui pèsent sur une partie des sources de cette page. Un psychotrope qui se sent ne se cache pas : dans les essais, sujets et évaluateurs devinent le bras, et l'attente fait le reste. Et plusieurs travaux sur l'ayahuasca ont été menés à l'intérieur des communautés qui en font usage, sur leurs propres membres, sans insu ni groupe témoin — c'est le cas des études de 2005 sur les adolescents, citées plus haut.",
+  "refs": [
+   {
+    "pmid": "34038314",
+    "auteur": "Muthukumaraswamy SD",
+    "nb": 3,
+    "revue": "Expert Rev Clin Pharmacol",
+    "annee": "2021",
+    "t": "Blinding and expectancy confounds in psychedelic randomized controlled trials"
+   },
+   {
+    "pmid": "36781142",
+    "auteur": "Goodwin GM",
+    "nb": 4,
+    "revue": "J Affect Disord",
+    "annee": "2023",
+    "t": "Unblinding and demand characteristics in the treatment of depression"
+   },
+   {
+    "pmid": "33648632",
+    "auteur": "Szigeti B",
+    "nb": 8,
+    "revue": "Elife",
+    "annee": "2021",
+    "t": "Self-blinding citizen science to explore psychedelic microdosing"
+   },
+   {
+    "pmid": "35243919",
+    "auteur": "Muthukumaraswamy S",
+    "nb": 3,
+    "revue": "Aust N Z J Psychiatry",
+    "annee": "2022",
+    "t": "The challenges ahead for psychedelic 'medicine'"
+   },
+   {
+    "pmid": "32754101",
+    "auteur": "Petranker R",
+    "nb": 3,
+    "revue": "Front Psychol",
+    "annee": "2020",
+    "t": "Psychedelic Research and the Need for Transparency: Polishing Alice's Looking Glass"
+   },
+   {
+    "pmid": "38692686",
+    "auteur": "Metaxa AM",
+    "nb": 2,
+    "revue": "BMJ",
+    "annee": "2024",
+    "t": "Efficacy of psilocybin for treating symptoms of depression: systematic review and meta-analysis"
+   },
+   {
+    "pmid": "39260823",
+    "auteur": "Schipper S",
+    "nb": 8,
+    "revue": "Cochrane Database Syst Rev",
+    "annee": "2024",
+    "t": "Psychedelic-assisted therapy for treating anxiety, depression, and existential distress in people with life-threatening diseases"
+   },
+   {
+    "pmid": "16149326",
+    "auteur": "Doering-Silveira E",
+    "nb": 7,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Report on psychoactive drug use among adolescents using ayahuasca within a religious context"
+   },
+   {
+    "pmid": "16149329",
+    "auteur": "Callaway JC",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Fast and slow metabolizers of Hoasca"
+   },
+   {
+    "pmid": "24477460",
+    "auteur": "Blainey MG",
+    "nb": 1,
+    "revue": "J Relig Health",
+    "annee": "2015",
+    "t": "Forbidden therapies: Santo Daime, ayahuasca, and the prohibition of entheogens in Western society"
+   },
+   {
+    "pmid": "30582439",
+    "auteur": "Mello SM",
+    "nb": 7,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2019",
+    "t": "Effect of Ritualistic Consumption of Ayahuasca on Hepatic Function in Chronic Users"
+   },
+   {
+    "pmid": "38061689",
+    "auteur": "Mallaroni P",
+    "nb": 9,
+    "revue": "Neuroimage",
+    "annee": "2024",
+    "t": "Shared functional connectome fingerprints following ritualistic ayahuasca intake"
+   }
+  ]
  }
 ]

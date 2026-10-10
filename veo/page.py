@@ -220,6 +220,14 @@ PIED = """
       <p>Le corpus comprend délibérément une revue qui <strong>révise à la baisse</strong>
       les preuves de psychose induite par les psychédéliques. Une bibliographie qui ne
       contiendrait que des sources à charge ne vaudrait rien.</p>
+      <p>Il comprend aussi, pour la même raison, des travaux qui <strong>attaquent la
+      valeur d&rsquo;autres sources de cette page</strong>. Un psychotrope qui se sent ne
+      se cache pas&nbsp;: dans les essais, sujets et évaluateurs devinent le bras qu&rsquo;ils
+      ont tiré, et l&rsquo;attente fait le reste. Et plusieurs travaux sur l&rsquo;ayahuasca
+      ont été menés à l&rsquo;intérieur des communautés qui en font usage, sur leurs propres
+      membres, sans insu ni groupe témoin — c&rsquo;est le cas des études de 2005 sur les
+      adolescents, que cette page cite. Les deux limites sont documentées dans leur
+      propre rubrique plutôt que passées sous silence.</p>
     </div>
   </section>
 
