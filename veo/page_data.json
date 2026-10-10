@@ -735,5 +735,115 @@
     "t": "Trends in hallucinogen-associated emergency department visits and hospitalizations in California, USA, from 2016 to 2022"
    }
   ]
+ },
+ {
+  "titre": "Réinterprétation du symptôme, réattribution de la cause",
+  "intro": "Ce qui arrive au dommage quand il survient dans un cadre qui le dit bénéfique : le vomissement devient une purge, la détresse une étape, et la séquelle une fragilité du sujet.",
+  "refs": [
+   {
+    "pmid": "31494522",
+    "auteur": "Fotiou E",
+    "nb": 2,
+    "revue": "Soc Sci Med",
+    "annee": "2019",
+    "t": "Purging and the body in the therapeutic use of ayahuasca"
+   },
+   {
+    "pmid": "38864823",
+    "auteur": "Lustig Vijay S",
+    "nb": 4,
+    "revue": "J Stud Alcohol Drugs",
+    "annee": "2024",
+    "t": "Purging to Cleanse: A Qualitative Study of Ayahuasca Healing at a Drug Treatment Center in Peru"
+   },
+   {
+    "pmid": "39374048",
+    "auteur": "Gearin AK",
+    "nb": 1,
+    "revue": "Med Anthropol",
+    "annee": "2024",
+    "t": "Healing with Ayahuasca the Plant Teacher: Psychedelic Metaphoricity and Polyontologies"
+   },
+   {
+    "pmid": "18593735",
+    "auteur": "Griffiths R",
+    "nb": 5,
+    "revue": "J Psychopharmacol",
+    "annee": "2008",
+    "t": "Mystical-type experiences occasioned by psilocybin mediate the attribution of personal meaning and spiritual significance 14 months later"
+   },
+   {
+    "pmid": "34777141",
+    "auteur": "Brabec de Mori B",
+    "nb": 1,
+    "revue": "Front Psychol",
+    "annee": "2021",
+    "t": "The Power of Social Attribution: Perspectives on the Healing Efficacy of Ayahuasca"
+   },
+   {
+    "pmid": "7828110",
+    "auteur": "Kirmayer LJ",
+    "nb": 3,
+    "revue": "Can J Psychiatry",
+    "annee": "1994",
+    "t": "Symptom attribution in cultural perspective"
+   },
+   {
+    "pmid": "38387698",
+    "auteur": "Szigeti B",
+    "nb": 2,
+    "revue": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+    "annee": "2024",
+    "t": "Expectancy Effects in Psychedelic Trials"
+   },
+   {
+    "pmid": "38009828",
+    "auteur": "Hadley M",
+    "nb": 3,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2025",
+    "t": "Association of Hallucinogen Persisting Perception Disorder with Trait Neuroticism and Mental Health Symptoms"
+   },
+   {
+    "pmid": "39026376",
+    "auteur": "Skommer J",
+    "nb": 3,
+    "revue": "Trials",
+    "annee": "2024",
+    "t": "Personality vulnerabilities and adverse event reporting in phase 1 clinical studies"
+   },
+   {
+    "pmid": "34025522",
+    "auteur": "Motiño A",
+    "nb": 8,
+    "revue": "Front Psychol",
+    "annee": "2021",
+    "t": "Cross-Cultural Analysis of Spiritual Bypass: A Comparison Between Spain and Honduras"
+   },
+   {
+    "pmid": "41178084",
+    "auteur": "Marinis J",
+    "nb": 5,
+    "revue": "BJPsych Open",
+    "annee": "2025",
+    "t": "Reporting of side-effects in clinical trials of psilocybin-assisted psychotherapy for psychiatric conditions: systematic review"
+   },
+   {
+    "pmid": "36017784",
+    "auteur": "Breeksema JJ",
+    "nb": 6,
+    "revue": "J Psychopharmacol",
+    "annee": "2022",
+    "t": "Adverse events in clinical treatments with serotonergic psychedelics and MDMA: A mixed-methods systematic review"
+   },
+   {
+    "pmid": "41366772",
+    "auteur": "Argyri EK",
+    "nb": 6,
+    "revue": "Harm Reduct J",
+    "annee": "2025",
+    "t": "Practitioner perspectives on extended difficulties and optimal support strategies following psychedelic experiences: a qualitative analysis"
+   }
+  ]
  }
 ]
