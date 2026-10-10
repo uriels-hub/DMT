@@ -1361,5 +1361,107 @@
     "t": "Evaluating the toxicity and therapeutic potential of ibogaine in the treatment of chronic opioid abuse"
    }
   ]
+ },
+ {
+  "titre": "Le mythe du révélateur",
+  "intro": "Le même mot fait deux métiers. À la vente, la substance « révèle » une vérité déjà là. À la défense, elle « révèle » une maladie déjà là. Dans les deux cas elle n'est qu'une fenêtre, et le contenu appartient à la personne. Trois registres nationaux chiffrent ce que devient une psychose dite induite : 32,2 % des 6 788 cas danois évoluent vers une schizophrénie ou un trouble bipolaire, et en Ontario le risque de transition est multiplié par 163 — 18,5 % à trois ans contre 0,1 %. Surtout, le passage aux urgences pour usage SANS psychose élève lui aussi le risque, et produit en nombre absolu davantage de transitions. Une simple révélation de prédisposition n'expliquerait pas cela. Réserve : ces données sont observationnelles, une vulnérabilité partagée entre usage et maladie ne peut pas être exclue. Elles contraignent l'argument du révélateur, elles ne le réfutent pas seules.",
+  "refs": [
+   {
+    "pmid": "29179576",
+    "auteur": "Starzer MSK",
+    "nb": 3,
+    "revue": "Am J Psychiatry",
+    "annee": "2018",
+    "t": "Rates and Predictors of Conversion to Schizophrenia or Bipolar Disorder Following Substance-Induced Psychosis"
+   },
+   {
+    "pmid": "37755727",
+    "auteur": "Myran DT",
+    "nb": 10,
+    "revue": "JAMA Psychiatry",
+    "annee": "2023",
+    "t": "Transition to Schizophrenia Spectrum Disorder Following Emergency Department Visits Due to Substance Use With and Without Psychosis"
+   },
+   {
+    "pmid": "31618428",
+    "auteur": "Murrie B",
+    "nb": 4,
+    "revue": "Schizophr Bull",
+    "annee": "2020",
+    "t": "Transition of Substance-Induced, Brief, and Atypical Psychoses to Schizophrenia: A Systematic Review and Meta-analysis"
+   },
+   {
+    "pmid": "37132221",
+    "auteur": "Rognli EB",
+    "nb": 5,
+    "revue": "Am J Psychiatry",
+    "annee": "2023",
+    "t": "Transition From Substance-Induced Psychosis to Schizophrenia Spectrum Disorder or Bipolar Disorder"
+   },
+   {
+    "pmid": "35002789",
+    "auteur": "Fiorentini A",
+    "nb": 6,
+    "revue": "Front Psychiatry",
+    "annee": "2021",
+    "t": "Substance-Induced Psychoses: An Updated Literature Review"
+   },
+   {
+    "pmid": "31982366",
+    "auteur": "Inchausti L",
+    "nb": 4,
+    "revue": "Rev Psiquiatr Salud Ment (Engl Ed)",
+    "annee": "2020",
+    "t": "Diagnostic stability in substance-induced psychosis"
+   },
+   {
+    "pmid": "7766338",
+    "auteur": "Peet M",
+    "nb": 2,
+    "revue": "Drug Saf",
+    "annee": "1995",
+    "t": "Drug-induced mania"
+   },
+   {
+    "pmid": "8681262",
+    "auteur": "Shammi C",
+    "nb": 1,
+    "revue": "Can J Psychiatry",
+    "annee": "1995",
+    "t": "Antidepressant-induced mania"
+   },
+   {
+    "pmid": "34590391",
+    "auteur": "Miola A",
+    "nb": 6,
+    "revue": "Psychiatry Clin Neurosci",
+    "annee": "2022",
+    "t": "Secondary Mania induced by TNF-α inhibitors: A systematic review"
+   },
+   {
+    "pmid": "34815421",
+    "auteur": "Timmermann C",
+    "nb": 6,
+    "revue": "Sci Rep",
+    "annee": "2021",
+    "t": "Psychedelics alter metaphysical beliefs"
+   },
+   {
+    "pmid": "26675408",
+    "auteur": "Letheby C",
+    "nb": 1,
+    "revue": "Conscious Cogn",
+    "annee": "2016",
+    "t": "The epistemic innocence of psychedelic states"
+   },
+   {
+    "pmid": "38942147",
+    "auteur": "Doss MK",
+    "nb": 4,
+    "revue": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+    "annee": "2024",
+    "t": "Psilocybin and 2C-B at Encoding Distort Episodic Familiarity"
+   }
+  ]
  }
 ]
