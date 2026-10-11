@@ -265,6 +265,20 @@ def readme(n_pm, n_autres, groupes):
     elif int(annonce.group(1)) != total:
         ecarts.append("total annonce %s, reel %d" % (annonce.group(1), total))
 
+    # Le detail en toutes lettres, qui a vieilli une fois sans que le controle
+    # du total ne s'en apercoive : le total peut etre juste et la repartition
+    # fausse. On verifie donc aussi la phrase qui la donne.
+    detail = re.search(r"(\d+)\s+notices PubMed r[ée]parties en\s+(\d+)\s+groupes,"
+                       r"\s+et\s+(\d+)\s+sources hors", t)
+    if not detail:
+        ecarts.append("aucune repartition annoncee en toutes lettres")
+    else:
+        reel = (n_pm, len(groupes), n_autres)
+        dit = tuple(int(x) for x in detail.groups())
+        if dit != reel:
+            ecarts.append("repartition annoncee %d notices / %d groupes / %d hors "
+                          "PubMed, reelle %d / %d / %d" % (dit + reel))
+
     # Le tableau des categories, une ligne par categorie.
     for cat in dict.fromkeys(g["cat"] for g in groupes if g.get("cat")):
         dedans = [g for g in groupes if g.get("cat") == cat]
