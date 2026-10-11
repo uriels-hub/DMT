@@ -747,8 +747,16 @@
  },
  {
   "titre": "La DMT est-elle un dissociatif ?",
-  "intro": "Non, et la nuance vaut d’être posée, parce qu’elle se retourne dans les deux sens.\n\nUn dissociatif se définit par son récepteur : il bloque le NMDA. C’est vrai de la kétamine, de la phencyclidine, du dextrométhorphane, du protoxyde d’azote. La DMT n’y touche pas. Elle agit en agoniste du récepteur 5-HT2A, et la preuve est expérimentale : bloquer ce seul récepteur par la kétansérine supprime l’effet psychédélique chez l’homme. Mieux, sur le test de discrimination animale, les hallucinogènes ne se contentent pas de différer de la phencyclidine, ils antagonisent sa discrimination. La CIM-11 tire la même ligne, en séparant le 6C49 des hallucinogènes du 6C4D des dissociatifs.\n\nEt pourtant trois choses tiennent dans l’autre sens. La DMT se lie au récepteur sigma-1 : c’est publié dans Science en 2009, et le sigma-1 est aussi une cible du dextrométhorphane et de la phencyclidine. C’est un chevauchement moléculaire réel, pas une image. Ensuite, les deux classes convergent en aval sur le même désordre, l’excès de glutamate cortical, par deux portes opposées : l’antagoniste NMDA désinhibe les interneurones, l’agoniste 5-HT2A excite directement les cellules pyramidales. Enfin la phénoménologie se recouvre massivement : la DMT est le meilleur modèle pharmacologique connu de l’expérience de mort imminente, et la dépersonnalisation figure parmi ses effets documentés.\n\nCe qu’il faut en retenir pour une discussion contradictoire. L’argument « ce n’est pas un dissociatif, donc pas de dépersonnalisation » est faux : la dépersonnalisation ne demande pas le NMDA. Mais l’affirmation inverse, « la DMT est un dissociatif », se fait démonter en deux lignes par un pharmacologue, et fait perdre le reste. La formulation qui tient est la troisième : la DMT produit des effets dissociatifs sans être un dissociatif.\n\n<strong>Le profil d’affinité réel, et pourquoi il faut le poser ici.</strong> Un tableau circule, repris de revues secondaires, qui attribue à la DMT une affinité forte pour le 5-HT2A — de l’ordre de 127 nM — et des affinités mesurables pour les 5-HT1A et 5-HT1B. Les données brutes du programme de criblage NIMH-PDSP, publiées en annexe de Ray 2010, disent autre chose. Le site le plus affin est le <em>5-HT7</em>, que ce tableau-là ne mentionne pas ; le 5-HT2A y est à 2323 nM, soit une affinité faible ; et les 5-HT1A et 5-HT1B y sont au-delà de 10 000 nM, c’est-à-dire sans affinité mesurable. Rickli et ses collègues, dans un laboratoire indépendant, confirment le sens de la correction : l’affinité de la DMT pour le 5-HT2A est <em>inférieure</em> à celle du LSD.\n\nCela ne retire rien au rôle du 5-HT2A, qui reste établi par voie fonctionnelle — la kétansérine supprime l’effet. Une affinité de liaison modeste et une activation fonctionnelle réelle ne sont pas contradictoires. Mais un tableau de chiffres faux, lui, se vérifie en dix minutes, et emporte tout le reste avec lui.\n\nUn point mérite d’être relevé : dans ces données, le <strong>5-HT2B est le troisième site le plus affin de la molécule</strong> — c’est-à-dire le récepteur dont l’activation fibrose les valves cardiaques, traité au groupe sur la consommation répétée.",
+  "intro": "Non, et la nuance vaut d’être posée, parce qu’elle se retourne dans les deux sens.\n\nUn dissociatif se définit par son récepteur : il bloque le NMDA. C’est vrai de la kétamine, de la phencyclidine, du dextrométhorphane, du protoxyde d’azote. La DMT n’y touche pas. Elle agit en agoniste du récepteur 5-HT2A, et la preuve est expérimentale : bloquer ce seul récepteur par la kétansérine supprime l’effet psychédélique chez l’homme. Mieux, sur le test de discrimination animale, les hallucinogènes ne se contentent pas de différer de la phencyclidine, ils antagonisent sa discrimination. La CIM-11 tire la même ligne, en séparant le 6C49 des hallucinogènes du 6C4D des dissociatifs.\n\nEt pourtant trois choses tiennent dans l’autre sens. La DMT se lie au récepteur sigma-1 : c’est publié dans Science en 2009, et le sigma-1 est aussi une cible du dextrométhorphane et de la phencyclidine. C’est un chevauchement moléculaire réel, pas une image. Ensuite, les deux classes convergent en aval sur le même désordre, l’excès de glutamate cortical, par deux portes opposées : l’antagoniste NMDA désinhibe les interneurones, l’agoniste 5-HT2A excite directement les cellules pyramidales. Enfin la phénoménologie se recouvre massivement : la DMT est le meilleur modèle pharmacologique connu de l’expérience de mort imminente, et la dépersonnalisation figure parmi ses effets documentés.\n\nCe qu’il faut en retenir pour une discussion contradictoire. L’argument « ce n’est pas un dissociatif, donc pas de dépersonnalisation » est faux : la dépersonnalisation ne demande pas le NMDA. Mais l’affirmation inverse, « la DMT est un dissociatif », se fait démonter en deux lignes par un pharmacologue, et fait perdre le reste. La formulation qui tient est la troisième : la DMT produit des effets dissociatifs sans être un dissociatif.\n\n<strong>Deux jeux de chiffres publiés, et ils divergent.</strong> Les affinités de la DMT circulent sous forme d’un tableau repris de Cameron et Olson, <cite>ACS Chemical Neuroscience</cite> 2018. Les données brutes du criblage NIMH-PDSP, publiées en annexe de Ray 2010, donnent des valeurs différentes. Les deux sont citables, et le tableau ci-dessous les met côte à côte plutôt que d’en choisir un.\n\nL’accord est bon sur les 5-HT2C, 5-HT6 et 5-HT1E. Il est médiocre sur les 5-HT1D, 5-HT2B, 5-HT7 et 5-HT5A. Il est spectaculairement mauvais sur trois sites : le 5-HT2A, à 127 nM pour l’un et 2323 nM pour l’autre, et les 5-HT1A et 5-HT1B, crédités d’affinités franches par l’un et déclarés sans affinité mesurable par l’autre. De tels écarts sont attendus entre laboratoires : le radioligand, le récepteur cloné ou natif, l’espèce et surtout, pour un agoniste, l’état d’affinité du récepteur étudié changent les chiffres. Rickli et ses collègues, dans un troisième laboratoire, établissent au moins le sens : l’affinité de la DMT pour le 5-HT2A est <em>inférieure</em> à celle du LSD.\n\nRien de tout cela n’affaiblit le rôle du 5-HT2A, qui est établi par voie fonctionnelle et non par la liaison — la kétansérine supprime l’effet. Dans le jeu du PDSP, la psilocine est à 339 nM sur ce même récepteur alors qu’elle est indiscutablement active chez l’homme : une affinité de liaison modeste et une activation fonctionnelle réelle ne sont pas contradictoires.\n\n<strong>Ce qu’il faut surveiller, en revanche, c’est la troncature.</strong> Le tableau de Cameron et Olson compte treize lignes. La version qui circule n’en garde que cinq, et laisse de côté le 5-HT7 — qui figure pourtant parmi les sites les plus affins dans les deux jeux, et que Ray désigne comme la meilleure interaction de la molécule. Dans les deux jeux également, le <strong>5-HT2B compte parmi les sites les plus affins</strong>, et la ligne de Cameron et Olson le dit en toutes lettres : ce récepteur « maintient les feuillets valvulaires cardiaques ». C’est le sujet du groupe sur la consommation répétée.",
   "refs": [
+   {
+    "pmid": "30036036",
+    "auteur": "Cameron LP",
+    "nb": 2,
+    "revue": "ACS Chem Neurosci",
+    "annee": "2018",
+    "t": "Dark Classics in Chemical Neuroscience: N, N-Dimethyltryptamine (DMT)"
+   },
    {
     "pmid": "9875725",
     "auteur": "Vollenweider FX",
@@ -896,18 +904,18 @@
   ],
   "cat": "Pharmacologie et mécanismes",
   "tableau": {
-   "titre": "Affinité de la DMT, Ki en nanomoles par litre",
+   "titre": "Affinité de la DMT : deux jeux publiés, Ki en nanomoles par litre",
    "colonnes": [
     "Site",
-    "Ray 2010 (NIMH-PDSP)",
-    "Tableau en circulation"
+    "Ray 2010, NIMH-PDSP",
+    "Cameron et Olson 2018"
    ],
    "lignes": [
     {
      "cells": [
       "5-HT7",
       "87.5",
-      "—"
+      "206"
      ],
      "fort": true
     },
@@ -929,33 +937,9 @@
     },
     {
      "cells": [
-      "α2B",
-      "257.7",
-      "—"
-     ],
-     "fort": false
-    },
-    {
-     "cells": [
-      "α2C",
-      "258.6",
-      "—"
-     ],
-     "fort": false
-    },
-    {
-     "cells": [
-      "D1",
-      "271.1",
-      "—"
-     ],
-     "fort": false
-    },
-    {
-     "cells": [
       "5-HT2C",
       "334.6",
-      "—"
+      "360"
      ],
      "fort": false
     },
@@ -963,7 +947,7 @@
      "cells": [
       "5-HT1E",
       "455.7",
-      "—"
+      "517"
      ],
      "fort": false
     },
@@ -971,7 +955,7 @@
      "cells": [
       "5-HT6",
       "487.4",
-      "—"
+      "464"
      ],
      "fort": false
     },
@@ -979,7 +963,7 @@
      "cells": [
       "5-HT5A",
       "611.0",
-      "—"
+      "2135"
      ],
      "fort": false
     },
@@ -993,17 +977,9 @@
     },
     {
      "cells": [
-      "SERT",
-      "3742.0",
-      "—"
-     ],
-     "fort": false
-    },
-    {
-     "cells": [
-      "σ1",
-      "5209.0",
-      "—"
+      "5-HT1B",
+      "> 10 000",
+      "129"
      ],
      "fort": false
     },
@@ -1014,17 +990,9 @@
       "183"
      ],
      "fort": false
-    },
-    {
-     "cells": [
-      "5-HT1B",
-      "> 10 000",
-      "129"
-     ],
-     "fort": false
     }
    ],
-   "source": "Données brutes du tableau S2 de Ray, PLoS ONE 2010 (PMID 20126400), criblage NIMH-PDSP. Un Ki bas signifie une affinité forte. Les trois sites les plus affins sont signalés. La dernière colonne reproduit les valeurs du tableau que cette page corrige."
+   "source": "Colonne 2 : données brutes du tableau S2 de Ray, PLoS ONE 2010 (PMID 20126400). Colonne 3 : tableau 1 de Cameron et Olson, ACS Chemical Neuroscience 2018 (PMID 30036036), dont treize lignes au total. Un Ki bas signifie une affinité forte ; le classement suit la colonne 2. Les trois sites les plus affins y sont signalés."
   }
  },
  {
