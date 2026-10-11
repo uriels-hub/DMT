@@ -244,12 +244,55 @@ def srt():
     subprocess.run([sys.executable, str(ICI / "srt.py")], check=True, cwd=ICI)
 
 
+def readme(n_pm, n_autres, groupes):
+    """Le README annonce un nombre de sources. Il doit etre le bon.
+
+    Il a annonce « 108 sources » pendant que la page en portait 419. Un
+    lecteur qui verifie ce chiffre et le trouve faux n'ira pas verifier le
+    reste : c'est exactement le defaut que cette page reproche aux documents
+    qu'elle corrige. On le controle donc comme on controle le reste.
+    """
+    f = ICI.parent / "README.md"
+    if not f.exists():
+        return True
+    t = f.read_text(encoding="utf-8")
+    ecarts = []
+
+    annonce = re.search(r"\*\*(\d+)\s+sources\*\*", t)
+    total = n_pm + n_autres
+    if not annonce:
+        ecarts.append("aucun total annonce sous la forme **N sources**")
+    elif int(annonce.group(1)) != total:
+        ecarts.append("total annonce %s, reel %d" % (annonce.group(1), total))
+
+    # Le tableau des categories, une ligne par categorie.
+    for cat in dict.fromkeys(g["cat"] for g in groupes if g.get("cat")):
+        dedans = [g for g in groupes if g.get("cat") == cat]
+        nb, refs = len(dedans), sum(len(g["refs"]) for g in dedans)
+        ligne = re.search(r"\|\s*%s\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|"
+                          % re.escape(cat), t)
+        if not ligne:
+            ecarts.append("categorie absente du tableau : %s" % cat)
+        elif (int(ligne.group(1)), int(ligne.group(2))) != (nb, refs):
+            ecarts.append("%s : annonce %s groupes / %s refs, reel %d / %d"
+                          % (cat, ligne.group(1), ligne.group(2), nb, refs))
+
+    if ecarts:
+        print("  README A CORRIGER :")
+        for e in ecarts:
+            print("    %s" % e)
+    else:
+        print("README : total et tableau des categories conformes.")
+    return not ecarts
+
+
 def etat():
     groupes = lire("page_data.json")
     autres = lire("page_autres.json")
     n = sum(len(g["refs"]) for g in groupes)
     print("\n%d references PubMed dans %d groupes, %d sources hors PubMed, %d au total"
           % (n, len(groupes), len(autres), n + len(autres)))
+    readme(n, len(autres), groupes)
     srts = sorted((ICI.parent).glob("TOXICOSQUEROS.*.srt"))
     print("%d fichiers de sous-titres : %s"
           % (len(srts), ", ".join(p.name.split(".")[1] for p in srts)))

@@ -19,8 +19,11 @@ https://youtu.be/AwKytfBl_w8
 Le film et les neuf pistes de sous-titres :
 https://github.com/uriels-hub/DMT/releases/tag/v1.0
 
-Les 108 sources sur lesquelles le morceau s'appuie, chacune cliquable :
+Les **419 sources** sur lesquelles le morceau s'appuie, chacune cliquable :
 https://claude.ai/artifact/WWVKdfGfPUVbCN6Q2Xr6NC
+
+Comment le texte se découpe dans le temps, vers par vers :
+https://claude.ai/artifact/A1qH5m4mUQthSW9jA7cMuP
 
 ## Ce que contient ce dépôt
 
@@ -29,19 +32,23 @@ restent dehors, dont trois fichiers au-delà de la limite de 100 Mo par fichier
 de GitHub.
 
 Le film fini, lui, est publié en *release* : un asset accepte jusqu'à 2 Go et ne
-compte pas dans le poids du dépôt, qui reste à 306 Ko.
+compte pas dans le poids du dépôt.
 
 | | |
 |---|---|
 | `paroles/TOXICOSQUEROS.original.fr.txt` | **l'original. Fait foi.** |
 | `paroles/TOXICOSQUEROS.original.en.txt` | version anglaise de l'auteur |
+| `paroles/README.md` | ce que chaque graphie et chaque émoji font au temps |
 | `paroles_TOXICOSQUEROS.txt` | version de lecture, dérivée de l'original |
 | `youtube_TOXICOSQUEROS.md` | description YouTube, liens vérifiés un par un |
 | `youtube_NOVID.md` | description de SUJET DE LA PRÉCIPITATION, version son |
 | `TOXICOSQUEROS.<langue>.srt` | sous-titres : fr, en, es, pt, de, it, nl, ru, uk |
 | `veo/prompts.json` | les 18 plans : scène, dialogue, première image, style |
-| `veo/page_data.json`, `veo/page_autres.json` | les sources, par thème |
+| `veo/page_data.json`, `veo/page_autres.json` | les sources, par catégorie et par thème |
 | `veo/references_toxicosqueros.html` | la page publique de références, générée |
+| `veo/temps_data.json`, `veo/temps_toxicosqueros.html` | la partition : vers, syllabes, débit |
+| `veo/prononciation.json` | ce que chaque graphie devient pour une synthèse vocale |
+| `veo/SCRIPTS.md` | la chaîne de fabrication de la page, et ses garde-fous |
 | `veo/montage/*.mlt` | projets Kdenlive/MLT |
 
 ## Les programmes
@@ -52,14 +59,47 @@ veo/chain_shot.py      # etend un plan au-dela de 8 s (lite ne sait pas etendre)
 veo/srt.py             # fabrique les 9 SRT depuis prompts.json et les <langue>.json
 veo/page.py            # genere la page de references
 veo/maj.py             # recharge PubMed, regenere page et sous-titres, controle tout
+veo/temps.py           # mesure le texte note et fabrique la page de partition
+veo/dire.py            # fait dire le texte par Piper, plan par plan, et mesure
 veo/youtube_srt.py     # televerse les 9 pistes de sous-titres via l'API YouTube
 veo/montage/carton_cri.py  # fabrique le carton de fin et rallonge le film
+veo/outils/            # outils reutilisables : lecture de PDF et de docx, audits
+veo/migrations/        # scripts appliques une fois, conserves comme trace
 ```
+
+`veo/SCRIPTS.md` détaille la chaîne et les quatorze migrations.
+
+## La page de références
+
+**419 sources** : 387 notices PubMed réparties en 36 groupes, et 32 sources hors
+PubMed — décisions de justice, rapports publics, travaux sans identifiant PubMed.
+Les groupes sont rangés en cinq catégories, du mécanisme vers le discours :
+
+| Catégorie | Groupes | Références |
+|---|---:|---:|
+| Pharmacologie et mécanismes | 12 | 169 |
+| Clinique et séquelles | 8 | 59 |
+| Ce que les examens trouvent | 6 | 65 |
+| Épidémiologie et valeur de la preuve | 2 | 15 |
+| Emprise, discours et dérive | 8 | 79 |
 
 Rien n'est écrit à la main dans la bibliographie : les métadonnées des notices
 PubMed viennent de l'API NCBI E-utilities et sont rechargées à chaque exécution
-de `maj.py`, qui signale toute divergence. Une erreur possible est une erreur de
-programme, pas une invention.
+de `maj.py`. Une erreur possible est une erreur de programme, pas une invention.
+
+`maj.py` porte des garde-fous qui se sont tous déclenchés au moins une fois sur
+un défaut réel : fins de ligne attendues par extension, jeton de formatage resté
+dans un libellé, même étude inscrite deux fois sous son PMID et sous son DOI,
+notice sans auteur ou intitulée « Correction to » — un erratum n'est pas une
+source —, notice sans revue qui trahit un chapitre d'ouvrage dont PubMed
+attribue la paternité aux éditeurs du livre, et décompte des sources annoncé par
+ce fichier.
+
+La page sépare partout trois niveaux : ce qui est établi, ce qui est un mécanisme
+plausible, et ce qui n'est pas établi. Les absences y sont écrites en capitales,
+parce qu'une absence constatée vaut autant qu'une présence et protège la page.
+Elle porte aussi, délibérément, des travaux qui contredisent d'autres travaux
+qu'elle cite.
 
 ## Les paroles ne se corrigent pas
 
@@ -84,7 +124,8 @@ la prononciation — il n'y en a que deux dans tout le texte. Détail dans
 ## Ce qui n'est pas ici
 
 Les identifiants (`veo/.env`, `client_secret.json`), les médias, et les documents
-de travail privés. Voir `.gitignore`.
+de travail privés — correspondance, notes nominatives, `.docx`, PDF. Voir
+`.gitignore`.
 
 ## Signaler
 
