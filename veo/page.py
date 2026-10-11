@@ -177,8 +177,12 @@ for nom in dict.fromkeys(a["grp"] for a in autres):
         meta = " &middot; ".join(p for p in (e(a["a"]),
                                              "<cite>%s</cite>" % e(a["s"]),
                                              e(a["y"])) if p)
+        # Meme traitement que les intros : tout echappe, puis les seules
+        # balises en ligne prevues. Sans cela une notice qui met un mot en
+        # evidence affiche « <strong> » en clair, ce que le controle de fin
+        # de fichier a rattrape.
         items.append('<li class="ref">%s<p class="t">%s</p><p class="m">%s</p></li>'
-                     % (ident, e(a["t"]), meta))
+                     % (ident, riche_en_ligne(a["t"]), meta))
     rubriques.append('<h3 class="sub">%s <span class="n">%d</span></h3>'
                      '<ol class="refs">%s</ol>'
                      % (e(nom), len(items), "".join(items)))
