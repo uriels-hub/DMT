@@ -1552,6 +1552,189 @@
   "cat": "Ce que les examens trouvent"
  },
  {
+  "titre": "Une atteinte radiculaire : ce qu’elle prouve, et ce qu’elle ne prouve pas",
+  "cat": "Ce que les examens trouvent",
+  "intro": "Un argument circule, et il faut le traiter de face : une atteinte neurogène d’allure radiculaire à l’électromyogramme prouverait l’origine toxique d’un trouble, au motif qu’« une maladie psychiatrique ne provoque jamais cela ». La seconde proposition est vraie et ne sert à rien : personne ne la soutient. La première est fausse.\n\n<strong>Ce que le tracé distingue.</strong> Une cause toxique ou métabolique produit une <em>polyneuropathie</em> : longueur-dépendante, symétrique, distale d’abord. Une atteinte <em>radiculaire</em> multi-étagée et latéralisée est le profil compressif et dégénératif, qui désigne le rachis. Ce sont deux lectures opposées du même examen, et c’est la seconde, non la première, qui plaide contre une origine toxique. Devant un compte rendu, les lignes qui comptent sont les vitesses de conduction distales, les amplitudes sensitives, les ondes F et les réponses surales.\n\n<strong>Ce qui expliquerait réellement une atteinte radiculaire après une intoxication.</strong> Une voie tient de bout en bout : une toxicité sérotoninergique produit une hyperactivité musculaire, donc une rhabdomyolyse, donc un gonflement dans une loge inextensible, donc un <em>syndrome des loges</em>. Or le syndrome des loges fessier est classiquement décrit chez des personnes retrouvées après une immobilité prolongée en conscience altérée, et il comprime le nerf sciatique — dont l’atteinte, à l’électromyogramme, <em>mime une radiculopathie L5-S1</em>. Ce mécanisme laisse des traces datables : douleur, gonflement, urines foncées, créatine phosphokinase élevée.\n\n<strong>Une seconde voie, testable aujourd’hui.</strong> Les neuropathies nutritionnelles. Les régimes restrictifs prolongés et les vomissements répétés appauvrissent en vitamine B12 et en thiamine ; et la vitamine B6 donne une neuropathie <em>par excès autant que par carence</em>, ce que la consommation de compléments rend non théorique. Un bilan sanguin tranche, pour un coût négligeable.\n\n<strong>Ce que la partie adverse opposera, et il faut le savoir.</strong> La dégénérescence discale est quasi universelle : une revue systématique de 2015 la trouve chez 37 % des sujets <em>asymptomatiques</em> de vingt ans et 96 % à quatre-vingts, et une étude du <cite>New England Journal of Medicine</cite> de 1994 relève un bombement discal chez 52 % de personnes sans aucune douleur. Un profil cervical et lombo-sacré chez un adulte est la trouvaille la plus attendue de la neurologie. Le contrepoids existe pourtant, et il est du même auteur la même année : la dégénérescence est plus fréquente chez les personnes qui ont mal que chez les témoins. « C’est banal » ne signifie donc pas « c’est sans rapport » ; cela signifie que cela ne peut pas porter seul une causalité.\n\n<strong>Ce qui reste défendable.</strong> Les récepteurs 5-HT2A participent à la douleur radiculaire — un antagoniste 5-HT2A a été étudié dans la hernie discale lombaire. Avec l’axe sérotoninergique du tonus musculaire traité ailleurs sur cette page, cela soutient une proposition mesurée, et une seule : un état dégénératif latent et asymptomatique a pu être rendu symptomatique. Pas qu’une substance ait créé la lésion.\n\n<strong>Et ce qui n’existe pas.</strong> AUCUN TRAVAIL INDEXÉ NE RELIE LES BÊTA-CARBOLINES AU MOTONEURONE NI À LA CORNE ANTÉRIEURE — la recherche rend trois résultats, dont aucun ne porte sur ce lien, et l’un décrit même la harmine comme protectrice du transporteur du glutamate. AUCUN CAS PUBLIÉ DE RADICULOPATHIE ATTRIBUÉE À L’AYAHUASCA. AUCUNE DOCUMENTATION INDEXÉE DE CARENCE NUTRITIONNELLE CHEZ LES PRATIQUANTS.",
+  "refs": [
+   {
+    "pmid": "23524070",
+    "auteur": "Dillingham TR",
+    "nb": 1,
+    "revue": "PM R",
+    "annee": "2013",
+    "t": "Evaluating the patient with suspected radiculopathy"
+   },
+   {
+    "pmid": "33320513",
+    "auteur": "Castelli G",
+    "nb": 3,
+    "revue": "Am Fam Physician",
+    "annee": "2020",
+    "t": "Peripheral Neuropathy: Evaluation and Differential Diagnosis"
+   },
+   {
+    "pmid": "8129590",
+    "auteur": "Ellenberg MR",
+    "nb": 3,
+    "revue": "Arch Phys Med Rehabil",
+    "annee": "1994",
+    "t": "Cervical radiculopathy"
+   },
+   {
+    "pmid": "33002399",
+    "auteur": "Cepková J",
+    "nb": 3,
+    "revue": "Acta Medica (Hradec Kralove)",
+    "annee": "2020",
+    "t": "Acute Compartment Syndrome"
+   },
+   {
+    "pmid": "19492552",
+    "auteur": "Henson JT",
+    "nb": 3,
+    "revue": "Acta Orthop Belg",
+    "annee": "2009",
+    "t": "Gluteal compartment syndrome"
+   },
+   {
+    "pmid": "16813640",
+    "auteur": "Hayden G",
+    "nb": 3,
+    "revue": "ANZ J Surg",
+    "annee": "2006",
+    "t": "Gluteal compartment syndrome"
+   },
+   {
+    "pmid": "7978606",
+    "auteur": "Prynn WL",
+    "nb": 3,
+    "revue": "Ann Emerg Med",
+    "annee": "1994",
+    "t": "Gluteal compartment syndrome"
+   },
+   {
+    "pmid": "40975781",
+    "auteur": "Papageorgiou P",
+    "nb": 6,
+    "revue": "Am J Case Rep",
+    "annee": "2025",
+    "t": "Acute Gluteal Compartment Syndrome and Sciatic Nerve Palsy Following Prolonged Immobilization in an Intravenous Drug User: A Case Report"
+   },
+   {
+    "pmid": "26862401",
+    "auteur": "Alobaidi A",
+    "nb": 3,
+    "revue": "Clin Case Rep",
+    "annee": "2016",
+    "t": "Thigh compartment syndrome complicated by sciatic nerve palsy, rhabdomyolysis, and acute renal failure"
+   },
+   {
+    "pmid": "33936907",
+    "auteur": "Ejikeme C",
+    "nb": 5,
+    "revue": "Cureus",
+    "annee": "2021",
+    "t": "A Rare Complication of Rhabdomyolysis: Peripheral Neuropathy"
+   },
+   {
+    "pmid": "31837157",
+    "auteur": "Gwathmey KG",
+    "nb": 2,
+    "revue": "Muscle Nerve",
+    "annee": "2020",
+    "t": "Nutritional neuropathies"
+   },
+   {
+    "pmid": "33912895",
+    "auteur": "Hadtstein F",
+    "nb": 2,
+    "revue": "Adv Nutr",
+    "annee": "2021",
+    "t": "Vitamin B-6-Induced Neuropathy: Exploring the Mechanisms of Pyridoxine Toxicity"
+   },
+   {
+    "pmid": "37447150",
+    "auteur": "Muhamad R",
+    "nb": 5,
+    "revue": "Nutrients",
+    "annee": "2023",
+    "t": "The Role of Vitamin B6 in Peripheral Neuropathy: A Systematic Review"
+   },
+   {
+    "pmid": "38673453",
+    "auteur": "Obeid R",
+    "nb": 12,
+    "revue": "J Clin Med",
+    "annee": "2024",
+    "t": "Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus"
+   },
+   {
+    "pmid": "27169753",
+    "auteur": "Harrington DJ",
+    "nb": 1,
+    "revue": "J Clin Pathol",
+    "annee": "2017",
+    "t": "Laboratory assessment of vitamin B12 status"
+   },
+   {
+    "pmid": "25430861",
+    "auteur": "Brinjikji W",
+    "nb": 13,
+    "revue": "AJNR Am J Neuroradiol",
+    "annee": "2015",
+    "t": "Systematic literature review of imaging features of spinal degeneration in asymptomatic populations"
+   },
+   {
+    "pmid": "26359154",
+    "auteur": "Brinjikji W",
+    "nb": 7,
+    "revue": "AJNR Am J Neuroradiol",
+    "annee": "2015",
+    "t": "MRI Findings of Disc Degeneration are More Prevalent in Adults with Low Back Pain than in Asymptomatic Controls: A Systematic Review and Meta-Analysis"
+   },
+   {
+    "pmid": "8208267",
+    "auteur": "Jensen MC",
+    "nb": 6,
+    "revue": "N Engl J Med",
+    "annee": "1994",
+    "t": "Magnetic resonance imaging of the lumbar spine in people without back pain"
+   },
+   {
+    "pmid": "3588931",
+    "auteur": "Teresi LM",
+    "nb": 8,
+    "revue": "Radiology",
+    "annee": "1987",
+    "t": "Asymptomatic degenerative disk disease and spondylosis of the cervical spine: MR imaging"
+   },
+   {
+    "pmid": "17268262",
+    "auteur": "Hashizume H",
+    "nb": 6,
+    "revue": "Spine (Phila Pa 1976)",
+    "annee": "2007",
+    "t": "Sarpogrelate hydrochloride, a 5-HT2A receptor antagonist, attenuates neurogenic pain induced by nucleus pulposus in rats"
+   },
+   {
+    "pmid": "15871484",
+    "auteur": "Kanayama M",
+    "nb": 5,
+    "revue": "J Neurosurg Spine",
+    "annee": "2005",
+    "t": "New treatment of lumbar disc herniation involving 5-hydroxytryptamine2A receptor inhibitor: a randomized controlled trial"
+   },
+   {
+    "pmid": "18496345",
+    "auteur": "Kato K",
+    "nb": 4,
+    "revue": "Spine (Phila Pa 1976)",
+    "annee": "2008",
+    "t": "Participation of 5-hydroxytryptamine in pain-related behavior induced by nucleus pulposus applied on the nerve root in rats"
+   }
+  ]
+ },
+ {
   "titre": "La cohorte de l'Ontario",
   "intro": "Quatre études sur la même population : tous les Ontariens, neuf à onze millions de personnes, suivis de 2008 à 2023 par chaînage des données de santé. Elles portent sur ceux qui ont eu besoin de soins d'urgence après un hallucinogène — pas sur les usagers en général, et 42 % des passages impliquaient une autre substance.",
   "refs": [

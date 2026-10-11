@@ -210,6 +210,21 @@ def notices():
         for pm, t in suspects:
             print("    %s  %s" % (pm, t[:66]))
 
+    # Une notice sans revue est presque toujours un chapitre d'ouvrage. PubMed
+    # les indexe autrement : le champ auteur y porte le nom des EDITEURS du
+    # livre, pas celui de l'auteur du chapitre. La page crediterait donc la
+    # mauvaise personne, et comme les notices sont rechargees a chaque passage,
+    # une correction a la main serait reecrasee au tour suivant. On les signale
+    # plutot que de les laisser passer.
+    sans_revue = [(r["pmid"], r.get("auteur", ""), r["t"])
+                  for gr in groupes for r in gr["refs"]
+                  if not (r.get("revue") or "").strip()]
+    if sans_revue:
+        print("  SANS REVUE, probable chapitre d'ouvrage : l'auteur affiche est")
+        print("  celui des editeurs du livre, pas celui du chapitre.")
+        for pm, au, t in sans_revue:
+            print("    %s  %-18s %s" % (pm, au[:18], t[:50]))
+
     if absents:
         print("  INTROUVABLES sur PubMed : %s" % ", ".join(absents))
     if changes:
