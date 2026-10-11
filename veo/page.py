@@ -134,8 +134,13 @@ def somm_cat(nom):
         '<span class="n">%d</span><ol>%s</ol></li>'
     ) % (ancre(u"cat " + nom), e(nom),
          sum(len(g["refs"]) for g in dedans),
-         "".join('<li><a href="#%s">%s</a> <span class="n">%d</span></li>'
-                 % (ancre(g["titre"]), e(g["titre"]), len(g["refs"]))
+         "".join('<li><a href="#%s">%s</a>%s <span class="n">%d</span></li>'
+                 % (ancre(g["titre"]), e(g["titre"]),
+                    # Un groupe qui porte un tableau de donnees se signale :
+                    # sans cela, il reste introuvable dans trente-deux groupes.
+                    ' <span class="tag" title="contient un tableau de données">tableau</span>'
+                    if g.get("tableau") else "",
+                    len(g["refs"]))
                  for g in dedans))
 
 
@@ -220,6 +225,9 @@ h1 { font-size:clamp(1.9rem,5.5vw,2.7rem); line-height:1.12; font-weight:600; ma
 .somm a { text-decoration:none; border-bottom:1px solid transparent; }
 .somm a:hover, .somm a:focus-visible { border-bottom-color:var(--sig); }
 .somm .n { color:var(--att); font-family:var(--mono); font-size:.74rem; margin-left:.4rem; }
+.somm .tag { font-family:var(--sans); font-size:.62rem; letter-spacing:.07em; text-transform:uppercase;
+             color:var(--sig); border:1px solid var(--sig); border-radius:2px; padding:0 .25rem;
+             margin-left:.3rem; white-space:nowrap; vertical-align:.08em; }
 @media (max-width:40rem) { .somm-l { columns:1; } }
 html { scroll-behavior:smooth; }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
