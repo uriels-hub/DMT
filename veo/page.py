@@ -84,13 +84,35 @@ SOUS = {
 CATS = list(dict.fromkeys(g["cat"] for g in groupes))
 
 
+def tableau(t):
+    """Un tableau de donnees chiffrees, quand la prose ne suffit pas.
+
+    Reserve aux cas ou les chiffres sont la demonstration elle-meme. La
+    source est obligatoire : un tableau sans provenance est exactement ce
+    qu'on reproche au document que cette page corrige.
+    """
+    if not t:
+        return ""
+    th = "".join("<th>%s</th>" % e(c) for c in t["colonnes"])
+    tr = "".join(
+        "<tr%s>%s</tr>"
+        % (' class="fort"' if l.get("fort") else "",
+           "".join("<td>%s</td>" % e(str(v)) for v in l["cells"]))
+        for l in t["lignes"])
+    return ('<figure class="tab"><table><caption>%s</caption>'
+            '<thead><tr>%s</tr></thead><tbody>%s</tbody></table>'
+            '<figcaption>%s</figcaption></figure>'
+            % (e(t["titre"]), th, tr, e(t["source"])))
+
+
 def bloc_categorie(nom):
     dedans = [g for g in groupes if g["cat"] == nom]
     n = sum(len(g["refs"]) for g in dedans)
     corps = "".join(
-        '<section class="grp" id="%s"><h3>%s</h3><div class="lede">%s</div>'
+        '<section class="grp" id="%s"><h3>%s</h3><div class="lede">%s</div>%s'
         '<ol class="refs">%s</ol></section>'
         % (ancre(g["titre"]), e(g["titre"]), riche(g["intro"]),
+           tableau(g.get("tableau")),
            "".join(ref(r) for r in g["refs"]))
         for g in dedans)
     return (
@@ -216,6 +238,16 @@ h3 { font-family:var(--sans); font-size:1rem; font-weight:600; margin:0 0 .5rem;
 .lede p { margin:0 0 .6rem; }
 .lede p:last-child { margin-bottom:0; }
 .lede strong { color:var(--enc); font-weight:600; }
+
+/* Tableau de donnees : reserve aux cas ou les chiffres sont la demonstration. */
+.tab { margin:0 0 1.6rem; max-width:34rem; }
+.tab table { border-collapse:collapse; width:100%; font-family:var(--mono); font-size:.82rem; }
+.tab caption { font-family:var(--sans); font-size:.78rem; font-weight:600; text-align:left; color:var(--enc); padding:0 0 .55rem; }
+.tab th { text-align:left; font-family:var(--sans); font-size:.7rem; letter-spacing:.06em; text-transform:uppercase; color:var(--att); font-weight:500; border-bottom:1px solid var(--fil); padding:.3rem .6rem .3rem 0; }
+.tab td { padding:.26rem .6rem .26rem 0; border-bottom:1px solid var(--fil); font-variant-numeric:tabular-nums; }
+.tab th:not(:first-child), .tab td:not(:first-child) { text-align:right; }
+.tab tr.fort td { color:var(--sig); font-weight:600; }
+.tab figcaption { font-family:var(--sans); font-size:.78rem; color:var(--att); padding-top:.55rem; }
 
 .refs { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:1.4rem; }
 .ref { border-left:2px solid var(--fil); padding-left:1.1rem; min-width:0; }
