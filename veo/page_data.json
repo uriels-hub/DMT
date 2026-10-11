@@ -2069,5 +2069,163 @@
     "t": "Psychotropic drugs and bruxism"
    }
   ]
+ },
+ {
+  "titre": "La consommation répétée : ce qui se dérègle, et l’inquiétude valvulaire",
+  "intro": "La question de l’usage chronique se pose mal si l’on cherche « une » lésion. Ce qui est documenté, c’est une série de dérèglements mesurés, et une inquiétude de classe qui ne concerne que le dosage répété.\n\n<strong>Ce qui est mesuré chez l’homme.</strong> L’équipe de Rafael Dos Santos a publié les effets autonomiques, neuroendocriniens et immunologiques de l’ayahuasca, puis la pharmacologie de deux doses rapprochées, puis les effets immunologiques seuls. Ce ne sont pas des hypothèses : ce sont des paramètres relevés, qui bougent. Strassman avait établi dès 1996 que la tolérance est <em>différentielle</em> — le corps s’habitue, l’expérience non — point traité en détail au groupe sur l’accoutumance.\n\n<strong>L’horloge biologique, elle, se dérègle de façon démontrable.</strong> L’harmine allonge la période circadienne de l’horloge moléculaire dans le noyau suprachiasmatique, en augmentant la stabilité de la protéine PER2. C’est du laboratoire, pas de la clinique, mais c’est un alcaloïde de la décoction agissant sur l’horloge centrale elle-même.\n\n<strong>L’inquiétude valvulaire est la plus sérieuse, et elle est mal connue.</strong> L’agonisme du récepteur 5-HT2B fibrose les feuillets des valves cardiaques. Ce n’est pas une théorie : les fenfluramines ont été retirées du marché américain en 1997 et le pergolide en 2007 pour cette raison, et la France connaît le dossier sous le nom de benfluorex, pour les valves et l’hypertension pulmonaire. La revue de référence sur les valvulopathies médicamenteuses attribue le mécanisme à un effet « hors cible » sur le 5-HT2B exprimé sur les valves — et précise deux choses décisives : ces effets <em>n’avaient pas été prédits</em> par les études de toxicité de routine, et il n’existe toujours pas de criblage préclinique validé pour les prédire.\n\nOr les psychédéliques se lient bel et bien à ce récepteur : la structure cristalline du LSD a été résolue sur le 5-HT2B lui-même, publiée dans <em>Cell</em> en 2017. Et le champ traite ce risque comme actuel, pas historique : un travail de 2025 propose une cothérapie pour « atténuer les préoccupations de sécurité liées au 5-HT2B » et améliorer la sécurité cardiaque de la psilocybine, et une revue de 2026 construit un cadre de décision cardiovasculaire en notant que les participants aux essais sont médicalement sélectionnés et surveillés bien plus étroitement que les usagers ordinaires.\n\n<strong>La limite, et elle compte autant que le reste.</strong> AUCUNE ÉTUDE ÉCHOCARDIOGRAPHIQUE N’A MONTRÉ DE VALVULOPATHIE CHEZ DES USAGERS DE PSYCHÉDÉLIQUES. C’est une inquiétude mécaniquement fondée et explicitement publiée par les pharmacologues du domaine, ce n’est pas un résultat démontré. La conséquence pratique est simple et ne va pas plus loin que les sources : une échocardiographie est un examen courant et peu coûteux, le mécanisme justifie de la demander devant un usage répété, et elle trancherait dans un sens comme dans l’autre. Demander l’examen n’est pas préjuger du résultat.",
+  "refs": [
+   {
+    "pmid": "22005052",
+    "auteur": "Dos Santos RG",
+    "nb": 9,
+    "revue": "J Clin Psychopharmacol",
+    "annee": "2011",
+    "t": "Autonomic, neuroendocrine, and immunological effects of ayahuasca: a comparative study with d-amphetamine"
+   },
+   {
+    "pmid": "25364989",
+    "auteur": "dos Santos RG",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2014",
+    "t": "Immunological effects of ayahuasca in humans"
+   },
+   {
+    "pmid": "27918874",
+    "auteur": "Dos Santos RG",
+    "nb": 2,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2017",
+    "t": "Effects of the Natural β-Carboline Alkaloid Harmine, a Main Constituent of Ayahuasca, in Memory and in the Hippocampus: A Systematic Literature Review of Preclinical Studies"
+   },
+   {
+    "pmid": "8788488",
+    "auteur": "Strassman RJ",
+    "nb": 1,
+    "revue": "Behav Brain Res",
+    "annee": "1996",
+    "t": "Human psychopharmacology of N,N-dimethyltryptamine"
+   },
+   {
+    "pmid": "25087965",
+    "auteur": "Kondoh D",
+    "nb": 9,
+    "revue": "Biol Pharm Bull",
+    "annee": "2014",
+    "t": "Harmine lengthens circadian period of the mammalian molecular clock in the suprachiasmatic nucleus"
+   },
+   {
+    "pmid": "28129538",
+    "auteur": "Wacker D",
+    "nb": 13,
+    "revue": "Cell",
+    "annee": "2017",
+    "t": "Crystal Structure of an LSD-Bound Human Serotonin Receptor"
+   },
+   {
+    "pmid": "26739781",
+    "auteur": "Cozzi NV",
+    "nb": 2,
+    "revue": "Bioorg Med Chem Lett",
+    "annee": "2016",
+    "t": "Receptor binding profiles and quantitative structure-affinity relationships of some 5-substituted-N,N-diallyltryptamines"
+   },
+   {
+    "pmid": "30261175",
+    "auteur": "Eshleman AJ",
+    "nb": 6,
+    "revue": "Biochem Pharmacol",
+    "annee": "2018",
+    "t": "Neurochemical pharmacology of psychoactive substituted N-benzylphenethylamines: High potency agonists at 5-HT(2A) receptors"
+   },
+   {
+    "pmid": "20716786",
+    "auteur": "Elangbam CS",
+    "nb": 1,
+    "revue": "Toxicol Pathol",
+    "annee": "2010",
+    "t": "Drug-induced valvulopathy: an update"
+   },
+   {
+    "pmid": "24817577",
+    "auteur": "Szymanski C",
+    "nb": 5,
+    "revue": "Pharmacoepidemiol Drug Saf",
+    "annee": "2014",
+    "t": "Adverse effects of benfluorex on heart valves and pulmonary circulation"
+   },
+   {
+    "pmid": "33895186",
+    "auteur": "Odi R",
+    "nb": 5,
+    "revue": "Pharmacol Ther",
+    "annee": "2021",
+    "t": "Fenfluramine repurposing from weight loss to epilepsy: What we do and do not know"
+   },
+   {
+    "pmid": "42538465",
+    "auteur": "Szarpak L",
+    "nb": 6,
+    "revue": "Eur J Clin Pharmacol",
+    "annee": "2026",
+    "t": "Cardiovascular safety of psilocybin in psychiatric practice: a narrative review"
+   },
+   {
+    "pmid": "41256989",
+    "auteur": "Renner AC",
+    "nb": 2,
+    "revue": "ACS Med Chem Lett",
+    "annee": "2025",
+    "t": "Stabilizing Psilocybin Pharmacology and Tuning Safety with Atypical Antipsychotic Cotherapy"
+   },
+   {
+    "pmid": "36884348",
+    "auteur": "Lewis V",
+    "nb": 19,
+    "revue": "Cell Rep",
+    "annee": "2023",
+    "t": "A non-hallucinogenic LSD analog with therapeutic potential for mood disorders"
+   },
+   {
+    "pmid": "22580238",
+    "auteur": "Dawson P",
+    "nb": 2,
+    "revue": "Prog Neuropsychopharmacol Biol Psychiatry",
+    "annee": "2012",
+    "t": "Cardiovascular toxicity of novel psychoactive drugs: lessons from the past"
+   },
+   {
+    "pmid": "40105807",
+    "auteur": "Mueller L",
+    "nb": 12,
+    "revue": "JAMA Psychiatry",
+    "annee": "2025",
+    "t": "Safety and Efficacy of Repeated Low-Dose LSD for ADHD Treatment in Adults: A Randomized Clinical Trial"
+   },
+   {
+    "pmid": "32922736",
+    "auteur": "Kuypers KPC",
+    "nb": 1,
+    "revue": "Ther Adv Psychopharmacol",
+    "annee": "2020",
+    "t": "The therapeutic potential of microdosing psychedelics in depression"
+   },
+   {
+    "pmid": "30604183",
+    "auteur": "Anderson T",
+    "nb": 8,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2019",
+    "t": "Microdosing psychedelics: personality, mental health, and creativity differences in microdosers"
+   },
+   {
+    "pmid": "17207120",
+    "auteur": "Gable RS",
+    "nb": 1,
+    "revue": "Addiction",
+    "annee": "2007",
+    "t": "Risk assessment of ritual use of oral dimethyltryptamine (DMT) and harmala alkaloids"
+   }
+  ]
  }
 ]
