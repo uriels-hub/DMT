@@ -1298,6 +1298,109 @@
   ]
  },
  {
+  "titre": "L’IMAO rend dangereux ce qui ne l’était pas",
+  "cat": "Pharmacologie et mécanismes",
+  "intro": "Inhiber la monoamine oxydase ne change pas seulement l’effet du breuvage. Cela change le statut de tout ce que la personne prend par ailleurs, et c’est le versant le plus concret du dossier.\n\n<strong>Les médicaments d’abord.</strong> La combinaison d’un inhibiteur de la monoamine oxydase et d’un agent sérotoninergique est celle dont la toxicité est la plus sévère et la mieux documentée. Une revue systématique de 2024, portant sur plus de sept mille notices criblées pour n’en retenir que cinquante-deux, fait le point sur les interactions des psychédéliques classiques — et conclut d’abord que l’état des connaissances est <em>limité</em>. Les antidépresseurs sérotoninergiques sont les premiers concernés, mais la liste déborde la psychiatrie : le dextrométhorphane des sirops contre la toux, le tramadol, les triptans de la migraine, et jusqu’au linézolide, un antibiotique qui se trouve être un inhibiteur de la monoamine oxydase et dont les cas de syndrome sérotoninergique font l’objet de publications régulières.\n\nCe point n’est pas théorique dans un contexte rituel. Les personnes qu’on amène à ces cérémonies sont souvent celles qui vont mal, c’est-à-dire précisément celles qui ont le plus de chances d’être sous traitement sérotoninergique. Et personne ne le demande.\n\n<strong>Les aliments ensuite, et c’est le « effet fromage ».</strong> Sous inhibiteur de la monoamine oxydase, la tyramine alimentaire n’est plus dégradée et provoque des poussées hypertensives, avec un risque d’hémorragie intracérébrale et de décès. Les recommandations diététiques qui encadrent ces médicaments découlent entièrement de là.\n\n<strong>Une nuance importante, et elle joue en sens inverse.</strong> L’harmine est un inhibiteur <em>réversible</em>. Les inhibiteurs réversibles de la MAO-A comportent un risque tyraminique nettement plus faible que les irréversibles, et c’est pour cela qu’ils ont été développés. La réversibilité est une marge de sécurité réelle, et une page honnête doit la porter.\n\n<strong>Et voici ce que je n’attendais pas.</strong> La <em>dieta</em> amazonienne — des semaines de restrictions alimentaires, sociales et comportementales, documentée comme méthode à part entière dans la littérature ethnopharmacologique — interdit précisément les aliments fermentés, les fromages affinés, la charcuterie, l’alcool. C’est, trait pour trait, un régime pauvre en tyramine. La tradition a donc encodé empiriquement l’interaction que la pharmacologie a décrite deux siècles plus tard, sans en formuler la raison. L’observation vaut dans les deux sens : elle crédite le savoir traditionnel d’une cohérence réelle, et elle établit que l’interaction est assez sérieuse pour avoir été découverte sans laboratoire.\n\n<strong>Le revers de la même pratique.</strong> Ces mêmes restrictions, prolongées, ne sont pas sans conséquence nutritionnelle, et la revue de référence sur la <em>dieta</em> note que la méthode reste « largement inexplorée » du point de vue clinique. AUCUNE ÉTUDE INDEXÉE NE MESURE L’ÉTAT NUTRITIONNEL DES PERSONNES QUI LA SUIVENT. Le groupe sur l’atteinte radiculaire explique pourquoi cela mériterait un bilan sanguin.",
+  "refs": [
+   {
+    "pmid": "37982394",
+    "auteur": "Halman A",
+    "nb": 4,
+    "revue": "J Psychopharmacol",
+    "annee": "2024",
+    "t": "Drug-drug interactions involving classic psychedelics: A systematic review"
+   },
+   {
+    "pmid": "40541320",
+    "auteur": "Vogt SB",
+    "nb": 2,
+    "revue": "Int Rev Neurobiol",
+    "annee": "2025",
+    "t": "Clinical pharmacology"
+   },
+   {
+    "pmid": "39932284",
+    "auteur": "Wali HA",
+    "nb": 1,
+    "revue": "J Int Med Res",
+    "annee": "2025",
+    "t": "Linezolid and serotonin syndrome"
+   },
+   {
+    "pmid": "34414219",
+    "auteur": "Calvi A",
+    "nb": 10,
+    "revue": "Front Cardiovasc Med",
+    "annee": "2021",
+    "t": "Antidepressant Drugs Effects on Blood Pressure"
+   },
+   {
+    "pmid": "2666453",
+    "auteur": "Brown C",
+    "nb": 3,
+    "revue": "J Clin Pharmacol",
+    "annee": "1989",
+    "t": "The monoamine oxidase inhibitor-tyramine interaction"
+   },
+   {
+    "pmid": "6394124",
+    "auteur": "Sullivan EA",
+    "nb": 2,
+    "revue": "Can J Psychiatry",
+    "annee": "1984",
+    "t": "Diet and monoamine oxidase inhibitors: a re-examination"
+   },
+   {
+    "pmid": "8430214",
+    "auteur": "Waldmeier PC",
+    "nb": 1,
+    "revue": "Prog Neuropsychopharmacol Biol Psychiatry",
+    "annee": "1993",
+    "t": "Newer aspects of the reversible inhibitor of MAO-A and serotonin reuptake, brofaromine"
+   },
+   {
+    "pmid": "1546143",
+    "auteur": "Haefely W",
+    "nb": 9,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "1992",
+    "t": "Biochemistry and pharmacology of moclobemide, a prototype RIMA"
+   },
+   {
+    "pmid": "29516165",
+    "auteur": "Ramsay RR",
+    "nb": 2,
+    "revue": "J Neural Transm (Vienna)",
+    "annee": "2018",
+    "t": "Kinetics, mechanism, and inhibition of monoamine oxidase"
+   },
+   {
+    "pmid": "34933085",
+    "auteur": "Berlowitz I",
+    "nb": 6,
+    "revue": "J Ethnopharmacol",
+    "annee": "2022",
+    "t": "Teacher plants - Indigenous Peruvian-Amazonian dietary practices as a method for using psychoactives"
+   },
+   {
+    "pmid": "25877327",
+    "auteur": "Araújo AM",
+    "nb": 5,
+    "revue": "Arch Toxicol",
+    "annee": "2015",
+    "t": "The hallucinogenic world of tryptamines: an updated review"
+   },
+   {
+    "pmid": "33291798",
+    "auteur": "Malaca S",
+    "nb": 6,
+    "revue": "Int J Mol Sci",
+    "annee": "2020",
+    "t": "Toxicology and Analysis of Psychoactive Tryptamines"
+   }
+  ]
+ },
+ {
   "titre": "Séquelles perceptives persistantes",
   "intro": "Le HPPD — trouble perceptif persistant après hallucinogènes — et les dysperceptions visuelles apparentées.",
   "refs": [
