@@ -33,16 +33,19 @@ autres = json.load(io.open("page_autres.json", encoding="utf-8"))
 INLINE = ("strong", "em", "i", "b", "cite")
 
 
+def riche_en_ligne(bloc):
+    """Un fragment echappe, ou seules les balises en ligne prevues survivent."""
+    x = e(u" ".join(bloc.split()))
+    for b in INLINE:
+        x = (x.replace(u"&lt;%s&gt;" % b, u"<%s>" % b)
+              .replace(u"&lt;/%s&gt;" % b, u"</%s>" % b))
+    return x
+
+
 def riche(t):
     """Une intro en plusieurs paragraphes, avec les seules balises autorisees."""
-    sortie = []
-    for bloc in re.split(r"\n\s*\n", t.strip()):
-        x = e(u" ".join(bloc.split()))
-        for b in INLINE:
-            x = (x.replace(u"&lt;%s&gt;" % b, u"<%s>" % b)
-                  .replace(u"&lt;/%s&gt;" % b, u"</%s>" % b))
-        sortie.append(u"<p>%s</p>" % x)
-    return u"".join(sortie)
+    return u"".join(u"<p>%s</p>" % riche_en_ligne(b)
+                    for b in re.split(r"\n\s*\n", t.strip()))
 
 
 def ancre(t):
@@ -99,10 +102,17 @@ def tableau(t):
         % (' class="fort"' if l.get("fort") else "",
            "".join("<td>%s</td>" % e(str(v)) for v in l["cells"]))
         for l in t["lignes"])
+    # Un tableau sans lecture n'est qu'un ornement : ce que les chiffres
+    # etablissent se lit sous eux, numerote, pas dans un paragraphe lointain.
+    lec = ""
+    if t.get("lecture"):
+        lec = ('<div class="lec"><p class="lec-t">Ce que ces chiffres établissent</p>'
+               '<ol>%s</ol></div>'
+               % "".join("<li>%s</li>" % riche_en_ligne(x) for x in t["lecture"]))
     return ('<figure class="tab"><table><caption>%s</caption>'
             '<thead><tr>%s</tr></thead><tbody>%s</tbody></table>'
-            '<figcaption>%s</figcaption></figure>'
-            % (e(t["titre"]), th, tr, e(t["source"])))
+            '<figcaption>%s</figcaption>%s</figure>'
+            % (e(t["titre"]), th, tr, e(t["source"]), lec))
 
 
 def bloc_categorie(nom):
@@ -256,6 +266,12 @@ h3 { font-family:var(--sans); font-size:1rem; font-weight:600; margin:0 0 .5rem;
 .tab th:not(:first-child), .tab td:not(:first-child) { text-align:right; }
 .tab tr.fort td { color:var(--sig); font-weight:600; }
 .tab figcaption { font-family:var(--sans); font-size:.78rem; color:var(--att); padding-top:.55rem; }
+.lec { margin-top:1.3rem; border-left:2px solid var(--sig); padding-left:1rem; }
+.lec-t { font-family:var(--sans); font-size:.72rem; letter-spacing:.11em; text-transform:uppercase; color:var(--sig); margin:0 0 .6rem; }
+.lec ol { margin:0; padding-left:1.1rem; }
+.lec li { font-size:.95rem; line-height:1.55; margin:0 0 .6rem; }
+.lec li:last-child { margin-bottom:0; }
+.lec strong { font-weight:600; }
 
 .refs { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:1.4rem; }
 .ref { border-left:2px solid var(--fil); padding-left:1.1rem; min-width:0; }
