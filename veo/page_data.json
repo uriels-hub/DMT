@@ -747,7 +747,7 @@
  },
  {
   "titre": "La DMT est-elle un dissociatif ?",
-  "intro": "Non, et la nuance vaut d’être posée, parce qu’elle se retourne dans les deux sens.\n\nUn dissociatif se définit par son récepteur : il bloque le NMDA. C’est vrai de la kétamine, de la phencyclidine, du dextrométhorphane, du protoxyde d’azote. La DMT n’y touche pas. Elle agit en agoniste du récepteur 5-HT2A, et la preuve est expérimentale : bloquer ce seul récepteur par la kétansérine supprime l’effet psychédélique chez l’homme. Mieux, sur le test de discrimination animale, les hallucinogènes ne se contentent pas de différer de la phencyclidine, ils antagonisent sa discrimination. La CIM-11 tire la même ligne, en séparant le 6C49 des hallucinogènes du 6C4D des dissociatifs.\n\nEt pourtant trois choses tiennent dans l’autre sens. La DMT se lie au récepteur sigma-1 : c’est publié dans Science en 2009, et le sigma-1 est aussi une cible du dextrométhorphane et de la phencyclidine. C’est un chevauchement moléculaire réel, pas une image. Ensuite, les deux classes convergent en aval sur le même désordre, l’excès de glutamate cortical, par deux portes opposées : l’antagoniste NMDA désinhibe les interneurones, l’agoniste 5-HT2A excite directement les cellules pyramidales. Enfin la phénoménologie se recouvre massivement : la DMT est le meilleur modèle pharmacologique connu de l’expérience de mort imminente, et la dépersonnalisation figure parmi ses effets documentés.\n\nCe qu’il faut en retenir pour une discussion contradictoire. L’argument « ce n’est pas un dissociatif, donc pas de dépersonnalisation » est faux : la dépersonnalisation ne demande pas le NMDA. Mais l’affirmation inverse, « la DMT est un dissociatif », se fait démonter en deux lignes par un pharmacologue, et fait perdre le reste. La formulation qui tient est la troisième : la DMT produit des effets dissociatifs sans être un dissociatif.\n\n<strong>Deux jeux de chiffres publiés, et ils divergent.</strong> Les affinités de la DMT circulent sous forme d’un tableau repris de Cameron et Olson, <cite>ACS Chemical Neuroscience</cite> 2018. Les données brutes du criblage NIMH-PDSP, publiées en annexe de Ray 2010, donnent des valeurs différentes. Les deux sont citables, et le tableau ci-dessous les met côte à côte plutôt que d’en choisir un.\n\nL’accord est bon sur les 5-HT2C, 5-HT6 et 5-HT1E. Il est médiocre sur les 5-HT1D, 5-HT2B, 5-HT7 et 5-HT5A. Il est spectaculairement mauvais sur trois sites : le 5-HT2A, à 127 nM pour l’un et 2323 nM pour l’autre, et les 5-HT1A et 5-HT1B, crédités d’affinités franches par l’un et déclarés sans affinité mesurable par l’autre. De tels écarts sont attendus entre laboratoires : le radioligand, le récepteur cloné ou natif, l’espèce et surtout, pour un agoniste, l’état d’affinité du récepteur étudié changent les chiffres. Rickli et ses collègues, dans un troisième laboratoire, établissent au moins le sens : l’affinité de la DMT pour le 5-HT2A est <em>inférieure</em> à celle du LSD.\n\nRien de tout cela n’affaiblit le rôle du 5-HT2A, qui est établi par voie fonctionnelle et non par la liaison — la kétansérine supprime l’effet. Dans le jeu du PDSP, la psilocine est à 339 nM sur ce même récepteur alors qu’elle est indiscutablement active chez l’homme : une affinité de liaison modeste et une activation fonctionnelle réelle ne sont pas contradictoires.\n\n<strong>Ce qu’il faut surveiller, en revanche, c’est la troncature.</strong> Le tableau de Cameron et Olson compte treize lignes. La version qui circule n’en garde que cinq, et laisse de côté le 5-HT7 — qui figure pourtant parmi les sites les plus affins dans les deux jeux, et que Ray désigne comme la meilleure interaction de la molécule. Dans les deux jeux également, le <strong>5-HT2B compte parmi les sites les plus affins</strong>, et la ligne de Cameron et Olson le dit en toutes lettres : ce récepteur « maintient les feuillets valvulaires cardiaques ». C’est le sujet du groupe sur la consommation répétée.\n\nEnfin, ce qu’aucune de ces lignes ne permet : il s’agit de liaison <em>in vitro</em>. Pas de concentration, pas de durée, pas de personne. Un tableau d’affinité dit ce qu’une molécule peut toucher. Il ne dit jamais ce qu’elle a fait à quelqu’un.",
+  "intro": "Non, et la nuance vaut d’être posée, parce qu’elle se retourne dans les deux sens.\n\nUn dissociatif se définit par son récepteur : il bloque le NMDA. C’est vrai de la kétamine, de la phencyclidine, du dextrométhorphane, du protoxyde d’azote. La DMT n’y touche pas. Elle agit en agoniste du récepteur 5-HT2A, et la preuve est expérimentale : bloquer ce seul récepteur par la kétansérine supprime l’effet psychédélique chez l’homme. Mieux, sur le test de discrimination animale, les hallucinogènes ne se contentent pas de différer de la phencyclidine, ils antagonisent sa discrimination. La CIM-11 tire la même ligne, en séparant le 6C49 des hallucinogènes du 6C4D des dissociatifs.\n\nEt pourtant trois choses tiennent dans l’autre sens. La DMT se lie bien au récepteur sigma-1, publié dans <cite>Science</cite> en 2009, et le sigma-1 est aussi une cible du dextrométhorphane et de la phencyclidine — mais cette parenté ne tient pas l’examen, et le groupe qui suit explique pourquoi : la cible est un chaperon intracellulaire promiscue, et l’effet dissociatif de ces deux molécules ne lui est pas attribué. Ensuite, les deux classes convergent en aval sur le même désordre, l’excès de glutamate cortical, par deux portes opposées : l’antagoniste NMDA désinhibe les interneurones, l’agoniste 5-HT2A excite directement les cellules pyramidales. Enfin la phénoménologie se recouvre massivement : la DMT est le meilleur modèle pharmacologique connu de l’expérience de mort imminente, et la dépersonnalisation figure parmi ses effets documentés.\n\nCe qu’il faut en retenir pour une discussion contradictoire. L’argument « ce n’est pas un dissociatif, donc pas de dépersonnalisation » est faux : la dépersonnalisation ne demande pas le NMDA. Mais l’affirmation inverse, « la DMT est un dissociatif », se fait démonter en deux lignes par un pharmacologue, et fait perdre le reste. La formulation qui tient est la troisième : la DMT produit des effets dissociatifs sans être un dissociatif.\n\n<strong>Deux jeux de chiffres publiés, et ils divergent.</strong> Les affinités de la DMT circulent sous forme d’un tableau repris de Cameron et Olson, <cite>ACS Chemical Neuroscience</cite> 2018. Les données brutes du criblage NIMH-PDSP, publiées en annexe de Ray 2010, donnent des valeurs différentes. Les deux sont citables, et le tableau ci-dessous les met côte à côte plutôt que d’en choisir un.\n\nL’accord est bon sur les 5-HT2C, 5-HT6 et 5-HT1E. Il est médiocre sur les 5-HT1D, 5-HT2B, 5-HT7 et 5-HT5A. Il est spectaculairement mauvais sur trois sites : le 5-HT2A, à 127 nM pour l’un et 2323 nM pour l’autre, et les 5-HT1A et 5-HT1B, crédités d’affinités franches par l’un et déclarés sans affinité mesurable par l’autre. De tels écarts sont attendus entre laboratoires : le radioligand, le récepteur cloné ou natif, l’espèce et surtout, pour un agoniste, l’état d’affinité du récepteur étudié changent les chiffres. Rickli et ses collègues, dans un troisième laboratoire, établissent au moins le sens : l’affinité de la DMT pour le 5-HT2A est <em>inférieure</em> à celle du LSD.\n\nRien de tout cela n’affaiblit le rôle du 5-HT2A, qui est établi par voie fonctionnelle et non par la liaison — la kétansérine supprime l’effet. Dans le jeu du PDSP, la psilocine est à 339 nM sur ce même récepteur alors qu’elle est indiscutablement active chez l’homme : une affinité de liaison modeste et une activation fonctionnelle réelle ne sont pas contradictoires.\n\n<strong>Ce qu’il faut surveiller, en revanche, c’est la troncature.</strong> Le tableau de Cameron et Olson compte treize lignes. La version qui circule n’en garde que cinq, et laisse de côté le 5-HT7 — qui figure pourtant parmi les sites les plus affins dans les deux jeux, et que Ray désigne comme la meilleure interaction de la molécule. Dans les deux jeux également, le <strong>5-HT2B compte parmi les sites les plus affins</strong>, et la ligne de Cameron et Olson le dit en toutes lettres : ce récepteur « maintient les feuillets valvulaires cardiaques ». C’est le sujet du groupe sur la consommation répétée.\n\nEnfin, ce qu’aucune de ces lignes ne permet : il s’agit de liaison <em>in vitro</em>. Pas de concentration, pas de durée, pas de personne. Un tableau d’affinité dit ce qu’une molécule peut toucher. Il ne dit jamais ce qu’elle a fait à quelqu’un.",
   "refs": [
    {
     "pmid": "30036036",
@@ -1397,6 +1397,141 @@
     "revue": "Int J Mol Sci",
     "annee": "2020",
     "t": "Toxicology and Analysis of Psychoactive Tryptamines"
+   }
+  ]
+ },
+ {
+  "titre": "Le récepteur sigma-1 : ce que la liaison établit, et ce qu’elle ne fonde pas",
+  "cat": "Pharmacologie et mécanismes",
+  "intro": "La liaison de la DMT au récepteur sigma-1 sert deux arguments : rapprocher la DMT des dissociatifs, et étayer un effet dit « anti-amnésique ». La recherche vérifiée contredit les deux, et il vaut mieux le lire ici qu’ailleurs.\n\n<strong>Ce qui est établi, et c’est étroit.</strong> Le travail princeps de 2009 dans <cite>Science</cite> montre exactement trois choses : la DMT se lie au sigma-1 ; elle inhibe des canaux sodiques dans des cellules qui expriment ce récepteur ; elle provoque chez la souris une hypermobilité qui disparaît chez la souris dépourvue du récepteur. C’est la seule expérience qui relie le sigma-1 à un comportement de la DMT — et ce comportement est une <em>hypermobilité locomotrice chez la souris</em>, ni un effet hallucinogène, ni un effet sur la mémoire.\n\n<strong>Ce qu’est le sigma-1.</strong> Pas un récepteur couplé à une transduction, ni un canal : un <em>chaperon</em> du réticulum endoplasmique aux membranes associées aux mitochondries, dont la structure cristalline est publiée dans <cite>Nature</cite>. Les effets cellulaires attribués à son activation par la DMT sont, sans exception, de la cytoprotection, de la bioénergétique mitochondriale et de l’immunomodulation. Rien de psychoactif aigu.\n\n<strong>Pourquoi le rapprochement avec les dissociatifs ne tient pas.</strong> Le sigma-1 lie un nombre considérable de composés sans parenté entre eux — halopéridol, fluvoxamine, progestérone, cocaïne — parce que son pharmacophore se réduit à une amine basique flanquée de deux régions hydrophobes. Partager une cible aussi peu discriminante ne prédit aucune parenté clinique. Et l’effet dissociatif du dextrométhorphane et de la phencyclidine n’est attribué au sigma-1 dans aucun des travaux examinés : il est attribué au blocage du NMDA. Un travail de 2006 sépare d’ailleurs explicitement les deux mécanismes.\n\n<strong>Et l’affinité est faible.</strong> Point de méthode important : aucun résumé indexé ne donne de constante pour la DMT au sigma-1 — la valeur micromolaire qui circule figure dans le corps de l’article de <cite>Science</cite>, pas dans sa notice, et doit être relevée sur le texte intégral avant d’être citée. Quatre éléments convergents établissent néanmoins qu’elle n’est pas nanomolaire, dont celui-ci : le laboratoire même de l’étude princeps a dû postuler ensuite que la DMT serait « synthétisée localement » pour activer efficacement le récepteur. On ne postule une synthèse sur place que si les concentrations ambiantes ne suffisent pas.\n\n<strong>La DMT endogène, enfin.</strong> La question est ouverte et activement disputée. Un travail de 2019 rapporte des concentrations extracellulaires corticales comparables à celles des monoamines ; un travail de 2026 ne détecte aucun pool cérébral chez le rat, même sous inhibiteur. Nichols soutient que les concentrations détectées ne suffisent pas à produire un effet psychoactif. Un point disputé ne se présente pas comme un acquis.",
+  "refs": [
+   {
+    "pmid": "19278957",
+    "auteur": "Su TP",
+    "nb": 3,
+    "revue": "Sci Signal",
+    "annee": "2009",
+    "t": "When the endogenous hallucinogenic trace amine N,N-dimethyltryptamine meets the sigma-1 receptor"
+   },
+   {
+    "pmid": "17981125",
+    "auteur": "Hayashi T",
+    "nb": 2,
+    "revue": "Cell",
+    "annee": "2007",
+    "t": "Sigma-1 receptor chaperones at the ER-mitochondrion interface regulate Ca(2+) signaling and cell survival"
+   },
+   {
+    "pmid": "27042935",
+    "auteur": "Schmidt HR",
+    "nb": 6,
+    "revue": "Nature",
+    "annee": "2016",
+    "t": "Crystal structure of the human σ1 receptor"
+   },
+   {
+    "pmid": "8157067",
+    "auteur": "Cagnotto A",
+    "nb": 3,
+    "revue": "Eur J Pharmacol",
+    "annee": "1994",
+    "t": "[3H](+)-pentazocine binding to rat brain sigma 1 receptors"
+   },
+   {
+    "pmid": "17662961",
+    "auteur": "Ishikawa M",
+    "nb": 13,
+    "revue": "Biol Psychiatry",
+    "annee": "2007",
+    "t": "High occupancy of sigma-1 receptors in the human brain after single oral administration of fluvoxamine: a positron emission tomography study using [11C]SA4503"
+   },
+   {
+    "pmid": "16397090",
+    "auteur": "Maurice T",
+    "nb": 5,
+    "revue": "J Pharmacol Exp Ther",
+    "annee": "2006",
+    "t": "Interaction with sigma(1) protein, but not N-methyl-D-aspartate receptor, is involved in the pharmacological activity of donepezil"
+   },
+   {
+    "pmid": "10064839",
+    "auteur": "Chou YC",
+    "nb": 5,
+    "revue": "Brain Res",
+    "annee": "1999",
+    "t": "Binding of dimemorfan to sigma-1 receptor and its anticonvulsant and locomotor effects in mice, compared with dextromethorphan and dextrorphan"
+   },
+   {
+    "pmid": "22265729",
+    "auteur": "Mavlyutov TA",
+    "nb": 6,
+    "revue": "Neuroscience",
+    "annee": "2012",
+    "t": "Development of the sigma-1 receptor in C-terminals of motoneurons and colocalization with the N,N'-dimethyltryptamine forming enzyme, indole-N-methyl transferase"
+   },
+   {
+    "pmid": "34023338",
+    "auteur": "Szabó Í",
+    "nb": 16,
+    "revue": "Neuropharmacology",
+    "annee": "2021",
+    "t": "N,N-Dimethyltryptamine attenuates spreading depolarization and restrains neurodegeneration by sigma-1 receptor activation in the ischemic rat brain"
+   },
+   {
+    "pmid": "40298911",
+    "auteur": "Xiao N",
+    "nb": 12,
+    "revue": "Expert Opin Ther Targets",
+    "annee": "2025",
+    "t": "The sigma-1 receptor: a mechanistically-informed therapeutic target for antidepressants"
+   },
+   {
+    "pmid": "9460750",
+    "auteur": "Maurice T",
+    "nb": 3,
+    "revue": "Neuroscience",
+    "annee": "1998",
+    "t": "Sigma1 (sigma 1) receptor agonists and neurosteroids attenuate B25-35-amyloid peptide-induced amnesia in mice through a common mechanism"
+   },
+   {
+    "pmid": "41672133",
+    "auteur": "Palner M",
+    "nb": 5,
+    "revue": "Neuropharmacology",
+    "annee": "2026",
+    "t": "N,N-dimethyltryptamine (DMT) is neither formed nor retained in serotonin terminals in the rat brain"
+   },
+   {
+    "pmid": "31249368",
+    "auteur": "Dean JG",
+    "nb": 8,
+    "revue": "Sci Rep",
+    "annee": "2019",
+    "t": "Biosynthesis and Extracellular Concentrations of N,N-dimethyltryptamine (DMT) in Mammalian Brain"
+   },
+   {
+    "pmid": "36609666",
+    "auteur": "Glynos NG",
+    "nb": 8,
+    "revue": "Sci Rep",
+    "annee": "2023",
+    "t": "Indolethylamine N-methyltransferase (INMT) is not essential for endogenous tryptamine-dependent methylation activity in rats"
+   },
+   {
+    "pmid": "22371425",
+    "auteur": "Barker SA",
+    "nb": 3,
+    "revue": "Drug Test Anal",
+    "annee": "2012",
+    "t": "A critical review of reports of endogenous psychedelic N, N-dimethyltryptamines in humans: 1955-2010"
+   },
+   {
+    "pmid": "39832749",
+    "auteur": "Barker SA",
+    "nb": 1,
+    "revue": "Prog Neuropsychopharmacol Biol Psychiatry",
+    "annee": "2025",
+    "t": "N, N-dimethyltryptamine (DMT) in rodent brain: Concentrations, distribution, and recent pharmacological data"
    }
   ]
  },
@@ -3225,5 +3360,92 @@
    }
   ],
   "cat": "Emprise, discours et dérive"
+ },
+ {
+  "titre": "Ce dont on se souvient : suggestibilité, extinction, souvenirs retrouvés",
+  "cat": "Emprise, discours et dérive",
+  "intro": "Une thèse circule, reprise dans des documents destinés à des expertises : la substance provoquerait un effet anti-amnésique qui forcerait la remontée de souvenirs traumatiques refoulés. Elle est fausse sur chacun de ses trois termes, et c’est important à savoir <em>avant</em> qu’un expert le démontre.\n\n<strong>Premier terme : l’origine.</strong> L’argument remonte à un article de 2018 dont le titre commence par le mot <em>Hypothesis</em>. Il ne produit aucune donnée, porte sur l’ayahuasca entière et non sur la DMT, attribue une part de l’effet aux inhibiteurs de la monoamine oxydase, et s’appuie sur des rapports subjectifs.\n\n<strong>Deuxième terme : le mot « anti-amnésique ».</strong> Dans le champ du sigma-1, il désigne tout autre chose : la réversion d’une amnésie provoquée expérimentalement par le peptide bêta-amyloïde, obtenue avec des agonistes sélectifs et des neurostéroïdes, selon une courbe en cloche. C’est de la neuroprotection, et la DMT n’a jamais figuré parmi les composés testés.\n\n<strong>Troisième terme : l’épreuve des faits.</strong> Lorsque l’hypothèse a enfin été testée sur la mémoire aversive, le résultat l’a contredite deux fois. L’effet passe par les récepteurs 5-HT2A et 5-HT1A du cortex infralimbique, sans aucune implication du sigma-1. Et il consiste en une facilitation de l’<em>extinction</em> de la peur — soit exactement l’inverse d’une remontée forcée de souvenirs.\n\n<strong>Ce qui est documenté à la place, et qui devrait inquiéter.</strong> Les psychédéliques <em>augmentent la suggestibilité</em> : un essai chez des volontaires sains l’établit pour le LSD. Des travaux récents rapportent par ailleurs des effets <em>délétères</em> de l’ayahuasca sur certaines performances mnésiques. Quant au « souvenir refoulé » lui-même, la littérature spécialisée en psychologie de la mémoire l’examine depuis trente ans et n’en soutient pas la notion.\n\n<strong>La conséquence pratique, et elle est sévère.</strong> Invoquer une remontée de souvenirs sous substance dans un dossier revient à fournir à la partie adverse l’argument que ces souvenirs se sont formés dans un état de suggestibilité accrue. Un récit obtenu en cérémonie ne vaut pas preuve, et il peut coûter la crédibilité de ce qui l’entoure. Les faits matériels, eux, ne craignent rien : une date, une pièce, un compte rendu d’hospitalisation.",
+  "refs": [
+   {
+    "pmid": "29674970",
+    "auteur": "Inserra A",
+    "nb": 1,
+    "revue": "Front Pharmacol",
+    "annee": "2018",
+    "t": "Hypothesis: The Psychedelic Ayahuasca Heals Traumatic Memories via a Sigma 1 Receptor-Mediated Epigenetic-Mnemonic Process"
+   },
+   {
+    "pmid": "38320596",
+    "auteur": "Werle I",
+    "nb": 7,
+    "revue": "Br J Pharmacol",
+    "annee": "2024",
+    "t": "Ayahuasca-enhanced extinction of fear behaviour: Role of infralimbic cortex 5-HT(2A) and 5-HT(1A) receptors"
+   },
+   {
+    "pmid": "25242255",
+    "auteur": "Carhart-Harris RL",
+    "nb": 6,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2015",
+    "t": "LSD enhances suggestibility in healthy volunteers"
+   },
+   {
+    "pmid": "36069952",
+    "auteur": "Daneluz DM",
+    "nb": 5,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2022",
+    "t": "Evidence on the impairing effects of Ayahuasca on fear memory reconsolidation"
+   },
+   {
+    "pmid": "39614620",
+    "auteur": "Doss MK",
+    "nb": 9,
+    "revue": "J Psychopharmacol",
+    "annee": "2025",
+    "t": "Ayahuasca enhances the formation of hippocampal-dependent episodic memory without impacting false memory susceptibility in experienced ayahuasca users: An observational study"
+   },
+   {
+    "pmid": "42053657",
+    "auteur": "Griesfeller AF",
+    "nb": 6,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "2026",
+    "t": "Evaluating the evidence for repressed memory recovery in psychedelic contexts"
+   },
+   {
+    "pmid": "33435830",
+    "auteur": "Otgaar H",
+    "nb": 3,
+    "revue": "Memory",
+    "annee": "2022",
+    "t": "What science tells us about false and repressed memories"
+   },
+   {
+    "pmid": "22303765",
+    "auteur": "McNally RJ",
+    "nb": 1,
+    "revue": "Nebr Symp Motiv",
+    "annee": "2012",
+    "t": "Searching for repressed memory"
+   },
+   {
+    "pmid": "39305969",
+    "auteur": "Werle I",
+    "nb": 2,
+    "revue": "Neurosci Biobehav Rev",
+    "annee": "2024",
+    "t": "Psychedelics: A review of their effects on recalled aversive memories and fear/anxiety expression in rodents"
+   },
+   {
+    "pmid": "21555330",
+    "auteur": "Chevallier N",
+    "nb": 3,
+    "revue": "J Psychopharmacol",
+    "annee": "2011",
+    "t": "Behavioural phenotyping of knockout mice for the sigma-1 (σ₁) chaperone protein revealed gender-related anxiety, depressive-like and memory alterations"
+   }
+  ]
  }
 ]
