@@ -1016,6 +1016,85 @@
   "cat": "Pharmacologie et mécanismes"
  },
  {
+  "titre": "La dose n’est pas linéaire, et elle n’est pas connue",
+  "cat": "Pharmacologie et mécanismes",
+  "intro": "On parle de « dose » comme si la relation entre ce qui est bu et ce qui agit était proportionnelle. Elle ne l’est pas, et c’est la propriété centrale de cette association.\n\n<strong>Zéro plus un peu égale beaucoup.</strong> La DMT avalée seule ne produit rien : la monoamine oxydase A la détruit intégralement au premier passage. Les bêta-carbolines seules produisent peu. Ensemble, elles produisent l’effet complet. Ce n’est pas une addition, c’est un seuil, et toute la pratique repose dessus.\n\n<strong>L’inhibition enzymatique n’est pas proportionnelle non plus.</strong> Le rapport entre le pourcentage d’enzyme inhibée et l’exposition au substrat est hyperbolique : passer de 50 à 90 % d’inhibition change modérément les choses, passer de 90 à 99 % les change beaucoup. Et lorsque l’enzyme est saturée, la clairance cesse d’être d’ordre un : un petit supplément de dose produit alors un grand supplément de concentration. C’est le domaine classique de la cinétique non linéaire.\n\n<strong>La même personne n’a pas la même enzyme que son voisin.</strong> L’harmine est métabolisée par le cytochrome P450 2D6, dont le polymorphisme est très étendu dans la population. Callaway a décrit en 2005, chez quatorze membres expérimentés d’une même église ayant reçu une dose standardisée, deux sous-groupes : <em>métaboliseurs rapides et lents</em>. Le détail compte : pour compenser cette variabilité, la quantité servie y est décidée individuellement par le mestre, à vue. L’institution qui pratique le rite a donc identifié le problème et y répond par le jugement d’une personne, non par une mesure.\n\n<strong>Et la dose elle-même n’est pas connue.</strong> La teneur en alcaloïdes varie d’une préparation à l’autre, et les travaux analytiques sur la décoction le montrent, comme la pharmacocinétique humaine de Callaway en 1999 citée au groupe sur la pharmacologie et les doses répétées, y compris sa stabilité dans le temps. Il n’y a ni titrage ni étiquette. On ne peut pas doser ce qu’on ne mesure pas.\n\n<strong>Ce qu’il faut en tirer, et c’est contre-intuitif.</strong> Un historique d’expositions sans incident ne prédit pas la suivante. L’argument « il en avait déjà pris souvent sans problème » suppose une relation dose-effet régulière ; dans un système à clairance saturable, à inhibition hyperbolique et à teneur variable, cette régularité n’existe pas. C’est aussi ce qui ruine la notion d’administration « maîtrisée » ou « dosée » par un tiers.\n\n<strong>Une source de ce groupe va dans l’autre sens, et elle y reste.</strong> L’évaluation du risque publiée par Gable dans <cite>Addiction</cite> en 2007, citée au groupe sur la consommation répétée, conclut à une marge de sécurité comparable à la codéine ou à la méthadone, et à un potentiel de dépendance minime. Elle précise cependant que des effets indésirables peuvent survenir « particulièrement lorsque des substances sérotoninergiques sont utilisées conjointement » — ce qui est exactement le sujet de ce groupe.",
+  "refs": [
+   {
+    "pmid": "18454322",
+    "auteur": "Yu AM",
+    "nb": 1,
+    "revue": "AAPS J",
+    "annee": "2008",
+    "t": "Indolealkylamines: biotransformations and potential drug-drug interactions"
+   },
+   {
+    "pmid": "16149329",
+    "auteur": "Callaway JC",
+    "nb": 1,
+    "revue": "J Psychoactive Drugs",
+    "annee": "2005",
+    "t": "Fast and slow metabolizers of Hoasca"
+   },
+   {
+    "pmid": "12777961",
+    "auteur": "Yu AM",
+    "nb": 5,
+    "revue": "Pharmacogenetics",
+    "annee": "2003",
+    "t": "Screening for endogenous substrates reveals that CYP2D6 is a 5-methoxyindolethylamine O-demethylase"
+   },
+   {
+    "pmid": "2044328",
+    "auteur": "Ludden TM",
+    "nb": 1,
+    "revue": "Clin Pharmacokinet",
+    "annee": "1991",
+    "t": "Nonlinear pharmacokinetics: clinical Implications"
+   },
+   {
+    "pmid": "35207420",
+    "auteur": "Nižnanský Ľ",
+    "nb": 6,
+    "revue": "J Clin Med",
+    "annee": "2022",
+    "t": "Ayahuasca as a Decoction Applied to Human: Analytical Methods, Pharmacology and Potential Toxic Effects"
+   },
+   {
+    "pmid": "31635364",
+    "auteur": "Simão AY",
+    "nb": 6,
+    "revue": "Medicines (Basel)",
+    "annee": "2019",
+    "t": "Toxicological Aspects and Determination of the Main Components of Ayahuasca: A Critical Review"
+   },
+   {
+    "pmid": "32365548",
+    "auteur": "de Oliveira Silveira G",
+    "nb": 6,
+    "revue": "Molecules",
+    "annee": "2020",
+    "t": "Stability Evaluation of DMT and Harmala Alkaloids in Ayahuasca Tea Samples"
+   },
+   {
+    "pmid": "20942780",
+    "auteur": "Shen HW",
+    "nb": 4,
+    "revue": "Curr Drug Metab",
+    "annee": "2010",
+    "t": "Psychedelic 5-methoxy-N,N-dimethyltryptamine: metabolism, pharmacokinetics, drug interactions, and pharmacological actions"
+   },
+   {
+    "pmid": "26976063",
+    "auteur": "Domínguez-Clavé E",
+    "nb": 9,
+    "revue": "Brain Res Bull",
+    "annee": "2016",
+    "t": "Ayahuasca: Pharmacology, neuroscience and therapeutic potential"
+   }
+  ]
+ },
+ {
   "titre": "Séquelles perceptives persistantes",
   "intro": "Le HPPD — trouble perceptif persistant après hallucinogènes — et les dysperceptions visuelles apparentées.",
   "refs": [
@@ -1353,6 +1432,196 @@
    }
   ],
   "cat": "Clinique et séquelles"
+ },
+ {
+  "titre": "Les troubles neurologiques fonctionnels : ce que le mot veut dire",
+  "cat": "Clinique et séquelles",
+  "intro": "Ce groupe existe parce qu’un raisonnement circule : les troubles neurologiques fonctionnels seraient la passerelle entre une intoxication et des symptômes durables sans lésion visible. La première moitié du raisonnement est juste. La seconde ne l’est pas, et mieux vaut le lire ici.\n\n<strong>Ce qui est solidement établi.</strong> Le trouble neurologique fonctionnel n’est ni une simulation, ni une maladie imaginaire, ni un diagnostic d’exclusion. Il se pose sur des <em>signes positifs</em> d’incompatibilité clinique. Le DSM-5 a supprimé l’exigence d’un facteur de stress psychologique identifiable : un tel trouble peut donc être retenu sans qu’aucun conflit psychique ne soit démontré. Une revue de <cite>Nature Reviews Neurology</cite> est consacrée à démonter point par point l’assimilation à la feinte. Et l’objection « on a pu passer à côté d’une lésion » a sa réponse : le taux de révision diagnostique est tombé autour de 4 %, comparable à celui des autres diagnostics neurologiques.\n\n<strong>Un événement physique peut précipiter.</strong> Deux travaux documentent le rôle d’une blessure physique dans la survenue de symptômes moteurs et sensitifs fonctionnels, et les facteurs précipitants physiques en général. C’est l’analogue le plus proche d’un déclenchement par un événement aigu.\n\n<strong>Et maintenant ce qui ne tient pas.</strong> AUCUN TRAVAIL INDEXÉ NE RELIE UN TROUBLE NEUROLOGIQUE FONCTIONNEL À UNE INTOXICATION PAR HALLUCINOGÈNE SÉROTONINERGIQUE. Pire pour qui voudrait l’invoquer : à cette intersection, toute la littérature indexée va en sens <em>inverse</em>, et étudie les psychédéliques comme <em>traitement possible</em> du trouble fonctionnel. Une revue systématique de 2025 des facteurs prédisposants, précipitants et pérennisants ne retient aucun facteur toxique ni médicamenteux parmi les précipitants. L’absence est donc constatée par une revue systématique récente, et pas seulement par un échec de recherche. Le seul déclenchement pharmacologique publié est un cas isolé après propofol.\n\n<strong>Deux précisions qui évitent une surinterprétation.</strong> Les anomalies de volume et de connectivité décrites ici sont des résultats de <em>groupe</em> : une IRM normale ne réfute pas le diagnostic, et une IRM anormale ne le prouve pas chez une personne donnée. Et le trouble persistant des perceptions après hallucinogène n’est pas un trouble fonctionnel : c’est une entité distincte du DSM, et aucun travail n’établit de continuité entre les deux. Pour des séquelles visuelles après hallucinogène, c’est ce trouble-là qu’il faut citer, et dire qu’il n’est pas un trouble fonctionnel.",
+  "refs": [
+   {
+    "pmid": "35430029",
+    "auteur": "Hallett M",
+    "nb": 6,
+    "revue": "Lancet Neurol",
+    "annee": "2022",
+    "t": "Functional neurological disorder: new subtypes and shared mechanisms"
+   },
+   {
+    "pmid": "35074803",
+    "auteur": "Aybek S",
+    "nb": 2,
+    "revue": "BMJ",
+    "annee": "2022",
+    "t": "Diagnosis and management of functional neurological disorder"
+   },
+   {
+    "pmid": "36797425",
+    "auteur": "Edwards MJ",
+    "nb": 3,
+    "revue": "Nat Rev Neurol",
+    "annee": "2023",
+    "t": "Why functional neurological disorder is not feigning or malingering"
+   },
+   {
+    "pmid": "16223792",
+    "auteur": "Stone J",
+    "nb": 7,
+    "revue": "BMJ",
+    "annee": "2005",
+    "t": "Systematic review of misdiagnosis of conversion symptoms and \"hysteria\""
+   },
+   {
+    "pmid": "29868890",
+    "auteur": "Espay AJ",
+    "nb": 15,
+    "revue": "JAMA Neurol",
+    "annee": "2018",
+    "t": "Current Concepts in Diagnosis and Treatment of Functional Neurological Disorders"
+   },
+   {
+    "pmid": "30305450",
+    "auteur": "Maurer CW",
+    "nb": 9,
+    "revue": "Neurology",
+    "annee": "2018",
+    "t": "Gray matter differences in patients with functional movement disorders"
+   },
+   {
+    "pmid": "27385746",
+    "auteur": "Maurer CW",
+    "nb": 6,
+    "revue": "Neurology",
+    "annee": "2016",
+    "t": "Impaired self-agency in functional movement disorders: A resting-state fMRI study"
+   },
+   {
+    "pmid": "30850473",
+    "auteur": "Diez I",
+    "nb": 10,
+    "revue": "J Neurol Neurosurg Psychiatry",
+    "annee": "2019",
+    "t": "Corticolimbic fast-tracking: enhanced multimodal integration in functional neurological disorder"
+   },
+   {
+    "pmid": "33737039",
+    "auteur": "Raviskanthan S",
+    "nb": 6,
+    "revue": "Surv Ophthalmol",
+    "annee": "2022",
+    "t": "Functional vision disorders in adults: a paradigm and nomenclature shift for ophthalmology"
+   },
+   {
+    "pmid": "39628281",
+    "auteur": "Brady PD",
+    "nb": 4,
+    "revue": "J Neuropsychiatry Clin Neurosci",
+    "annee": "2025",
+    "t": "Functional Vision Loss Among Adults and Children: Literature Review and Comparative Analysis"
+   },
+   {
+    "pmid": "19379954",
+    "auteur": "Stone J",
+    "nb": 7,
+    "revue": "J Psychosom Res",
+    "annee": "2009",
+    "t": "The role of physical injury in motor and sensory conversion symptoms: a systematic and narrative review"
+   },
+   {
+    "pmid": "24439198",
+    "auteur": "Pareés I",
+    "nb": 12,
+    "revue": "J Neurol Sci",
+    "annee": "2014",
+    "t": "Physical precipitating factors in functional movement disorders"
+   }
+  ]
+ },
+ {
+  "titre": "La vision des couleurs : ce qui se mesure, et ce qui n’a jamais été observé",
+  "cat": "Clinique et séquelles",
+  "intro": "La xanthopsie — voir jaune — est un signe classique, et l’attribuer à l’ayahuasca est une tentation qu’il faut traiter franchement.\n\n<strong>Ce qui est établi.</strong> Les déficits <em>acquis</em> de la vision des couleurs existent, se mesurent, et ont une sémiologie propre : l’axe bleu-jaune est le plus vulnérable, parce que les cônes S ne représentent qu’une faible proportion des cônes. La xanthopsie de l’intoxication digitalique est documentée jusqu’au cas récent. Les atteintes chromatiques d’origine médicamenteuse sont répertoriées, celle de la névrite optique est décrite, et la sérotonine est bien présente dans la rétine.\n\n<strong>Et voici le résultat négatif, qui a autant de valeur.</strong> IL N’EXISTE, DANS LA LITTÉRATURE INDEXÉE, AUCUN CAS PUBLIÉ DE XANTHOPSIE NI DE DÉFICIT ACQUIS DE LA VISION DES COULEURS APRÈS AYAHUASCA, DMT OU PSYCHÉDÉLIQUE SÉROTONINERGIQUE. Ni série, ni cas isolé, ni lettre. Les requêtes croisant ayahuasca avec vision des couleurs, xanthopsie ou dyschromatopsie renvoient zéro notice.\n\n<strong>La distinction qui décide.</strong> Le trouble persistant des perceptions après hallucinogène décrit bien une <em>intensification</em> des couleurs, des images rémanentes, des traînées. Mais aucun de ces travaux ne documente un déficit chromatique <em>mesuré</em> à l’anomaloscope, au Farnsworth-Munsell 100 Hue ou au test de Lanthony. Une plainte perceptive n’est pas une perte objectivée de discrimination des couleurs, et confondre les deux devant un expert coûte cher.\n\n<strong>Ce qu’il ne faut pas transposer.</strong> Aucun travail n’attribue aux alcaloïdes harmala ni à la DMT une inhibition de la pompe Na+/K+ ATPase rétinienne : ce mécanisme reste celui des glycosides cardiotoniques. Le seul analogue publié plausible est une xanthopsie aiguë sous rispéridone — une molécule qui <em>bloque</em> les récepteurs sérotoninergiques, et non un agoniste 5-HT2A. Rien, à ce jour, sur un agoniste.\n\nLa question est pourtant techniquement traitable : elle a été posée pour d’autres substances, par mesure calibrée avant et après administration. Elle ne l’a pas été pour l’ayahuasca.",
+  "refs": [
+   {
+    "pmid": "26656928",
+    "auteur": "Simunovic MP",
+    "nb": 1,
+    "revue": "Surv Ophthalmol",
+    "annee": "2016",
+    "t": "Acquired color vision deficiency"
+   },
+   {
+    "pmid": "1722224",
+    "auteur": "Curcio CA",
+    "nb": 7,
+    "revue": "J Comp Neurol",
+    "annee": "1991",
+    "t": "Distribution and morphology of human cone photoreceptors stained with anti-blue opsin"
+   },
+   {
+    "pmid": "32769961",
+    "auteur": "Haruna Y",
+    "nb": 5,
+    "revue": "Am J Case Rep",
+    "annee": "2020",
+    "t": "Xanthopsia Due to Digoxin Toxicity as a Cause of Traffic Accidents: A Case Report"
+   },
+   {
+    "pmid": "12386084",
+    "auteur": "Lawrenson JG",
+    "nb": 4,
+    "revue": "Br J Ophthalmol",
+    "annee": "2002",
+    "t": "Acquired colour vision deficiency in patients receiving digoxin maintenance therapy"
+   },
+   {
+    "pmid": "8002841",
+    "auteur": "Madreperla SA",
+    "nb": 3,
+    "revue": "Arch Ophthalmol",
+    "annee": "1994",
+    "t": "Electrophysiologic and electroretinographic evidence for photoreceptor dysfunction as a toxic effect of digoxin"
+   },
+   {
+    "pmid": "18217789",
+    "auteur": "Li J",
+    "nb": 3,
+    "revue": "Drug Saf",
+    "annee": "2008",
+    "t": "Drug-induced ocular disorders"
+   },
+   {
+    "pmid": "8719696",
+    "auteur": "Katz B",
+    "nb": 1,
+    "revue": "Trans Am Ophthalmol Soc",
+    "annee": "1995",
+    "t": "The dyschromatopsia of optic neuritis: a descriptive analysis of data from the optic neuritis treatment trial"
+   },
+   {
+    "pmid": "30419260",
+    "auteur": "Masson J",
+    "nb": 1,
+    "revue": "Biochimie",
+    "annee": "2019",
+    "t": "Serotonin in retina"
+   },
+   {
+    "pmid": "1565248",
+    "auteur": "Price MJ",
+    "nb": 4,
+    "revue": "Neurology",
+    "annee": "1992",
+    "t": "Abnormalities in color vision and contrast sensitivity in Parkinson's disease"
+   },
+   {
+    "pmid": "22704223",
+    "auteur": "Hulka LM",
+    "nb": 5,
+    "revue": "Int J Neuropsychopharmacol",
+    "annee": "2013",
+    "t": "Blue-yellow colour vision impairment and cognitive deficits in occasional and dependent stimulant users"
+   }
+  ]
  },
  {
   "titre": "Ce que les examens cherchent, et ne cherchent pas",
@@ -1735,6 +2004,188 @@
   ]
  },
  {
+  "titre": "Les examens neuro-ophtalmologiques, et ce qu’ils ne prouvent pas",
+  "cat": "Ce que les examens trouvent",
+  "intro": "Voici les examens qui objectivent une plainte visuelle, avec ce que chacun mesure — et, à la fin, ce que cette liste ne vaut pas.\n\n<strong>La vision des couleurs.</strong> Les planches d’Ishihara ne dépistent que le déficit congénital rouge-vert : elles sont <em>inadaptées</em> à un déficit acquis. Les planches Hardy-Rand-Rittler et les tests de rangement sont complémentaires par construction — pseudo-isochromatiques pour le dépistage, rangement pour l’axe et la sévérité — et leurs limites d’emploi sont documentées.\n\n<strong>La structure.</strong> La tomographie par cohérence optique mesure la couche des fibres nerveuses et surtout le complexe cellules ganglionnaires — couche plexiforme interne, dont l’amincissement précède la baisse d’acuité.\n\n<strong>La fonction.</strong> L’électrophysiologie visuelle a ses normes internationales, dont celle de l’électrorétinogramme multifocal, et sa place est établie dans l’évaluation des atteintes toxiques. La périmétrie cherche le scotome cæco-central des neuropathies optiques toxiques.\n\n<strong>La pupille.</strong> Le diamètre pupillaire est une fenêtre sur l’activité du locus cœruleus et sur la charge cognitive.\n\n<strong>Ce que cette liste ne vaut pas, et il faut le dire sur la même page.</strong> AUCUNE DE CES EXPLORATIONS N’A ÉTÉ APPLIQUÉE À DES CONSOMMATEURS D’AYAHUASCA DANS UN TRAVAIL INDEXÉ : ni série, ni mesure OCT, ni potentiels évoqués, ni électrorétinogramme, ni pupillométrie. Toute cette batterie est <em>transposée</em> d’autres toxiques — éthambutol, méthanol, tabac-alcool, hydroxychloroquine. Il n’existe aucune recommandation ni batterie validée pour la plainte visuelle post-toxique ; la recommandation américaine sur l’hydroxychloroquine sert de modèle de l’art, pas de norme applicable. Aucune donnée de sensibilité ou de spécificité n’existe pour quelque examen que ce soit dans un trouble perceptif post-hallucinogène. Le scotome cæco-central garde une valeur descriptive et classique, non chiffrée.\n\n<strong>Et une mise en garde particulière.</strong> La littérature pupille–charge cognitive–locus cœruleus est de la neuroscience cognitive : sujets sains, tâches expérimentales, effets de groupe. Aucun seuil, aucune valeur de référence exploitable sur un sujet unique, aucune validation médico-légale. La pupillométrie dynamique est <em>exploratoire</em>, et la présenter comme probante serait une surinterprétation.",
+  "refs": [
+   {
+    "pmid": "22688625",
+    "auteur": "Huna-Baron R",
+    "nb": 3,
+    "revue": "Graefes Arch Clin Exp Ophthalmol",
+    "annee": "2013",
+    "t": "Comparison between Hardy-Rand-Rittler 4th edition and Ishihara color plate tests for detection of dyschromatopsia in optic neuropathy"
+   },
+   {
+    "pmid": "31479025",
+    "auteur": "Dain SJ",
+    "nb": 3,
+    "revue": "Optom Vis Sci",
+    "annee": "2019",
+    "t": "Limitations and Precautions in the Use of the Farnsworth-Munsell Dichotomous D-15 Test"
+   },
+   {
+    "pmid": "29699978",
+    "auteur": "Lee JY",
+    "nb": 5,
+    "revue": "Br J Ophthalmol",
+    "annee": "2019",
+    "t": "Diagnostic value of ganglion cell-inner plexiform layer for early detection of ethambutol-induced optic neuropathy"
+   },
+   {
+    "pmid": "25724010",
+    "auteur": "Vieira LM",
+    "nb": 10,
+    "revue": "J Neuroophthalmol",
+    "annee": "2015",
+    "t": "Retinal Ganglion Cell Layer Analysis by Optical Coherence Tomography in Toxic and Nutritional Optic Neuropathy"
+   },
+   {
+    "pmid": "34290445",
+    "auteur": "O'Neill EK",
+    "nb": 2,
+    "revue": "Eye (Lond)",
+    "annee": "2021",
+    "t": "Visual electrophysiology in the assessment of toxicity and deficiency states affecting the visual system"
+   },
+   {
+    "pmid": "33492495",
+    "auteur": "Hoffmann MB",
+    "nb": 8,
+    "revue": "Doc Ophthalmol",
+    "annee": "2021",
+    "t": "ISCEV standard for clinical multifocal electroretinography (mfERG) (2021 update)"
+   },
+   {
+    "pmid": "16877425",
+    "auteur": "Kellner U",
+    "nb": 3,
+    "revue": "Invest Ophthalmol Vis Sci",
+    "annee": "2006",
+    "t": "Fundus autofluorescence and mfERG for early detection of retinal alterations in patients using chloroquine/hydroxychloroquine"
+   },
+   {
+    "pmid": "29688089",
+    "auteur": "Nowomiejska K",
+    "nb": 5,
+    "revue": "Cutan Ocul Toxicol",
+    "annee": "2018",
+    "t": "Central scotoma in tobacco-alcohol toxic optic neuropathy measured with semi-automated kinetic perimetry"
+   },
+   {
+    "pmid": "32331857",
+    "auteur": "Joshi S",
+    "nb": 2,
+    "revue": "Trends Cogn Sci",
+    "annee": "2020",
+    "t": "Pupil Size as a Window on Neural Substrates of Cognition"
+   },
+   {
+    "pmid": "41169745",
+    "auteur": "Lisowski Ł",
+    "nb": 6,
+    "revue": "Front Neurosci",
+    "annee": "2025",
+    "t": "The diagnostic significance of pupillary reflex pathways: insights from classical examination and advanced pupillometry"
+   },
+   {
+    "pmid": "25612939",
+    "auteur": "Zobor D",
+    "nb": 8,
+    "revue": "Doc Ophthalmol",
+    "annee": "2015",
+    "t": "Ophthalmological assessment of cannabis-induced persisting perception disorder: is there a direct retinal effect?"
+   }
+  ]
+ },
+ {
+  "titre": "Obscurcissements visuels : ce qu’il faut écarter d’abord",
+  "cat": "Ce que les examens trouvent",
+  "intro": "Avant de conclure qu’un obscurcissement visuel transitoire est fonctionnel, il faut écarter ce qui tue ou rend aveugle. C’est une question clinique avant d’être une question de dossier.\n\n<strong>Le symptôme est décrit de longue date</strong>, y compris — et c’est le point — <em>sans œdème papillaire</em>. Un fond d’œil normal ne suffit donc pas à écarter la cause.\n\n<strong>L’hypertension intracrânienne idiopathique.</strong> Son diagnostic repose sur la <em>pression d’ouverture mesurée</em>, et son intervalle de référence est publié. L’imagerie apporte des signes, dont la valeur a été évaluée en méta-analyse, mais elle peut être prise en défaut. Une recommandation européenne existe.\n\n<strong>La piste vasculaire.</strong> Une cécité monoculaire transitoire expose à un risque d’accident vasculaire, et l’origine vasculaire des troubles visuels transitoires aigus a été étudiée pour elle-même.\n\n<strong>Ce que la littérature ne donne pas.</strong> Aucune recommandation française n’est indexée : la page cite le référentiel européen et le dit. Aucune étude ne donne la sensibilité, la spécificité ni la valeur prédictive de l’obscurcissement visuel transitoire pour une hypertension intracrânienne ; aucune cohorte ne part d’obscurcissements isolés à fond d’œil et imagerie normaux pour dire quelle proportion finit avec une pression élevée.\n\n<strong>Et le seuil lui-même est discuté</strong>, ce qui compte pour qui voudrait faire reposer une conclusion sur une mesure unique : le travail le plus récent confrontant la ponction lombaire à un monitorage continu conclut que les deux ne sont pas interchangeables, la ponction surestimant systématiquement et ne captant ni la variabilité posturale ni la variabilité circadienne. Deux causes graves ne sont pas couvertes ici faute d’avoir été cherchées : l’artérite à cellules géantes après cinquante ans, et la thrombose veineuse cérébrale, qui n’existe à ce sujet qu’à l’état de cas isolés.",
+  "refs": [
+   {
+    "pmid": "17101909",
+    "auteur": "Whiteley W",
+    "nb": 5,
+    "revue": "Neurology",
+    "annee": "2006",
+    "t": "CSF opening pressure: reference interval and the effect of body mass index"
+   },
+   {
+    "pmid": "6497356",
+    "auteur": "Sadun AA",
+    "nb": 3,
+    "revue": "Ann Neurol",
+    "annee": "1984",
+    "t": "Transient visual obscurations with elevated optic discs"
+   },
+   {
+    "pmid": "7131018",
+    "auteur": "Hilton-Jones D",
+    "nb": 3,
+    "revue": "J Neurol Neurosurg Psychiatry",
+    "annee": "1982",
+    "t": "Transient visual obscurations, without papilloedema"
+   },
+   {
+    "pmid": "31153551",
+    "auteur": "Kwee RM",
+    "nb": 2,
+    "revue": "Eur J Radiol",
+    "annee": "2019",
+    "t": "Systematic review and meta-analysis of MRI signs for diagnosis of idiopathic intracranial hypertension"
+   },
+   {
+    "pmid": "30829949",
+    "auteur": "Mallery RM",
+    "nb": 13,
+    "revue": "J Neuroophthalmol",
+    "annee": "2019",
+    "t": "Utility of Magnetic Resonance Imaging Features for Improving the Diagnosis of Idiopathic Intracranial Hypertension Without Papilledema"
+   },
+   {
+    "pmid": "19222592",
+    "auteur": "Digre KB",
+    "nb": 6,
+    "revue": "Headache",
+    "annee": "2009",
+    "t": "A comparison of idiopathic intracranial hypertension with and without papilledema"
+   },
+   {
+    "pmid": "34073844",
+    "auteur": "Mollan SP",
+    "nb": 5,
+    "revue": "Life (Basel)",
+    "annee": "2021",
+    "t": "Current Perspectives on Idiopathic Intracranial Hypertension without Papilloedema"
+   },
+   {
+    "pmid": "30298346",
+    "auteur": "Hoffmann J",
+    "nb": 6,
+    "revue": "J Headache Pain",
+    "annee": "2018",
+    "t": "European headache federation guideline on idiopathic intracranial hypertension"
+   },
+   {
+    "pmid": "27314958",
+    "auteur": "Volkers EJ",
+    "nb": 6,
+    "revue": "J Neurol",
+    "annee": "2016",
+    "t": "Transient monocular blindness and the risk of vascular complications according to subtype: a prospective cohort study"
+   },
+   {
+    "pmid": "34411384",
+    "auteur": "Obadia M",
+    "nb": 15,
+    "revue": "Eur J Neurol",
+    "annee": "2021",
+    "t": "Vascular origin in acute transient visual disturbance: A prospective study"
+   }
+  ]
+ },
+ {
   "titre": "La cohorte de l'Ontario",
   "intro": "Quatre études sur la même population : tous les Ontariens, neuf à onze millions de personnes, suivis de 2008 à 2023 par chaînage des données de santé. Elles portent sur ceux qui ont eu besoin de soins d'urgence après un hallucinogène — pas sur les usagers en général, et 42 % des passages impliquaient une autre substance.",
   "refs": [
@@ -1840,14 +2291,6 @@
     "revue": "J Psychoactive Drugs",
     "annee": "2005",
     "t": "Report on psychoactive drug use among adolescents using ayahuasca within a religious context"
-   },
-   {
-    "pmid": "16149329",
-    "auteur": "Callaway JC",
-    "nb": 1,
-    "revue": "J Psychoactive Drugs",
-    "annee": "2005",
-    "t": "Fast and slow metabolizers of Hoasca"
    },
    {
     "pmid": "24477460",
