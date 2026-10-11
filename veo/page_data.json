@@ -1895,5 +1895,179 @@
     "t": "Drug tourism or spiritual healing? Ayahuasca seekers in Amazonia"
    }
   ]
+ },
+ {
+  "titre": "Sérotonine et tonus musculaire : rigidité, relâchement, tremblement",
+  "intro": "Cette question-là trouve ses sources, contrairement à celle du plancher pelvien. L’axe sérotoninergique commande le tonus musculaire, et il le commande dans les deux sens.\n\n<strong>L’excès donne la rigidité, et ce n’est pas une hypothèse.</strong> Les critères de Hunter, référence mondiale pour diagnostiquer une toxicité sérotoninergique, retiennent le clonus inductible, le clonus oculaire, l’hypertonie et l’hyperréflexie comme signes <em>diagnostiques</em>. La rigidité y prédomine aux membres inférieurs. Le mécanisme est connu : les récepteurs 5-HT2A et 5-HT2C augmentent l’excitabilité du motoneurone spinal, le 5-HT2A agissant notamment sur le cotransporteur KCC2. Malcolm et Thomas, dans <em>Psychopharmacology</em> en 2022, consacrent une revue à la toxicité sérotoninergique des psychédéliques sérotoninergiques eux-mêmes ; elle figure sur cette page, au groupe sur la pharmacologie et les doses répétées.\n\n<strong>Mais la sérotonine commande aussi le relâchement.</strong> Le récepteur 5-HT1D inhibe le réflexe myotatique monosynaptique. Bloquer la sérotonine <em>retarde</em> le relâchement du muscle lors de la préhension. Et l’atonie musculaire du sommeil paradoxal exige précisément le retrait de l’influx sérotoninergique sur les motoneurones. Le même transmetteur tient donc les deux bouts, par des récepteurs différents : c’est ce qui rend une fluctuation du tonus pharmacologiquement concevable, au lieu d’absurde.\n\n<strong>Le point décisif est ailleurs.</strong> Les récepteurs 5-HT2C ont une activité <em>constitutive</em> : ils excitent le motoneurone sans sérotonine présente. Après perte de l’influx sérotoninergique descendant, cette activité devient le moteur principal des spasmes — c’est la démonstration parue dans <em>Nature Medicine</em> en 2010. Et la dégénérescence des neurones sérotoninergiques <em>déclenche</em> la spasticité. Autrement dit l’excès et la déplétion produisent tous deux de la rigidité, par deux routes distinctes. La clinique ferme la boucle : la cyprohéptadine, antagoniste 5-HT2, est à la fois l’antidote du syndrome sérotoninergique et un traitement de la spasticité.\n\n<strong>Enfin, ce qui concerne directement l’ayahuasca.</strong> L’harmaline, bêta-carboline présente dans la décoction, est le <em>modèle animal de référence du tremblement</em> : elle hypersynchronise l’olive inférieure sur les cellules de Purkinje, et c’est avec elle qu’on fabrique un tremblement en laboratoire depuis des décennies. Une revue parue dans <em>Cerebellum</em> examine le rôle des bêta-carbolines dans la pathogenèse du tremblement essentiel humain.\n\n<strong>La limite, écrite noir sur blanc.</strong> AUCUN TRAVAIL INDEXÉ NE DÉCRIT UN SYNDROME CHRONIQUE D’ALTERNANCE HYPER-RIGIDITÉ / RELÂCHEMENT APRÈS AYAHUASCA. Les briques pharmacologiques existent chacune, solidement, et elles sont ci-dessous. Le syndrome comme tel n’est pas dans la littérature. Une hypothèse clinique qui ne trouve pas sa source ne doit pas être déguisée en source.",
+  "refs": [
+   {
+    "pmid": "12925718",
+    "auteur": "Dunkley EJ",
+    "nb": 5,
+    "revue": "QJM",
+    "annee": "2003",
+    "t": "The Hunter Serotonin Toxicity Criteria: simple and accurate diagnostic decision rules for serotonin toxicity"
+   },
+   {
+    "pmid": "2035713",
+    "auteur": "Sternbach H",
+    "nb": 1,
+    "revue": "Am J Psychiatry",
+    "annee": "1991",
+    "t": "The serotonin syndrome"
+   },
+   {
+    "pmid": "38926083",
+    "auteur": "Chiew AL",
+    "nb": 2,
+    "revue": "Br J Clin Pharmacol",
+    "annee": "2025",
+    "t": "Management of serotonin syndrome (toxicity)"
+   },
+   {
+    "pmid": "22563571",
+    "auteur": "Perry PJ",
+    "nb": 2,
+    "revue": "Ann Clin Psychiatry",
+    "annee": "2012",
+    "t": "Serotonin syndrome vs neuroleptic malignant syndrome: a contrast of causes, diagnoses, and management"
+   },
+   {
+    "pmid": "26836802",
+    "auteur": "Perrier JF",
+    "nb": 1,
+    "revue": "Dan Med J",
+    "annee": "2016",
+    "t": "Modulation of motoneuron activity by serotonin"
+   },
+   {
+    "pmid": "23248270",
+    "auteur": "Bos R",
+    "nb": 9,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2013",
+    "t": "Activation of 5-HT2A receptors upregulates the function of the neuronal K-Cl cotransporter KCC2"
+   },
+   {
+    "pmid": "30625007",
+    "auteur": "Lucas-Osma AM",
+    "nb": 11,
+    "revue": "J Neurophysiol",
+    "annee": "2019",
+    "t": "5-HT(1D) receptors inhibit the monosynaptic stretch reflex by modulating C-fiber activity"
+   },
+   {
+    "pmid": "21075681",
+    "auteur": "Seo NJ",
+    "nb": 5,
+    "revue": "Clin Neurophysiol",
+    "annee": "2011",
+    "t": "Effect of a serotonin antagonist on delay in grip muscle relaxation for persons with chronic hemiparetic stroke"
+   },
+   {
+    "pmid": "28396432",
+    "auteur": "Hasegawa E",
+    "nb": 8,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2017",
+    "t": "Serotonin neurons in the dorsal raphe mediate the anticataplectic action of orexin neurons by reducing amygdala activity"
+   },
+   {
+    "pmid": "20512126",
+    "auteur": "Murray KC",
+    "nb": 17,
+    "revue": "Nat Med",
+    "annee": "2010",
+    "t": "Recovery of motoneuron and locomotor function after spinal cord injury depends on constitutive activity in 5-HT2C receptors"
+   },
+   {
+    "pmid": "28856708",
+    "auteur": "El Oussini H",
+    "nb": 10,
+    "revue": "Ann Neurol",
+    "annee": "2017",
+    "t": "Degeneration of serotonin neurons triggers spasticity in amyotrophic lateral sclerosis"
+   },
+   {
+    "pmid": "23221402",
+    "auteur": "D'Amico JM",
+    "nb": 7,
+    "revue": "J Neurophysiol",
+    "annee": "2013",
+    "t": "Constitutively active 5-HT2/α1 receptors facilitate muscle spasms after human spinal cord injury"
+   },
+   {
+    "pmid": "31958408",
+    "auteur": "De Deurwaerdère P",
+    "nb": 4,
+    "revue": "Neuropharmacology",
+    "annee": "2020",
+    "t": "Constitutive activity of 5-HT receptors: Factual analysis"
+   },
+   {
+    "pmid": "12736874",
+    "auteur": "Meythaler JM",
+    "nb": 3,
+    "revue": "Arch Phys Med Rehabil",
+    "annee": "2003",
+    "t": "Cyproheptadine for intrathecal baclofen withdrawal"
+   },
+   {
+    "pmid": "26634934",
+    "auteur": "Laviță SI",
+    "nb": 5,
+    "revue": "Cerebellum",
+    "annee": "2016",
+    "t": "The Role of β-Carboline Alkaloids in the Pathogenesis of Essential Tremor"
+   },
+   {
+    "pmid": "26660708",
+    "auteur": "Handforth A",
+    "nb": 1,
+    "revue": "Cerebellum",
+    "annee": "2016",
+    "t": "Linking Essential Tremor to the Cerebellum-Animal Model Evidence"
+   },
+   {
+    "pmid": "28966877",
+    "auteur": "Louis ED",
+    "nb": 2,
+    "revue": "Tremor Other Hyperkinet Mov (N Y)",
+    "annee": "2017",
+    "t": "The Olivary Hypothesis of Essential Tremor: Time to Lay this Model to Rest?"
+   },
+   {
+    "pmid": "17366267",
+    "auteur": "Miwa H",
+    "nb": 1,
+    "revue": "Cerebellum",
+    "annee": "2007",
+    "t": "Rodent models of tremor"
+   },
+   {
+    "pmid": "33359647",
+    "auteur": "Ayipo YO",
+    "nb": 4,
+    "revue": "Eur J Pharmacol",
+    "annee": "2021",
+    "t": "Neuropharmacological potentials of β-carboline alkaloids for neuropsychiatric disorders"
+   },
+   {
+    "pmid": "29708207",
+    "auteur": "Garrett AR",
+    "nb": 2,
+    "revue": "Neurol Clin Pract",
+    "annee": "2018",
+    "t": "SSRI-associated bruxism: A systematic review of published case reports"
+   },
+   {
+    "pmid": "25195948",
+    "auteur": "Falisi G",
+    "nb": 5,
+    "revue": "Expert Opin Drug Saf",
+    "annee": "2014",
+    "t": "Psychotropic drugs and bruxism"
+   }
+  ]
  }
 ]
