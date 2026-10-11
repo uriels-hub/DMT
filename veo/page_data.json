@@ -3479,5 +3479,132 @@
     "t": "Behavioural phenotyping of knockout mice for the sigma-1 (σ₁) chaperone protein revealed gender-related anxiety, depressive-like and memory alterations"
    }
   ]
+ },
+ {
+  "titre": "L’ancienneté est un fait, pas un argument",
+  "cat": "Emprise, discours et dérive",
+  "intro": "L’ancienneté de ces usages revient dans tous les discours, et elle y tient lieu de garantie. Elle est réelle. Ce qu’elle garantit est une autre question, et l’archéologie y répond.\n\n<strong>Ce qui est établi, et personne ne le conteste.</strong> Les cultures mésoaméricaines ont employé des psychoactifs sur plusieurs millénaires : peyotl attesté depuis plus de cinq mille ans, pierres en forme de champignon datées de 3000 avant notre ère, <em>teonanácatl</em> et <em>ololiuhqui</em>, bufotoxines du crapaud dès la période olmèque, datura, tabac sauvage, nénuphar. Olmèques, Zapotèques, Mayas et Aztèques y recouraient dans des rituels de guérison et des cérémonies religieuses.\n\n<strong>Mais le même registre documente autre chose.</strong> Trois corps gelés retrouvés près du sommet du Llullaillaco, en Argentine : une fille de treize ans, une fille et un garçon de quatre à cinq ans. L’analyse de leurs <em>cheveux</em>, publiée dans les <cite>Proceedings of the National Academy of Sciences</cite>, livre une chronologie fine et montre une <strong>consommation croissante de coca et d’alcool dans les mois qui ont précédé leur mort</strong>. Les auteurs ne s’arrêtent pas au constat : ils rapportent expressément leurs résultats aux questions du <em>consentement, de la contrainte et de la docilité</em>, et aux stratégies de contrôle social et de légitimation politique d’un État en expansion.\n\nDes substances administrées à des enfants, par des adultes, dans un rituel qui s’achève par leur mise à mort, et dont la préparation se lit aujourd’hui dans leurs cheveux. L’ancienneté d’une pratique ne dit rien de sa bienveillance.\n\n<strong>Et la tradition se trompe sur elle-même.</strong> Une seconde étude sur quatre momies d’enfants reconstitue la sélection des victimes, leur élévation statutaire et leur préparation — et conclut que ces données matérielles <em>contredisent en partie</em> les chroniques espagnoles. De même, les scènes de lavement rituel peintes sur les céramiques mayas vont, de l’aveu de leur analyste, « à l’encontre de la vision traditionnelle selon laquelle les anciens Mayas étaient un peuple contemplatif ». Le récit qu’une tradition fait d’elle-même n’est pas une source sur elle-même.\n\n<strong>Pour l’ayahuasca précisément, le dossier matériel est mince.</strong> Il tient dans un faisceau rituel exhumé d’un abri sous roche de l’Altiplano bolivien, daté au radiocarbone d’environ l’an mille. L’analyse en chromatographie couplée à la spectrométrie de masse y a identifié bufoténine, diméthyltryptamine, harmine, et cocaïne avec son produit de dégradation. Les auteurs le présentent pour ce qu’il est : <em>un</em> cas documenté réunissant les deux ingrédients principaux de l’ayahuasca. Mille ans, et un seul objet — ce n’est pas la même chose que cinq mille ans de peyotl.\n\n<strong>Ce que l’on ne sait pas, et il faut le dire.</strong> AUCUNE ANALYSE TOXICOLOGIQUE DE VICTIMES SACRIFICIELLES AZTÈQUES OU MAYAS N’A ÉTÉ TROUVÉE : les cheveux analysés sont andins, incas, et les substances qu’ils portent sont la coca et l’alcool, non l’ayahuasca. Une étude méthodologique rappelle en outre que le dépistage sur cheveux anciens est techniquement possible mais que les panels employés sont ceux de la pharmacopée occidentale, et peuvent manquer les substances propres au groupe étudié. Un résultat négatif, là, ne prouve rien.",
+  "refs": [
+   {
+    "pmid": "21893367",
+    "auteur": "Carod-Artal FJ",
+    "nb": 1,
+    "revue": "Neurologia",
+    "annee": "2015",
+    "t": "Hallucinogenic drugs in pre-Columbian Mesoamerican cultures"
+   },
+   {
+    "pmid": "34129899",
+    "auteur": "Geck MS",
+    "nb": 5,
+    "revue": "J Ethnopharmacol",
+    "annee": "2021",
+    "t": "Ethnomedicine and neuropsychopharmacology in Mesoamerica"
+   },
+   {
+    "pmid": "3528674",
+    "auteur": "de Smet PA",
+    "nb": 2,
+    "revue": "J Ethnopharmacol",
+    "annee": "1986",
+    "t": "A multidisciplinary approach to ritual enema scenes on ancient Maya pottery"
+   },
+   {
+    "pmid": "25225408",
+    "auteur": "Correa-Ascencio M",
+    "nb": 5,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2014",
+    "t": "Pulque production from fermented agave sap as a dietary supplement in Prehispanic Mesoamerica"
+   },
+   {
+    "pmid": "23898165",
+    "auteur": "Wilson AS",
+    "nb": 11,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2013",
+    "t": "Archaeological, radiological, and biological evidence offer insight into Inca child sacrifice"
+   },
+   {
+    "pmid": "17923675",
+    "auteur": "Wilson AS",
+    "nb": 13,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2007",
+    "t": "Stable isotope and DNA evidence for ritual sequences in Inca child sacrifice"
+   },
+   {
+    "pmid": "26345378",
+    "auteur": "Ceruti MC",
+    "nb": 1,
+    "revue": "Biomed Res Int",
+    "annee": "2015",
+    "t": "Frozen Mummies from Andean Mountaintop Shrines: Bioarchaeology and Ethnohistory of Inca Human Sacrifice"
+   },
+   {
+    "pmid": "23440681",
+    "auteur": "Turner BL",
+    "nb": 6,
+    "revue": "Am J Phys Anthropol",
+    "annee": "2013",
+    "t": "The variable roads to sacrifice: Isotopic investigations of human remains from Chotuna-Huaca de los Sacrificios, Lambayeque, Peru"
+   },
+   {
+    "pmid": "31668511",
+    "auteur": "Murphy MS",
+    "nb": 2,
+    "revue": "Int J Paleopathol",
+    "annee": "2020",
+    "t": "Patterns of trauma across Andean South America: New discoveries and advances in interpretation"
+   },
+   {
+    "pmid": "31061128",
+    "auteur": "Miller MJ",
+    "nb": 4,
+    "revue": "Proc Natl Acad Sci U S A",
+    "annee": "2019",
+    "t": "Chemical evidence for the use of multiple psychotropic plants in a 1,000-year-old ritual bundle from South America"
+   },
+   {
+    "pmid": "26270149",
+    "auteur": "Chamakura RP",
+    "nb": 1,
+    "revue": "Forensic Sci Rev",
+    "annee": "1994",
+    "t": "Bufotenine - A Hallucinogen in Ancient Snuff Powders of South America and a Drug of Abuse on the Streets of New York City"
+   },
+   {
+    "pmid": "6381887",
+    "auteur": "Schultes RE",
+    "nb": 1,
+    "revue": "J Ethnopharmacol",
+    "annee": "1984",
+    "t": "Fifteen years of study of psychoactive snuffs of South America: 1967-1982--a review"
+   },
+   {
+    "pmid": "10737464",
+    "auteur": "Báez H",
+    "nb": 7,
+    "revue": "Forensic Sci Int",
+    "annee": "2000",
+    "t": "Drugs in prehistory: chemical analysis of ancient human hair"
+   },
+   {
+    "pmid": "32671097",
+    "auteur": "Brownstein KJ",
+    "nb": 5,
+    "revue": "Front Mol Biosci",
+    "annee": "2020",
+    "t": "An Ancient Residue Metabolomics-Based Method to Distinguish Use of Closely Related Plant Species in Ancient Pipes"
+   },
+   {
+    "pmid": "18638702",
+    "auteur": "Tupper KW",
+    "nb": 1,
+    "revue": "Int J Drug Policy",
+    "annee": "2008",
+    "t": "The globalization of ayahuasca: harm reduction or benefit maximization?"
+   }
+  ]
  }
 ]
