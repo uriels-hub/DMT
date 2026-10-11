@@ -19,7 +19,7 @@ https://youtu.be/AwKytfBl_w8
 Le film et les neuf pistes de sous-titres :
 https://github.com/uriels-hub/DMT/releases/tag/v1.0
 
-Les **419 sources** sur lesquelles le morceau s'appuie, chacune cliquable :
+Les **423 sources** sur lesquelles le morceau s'appuie, chacune cliquable :
 https://claude.ai/artifact/WWVKdfGfPUVbCN6Q2Xr6NC
 
 Comment le texte se découpe dans le temps, vers par vers :
@@ -71,13 +71,13 @@ veo/migrations/        # scripts appliques une fois, conserves comme trace
 
 ## La page de références
 
-**419 sources** : 387 notices PubMed réparties en 36 groupes, et 32 sources hors
+**423 sources** : 391 notices PubMed réparties en 36 groupes, et 32 sources hors
 PubMed — décisions de justice, rapports publics, travaux sans identifiant PubMed.
 Les groupes sont rangés en cinq catégories, du mécanisme vers le discours :
 
 | Catégorie | Groupes | Références |
 |---|---:|---:|
-| Pharmacologie et mécanismes | 12 | 169 |
+| Pharmacologie et mécanismes | 12 | 173 |
 | Clinique et séquelles | 8 | 59 |
 | Ce que les examens trouvent | 6 | 65 |
 | Épidémiologie et valeur de la preuve | 2 | 15 |
