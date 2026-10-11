@@ -876,6 +876,22 @@
     "revue": "Sci Rep",
     "annee": "2020",
     "t": "The Acute Effects of the Atypical Dissociative Hallucinogen Salvinorin A on Functional Connectivity in the Human Brain"
+   },
+   {
+    "pmid": "20126400",
+    "auteur": "Ray TS",
+    "nb": 1,
+    "revue": "PLoS One",
+    "annee": "2010",
+    "t": "Psychedelics and the human receptorome"
+   },
+   {
+    "pmid": "27216487",
+    "auteur": "Rickli A",
+    "nb": 4,
+    "revue": "Eur Neuropsychopharmacol",
+    "annee": "2016",
+    "t": "Receptor interaction profiles of novel psychoactive tryptamines compared with classic hallucinogens"
    }
   ],
   "cat": "Pharmacologie et mécanismes"
@@ -1113,6 +1129,14 @@
     "revue": "Sci Rep",
     "annee": "2023",
     "t": "Prevalence and therapeutic impact of adverse life event reexperiencing under ceremonial ayahuasca"
+   },
+   {
+    "pmid": "39564729",
+    "auteur": "Yildirim B",
+    "nb": 8,
+    "revue": "Psychol Med",
+    "annee": "2024",
+    "t": "Adverse psychiatric effects of psychedelic drugs: a systematic review of case reports"
    }
   ],
   "cat": "Clinique et séquelles"
@@ -2163,6 +2187,22 @@
     "revue": "Biol Psychiatry Cogn Neurosci Neuroimaging",
     "annee": "2024",
     "t": "Psilocybin and 2C-B at Encoding Distort Episodic Familiarity"
+   },
+   {
+    "pmid": "25713771",
+    "auteur": "Szmulewicz AG",
+    "nb": 3,
+    "revue": "Int J Bipolar Disord",
+    "annee": "2015",
+    "t": "Switch to mania after ayahuasca consumption in a man with bipolar disorder: a case report"
+   },
+   {
+    "pmid": "37810598",
+    "auteur": "Halim HJ",
+    "nb": 4,
+    "revue": "Front Psychiatry",
+    "annee": "2023",
+    "t": "Manic episode following psilocybin use in a man with bipolar II disorder: a case report"
    }
   ],
   "cat": "Emprise, discours et dérive"

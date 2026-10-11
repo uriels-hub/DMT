@@ -72,6 +72,42 @@
   "y": "2024"
  },
  {
+  "grp": "Droit français",
+  "id": "Cass. 2e civ., 20 mai 2020, n° 18-24.095",
+  "u": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000041995744/",
+  "t": "Publié au Bulletin. Le droit à indemnisation ne peut être réduit pour une prédisposition pathologique lorsque l’affection n’a été provoquée ou révélée que du fait de l’accident. En l’espèce une maladie de Parkinson, absente avant l’accident et jugée révélée par lui : réparation intégrale.",
+  "a": "2e chambre civile, arrêt n° 417, ECLI:FR:CCASS:2020:C200417",
+  "s": "Cour de cassation, rejet du pourvoi contre CA Bordeaux, 3 septembre 2018",
+  "y": "2020"
+ },
+ {
+  "grp": "Droit français",
+  "id": "Cass. 2e civ., 9 février 2023, n° 21-12.657",
+  "u": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000047200927",
+  "t": "Même principe, confirmé en 2023 : « le droit de la victime ne saurait être réduit en raison d’une prédisposition pathologique lorsque l’affection qui en est résultée n’a été provoquée ou révélée que du fait de l’accident ». Décision inédite au Bulletin, à citer en appui de l’arrêt publié de 2020 et non à sa place.",
+  "a": "2e chambre civile, ECLI:FR:CCASS:2023:C200150",
+  "s": "Cour de cassation, cassation partielle, CA Aix-en-Provence, 7 janvier 2021",
+  "y": "2023"
+ },
+ {
+  "grp": "Droit français",
+  "id": "CSP, art. R4127-35",
+  "u": "https://www.conseil-national.medecin.fr/code-deontologie/devoirs-patients-art-32-55/article-35-information-patient",
+  "t": "Devoir d’information : le médecin doit une information loyale, claire et appropriée sur l’état, les investigations et les soins proposés. En cas de litige, c’est au professionnel de prouver que l’information a été donnée.",
+  "a": "Code de déontologie médicale, article 35",
+  "s": "Conseil national de l’Ordre des médecins",
+  "y": "en vigueur"
+ },
+ {
+  "grp": "Droit français",
+  "id": "CSP, art. R4127-32",
+  "u": "https://www.conseil-national.medecin.fr/code-deontologie/devoirs-patients-art-32-55/article-32-qualite-soins",
+  "t": "Qualité des soins : le médecin s’engage à donner des soins consciencieux, dévoués et fondés sur les données acquises de la science.",
+  "a": "Code de déontologie médicale, article 32",
+  "s": "Conseil national de l’Ordre des médecins",
+  "y": "en vigueur"
+ },
+ {
   "grp": "Jurisprudence étrangère",
   "id": "546 U.S. 418 (2006)",
   "u": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep546/usrep546418/usrep546418.pdf",
