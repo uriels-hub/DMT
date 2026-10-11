@@ -1194,6 +1194,101 @@
   ]
  },
  {
+  "titre": "Ce que l’IMAO ajoute : la sérotonine devient le second agoniste",
+  "cat": "Pharmacologie et mécanismes",
+  "intro": "Le tableau d’affinité du groupe précédent décrit la DMT <em>seule</em>. Ce n’est pas l’exposition réelle, et la différence n’est pas une nuance.\n\n<strong>L’inhibiteur ne fait pas que livrer la DMT.</strong> La sérotonine est le substrat <em>préféré</em> de la monoamine oxydase A. Inhiber cette enzyme élève donc la sérotonine endogène, dans le cerveau comme à la périphérie. Au moment où la DMT agit, les mêmes récepteurs voient une sérotonine élevée — et la sérotonine a pour ses propres récepteurs une affinité bien supérieure à celle de la DMT. Le tableau d’affinité ne décrit donc qu’un des deux agonistes présents.\n\n<strong>Pour la question valvulaire, cela déplace tout l’argument, et le renforce.</strong> La voie n’a plus besoin que la DMT se lie elle-même au 5-HT2B. Des rats recevant de la sérotonine en injection quotidienne pendant trois mois développent une hypersérotoninémie multipliée par plus de dix et, pour six sur dix d’entre eux, un échocardiogramme pathologique — insuffisance aortique ou pulmonaire, avec des plaques faites de myofibroblastes dans une matrice de collagène, c’est-à-dire l’histologie de la maladie carcinoïde. Ce travail est paru dans <cite>Circulation</cite>. La preuve de concept humaine existe d’ailleurs depuis longtemps sous le nom de cardiopathie carcinoïde : des tumeurs qui sécrètent de la sérotonine fibrosent les valves.\n\n<strong>Et il existe une donnée sur l’ayahuasca elle-même.</strong> Quatorze jours d’administration chez le rat suffisent à modifier la paroi de l’aorte : aplatissement et étirement des cellules musculaires lisses, réorganisation du collagène et des fibres élastiques, et à la dose la plus forte une augmentation significative de l’épaisseur de la média rapportée au diamètre de la lumière. Les auteurs — qui appartiennent au courant favorable à la recherche sur l’ayahuasca — concluent eux-mêmes qu’il faut étudier la fonction cardiovasculaire des consommateurs au long cours.\n\n<strong>Chez l’homme, une seule mesure périphérique existe.</strong> Callaway et ses collègues ont trouvé en 1994, chez des buveurs réguliers d’ayahuasca, un nombre accru de sites de transport de la sérotonine sur les plaquettes, à constante de dissociation inchangée. Les auteurs assortissent eux-mêmes ce résultat d’une mise en garde qu’il faut reprendre : un tel changement ne doit pas être interprété comme le signe d’une maladie neurologique ou psychiatrique en formation.\n\n<strong>Trois mécanismes sérotoninergiques, pas un.</strong> L’inhibition de la MAO-A, l’inhibition de la recapture de la sérotonine par la tétrahydroharmine, et l’agonisme direct de la DMT. C’est la combinaison dont le gradient de toxicité est le plus raide, et elle tient dans une seule tasse.\n\n<strong>Les bêta-carbolines ne sont pas un véhicule inerte.</strong> Hors MAO, elles inhibent la kinase DYRK1A — au point que l’harmine est aujourd’hui développée pour faire proliférer les cellules bêta pancréatiques —, allongent la période de l’horloge circadienne et produisent le tremblement de référence du laboratoire, points traités ailleurs sur cette page.\n\n<strong>Les limites, et elles comptent.</strong> Le travail de <cite>Circulation</cite> porte sur des rats recevant de la sérotonine tous les jours pendant trois mois : l’exposition rituelle est intermittente, et l’harmine est un inhibiteur <em>réversible</em>, ce qui est une différence réelle et plutôt rassurante. L’étude sur l’aorte porte sur quatorze jours chez le rat. AUCUNE ÉTUDE ÉCHOCARDIOGRAPHIQUE N’A ÉTÉ CONDUITE CHEZ DES CONSOMMATEURS HUMAINS. Ce groupe établit un mécanisme plausible et documenté par étapes, pas un dommage constaté.",
+  "refs": [
+   {
+    "pmid": "15781732",
+    "auteur": "Gustafsson BI",
+    "nb": 10,
+    "revue": "Circulation",
+    "annee": "2005",
+    "t": "Long-term serotonin administration induces heart valve disease in rats"
+   },
+   {
+    "pmid": "15831837",
+    "auteur": "Setola V",
+    "nb": 4,
+    "revue": "Mol Pharmacol",
+    "annee": "2005",
+    "t": "Molecular determinants for the interaction of the valvulopathic anorexigen norfenfluramine with the 5-HT2B receptor"
+   },
+   {
+    "pmid": "33208036",
+    "auteur": "Song Y",
+    "nb": 11,
+    "revue": "Circ Res",
+    "annee": "2021",
+    "t": "Heterodimerization With 5-HT(2B)R Is Indispensable for β(2)AR-Mediated Cardioprotection"
+   },
+   {
+    "pmid": "39032441",
+    "auteur": "Dumotier BM",
+    "nb": 2,
+    "revue": "J Pharmacol Toxicol Methods",
+    "annee": "2024",
+    "t": "Preclinical mitigation of 5-HT2B agonism-related cardiac valvulopathy revisited"
+   },
+   {
+    "pmid": "39328381",
+    "auteur": "Ross N",
+    "nb": 1,
+    "revue": "J Adv Pract Oncol",
+    "annee": "2024",
+    "t": "Carcinoid Heart Disease"
+   },
+   {
+    "pmid": "25714595",
+    "auteur": "Pitol DL",
+    "nb": 11,
+    "revue": "J Cardiovasc Pharmacol",
+    "annee": "2015",
+    "t": "Ayahuasca Alters Structural Parameters of the Rat Aorta"
+   },
+   {
+    "pmid": "7892432",
+    "auteur": "Callaway JC",
+    "nb": 5,
+    "revue": "Psychopharmacology (Berl)",
+    "annee": "1994",
+    "t": "Platelet serotonin uptake sites increased in drinkers of ayahuasca"
+   },
+   {
+    "pmid": "37874530",
+    "auteur": "Wsół A",
+    "nb": 1,
+    "revue": "Pharmacol Rep",
+    "annee": "2023",
+    "t": "Cardiovascular safety of psychedelic medicine: current status and future directions"
+   },
+   {
+    "pmid": "38985854",
+    "auteur": "Rosselot C",
+    "nb": 16,
+    "revue": "Sci Transl Med",
+    "annee": "2024",
+    "t": "Harmine and exendin-4 combination therapy safely expands human β cell mass in vivo in a mouse xenograft system"
+   },
+   {
+    "pmid": "32462403",
+    "auteur": "Correa-Sáez A",
+    "nb": 6,
+    "revue": "Cell Mol Life Sci",
+    "annee": "2020",
+    "t": "Updating dual-specificity tyrosine-phosphorylation-regulated kinase 2 (DYRK2): molecular basis, functions and role in diseases"
+   },
+   {
+    "pmid": "32660098",
+    "auteur": "Santos BWL",
+    "nb": 6,
+    "revue": "Plants (Basel)",
+    "annee": "2020",
+    "t": "Biodiversity of β-Carboline Profile of Banisteriopsis caapi and Ayahuasca, a Plant and a Brew with Neuropharmacological Potential"
+   }
+  ]
+ },
+ {
   "titre": "Séquelles perceptives persistantes",
   "intro": "Le HPPD — trouble perceptif persistant après hallucinogènes — et les dysperceptions visuelles apparentées.",
   "refs": [
