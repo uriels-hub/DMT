@@ -18,6 +18,8 @@ __pycache__/
 # (AYAHUASCA.pdf est une impression de la session de travail : elle contient
 # l'integralite du dossier). Un depot public n'est pas leur place.
 courriel_*.md
+note_privee_*.md
+*.docx
 *.pdf
 veo/refs_pubmed.json
 veo/refs_compact.json
